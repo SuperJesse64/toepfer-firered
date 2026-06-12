@@ -28,7 +28,7 @@ enum TitleScreenScene
 };
 
 #if   defined(FIRERED)
-#define TITLE_SPECIES SPECIES_BULBASAUR
+#define TITLE_SPECIES SPECIES_CHARIZARD
 #elif defined(LEAFGREEN)
 #define TITLE_SPECIES SPECIES_VENUSAUR
 #endif
