@@ -36,9 +36,10 @@ def palette_from_indexed(img: Image.Image) -> list[tuple[int, int, int]]:
 
 
 def write_jasc_pal(path: Path, colors: list[tuple[int, int, int]]) -> None:
+    # gbagfx JASC lines must be <= 11 chars (e.g. "255 255 255").
     lines = ["JASC-PAL", "0100", str(MAX_COLORS)]
     for r, g, b in colors:
-        lines.append(f"{r:4d} {g:4d} {b:4d}")
+        lines.append(f"{r} {g} {b}")
     path.write_text("\n".join(lines) + "\n", encoding="utf-8")
 
 
