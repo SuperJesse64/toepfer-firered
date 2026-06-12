@@ -1,12 +1,12 @@
 Route22_Text_EarlyRivalIntro::
 	.string "{RIVAL}: Hey! {PLAYER}!\p"
-	.string "You're off to the POKéMON LEAGUE?\n"
+	.string "You're off to the TOEPFER LEAGUE?\n"
 	.string "Forget about it!\p"
 	.string "You probably don't have any\n"
 	.string "BADGES, do you?\p"
 	.string "The guard won't let you through\n"
 	.string "without them.\p"
-	.string "By the way, did your POKéMON get\n"
+	.string "By the way, did your TOEPFER get\n"
 	.string "any stronger?$"
 
 Route22_Text_EarlyRivalDefeat::
@@ -14,7 +14,7 @@ Route22_Text_EarlyRivalDefeat::
 	.string "You just lucked out!$"
 
 Route22_Text_EarlyRivalPostBattle::
-	.string "I heard the POKéMON LEAGUE is\n"
+	.string "I heard the TOEPFER LEAGUE is\n"
 	.string "crawling with tough TRAINERS.\p"
 	.string "I have to figure out how to get\n"
 	.string "past them.\p"
@@ -32,12 +32,12 @@ Route22_Text_RivalShouldCatchSomeMons::
 Route22_Text_LateRivalIntro::
 	.string "{RIVAL}: What? {PLAYER}!\n"
 	.string "What a surprise to see you here!\p"
-	.string "So you're going to the POKéMON\n"
+	.string "So you're going to the TOEPFER\n"
 	.string "LEAGUE?\p"
 	.string "You collected all the BADGES, too?\n"
 	.string "That's cool!\p"
 	.string "Then I'll whip you, {PLAYER}, as a\n"
-	.string "warm-up for the POKéMON LEAGUE!\p"
+	.string "warm-up for the TOEPFER LEAGUE!\p"
 	.string "Come on!$"
 
 Route22_Text_LateRivalDefeat::
@@ -46,7 +46,7 @@ Route22_Text_LateRivalDefeat::
 
 Route22_Text_LateRivalPostBattle::
 	.string "That loosened me up.\n"
-	.string "I'm ready for the POKéMON LEAGUE!\p"
+	.string "I'm ready for the TOEPFER LEAGUE!\p"
 	.string "{PLAYER}, you need more practice.\p"
 	.string "But hey, you know that!\n"
 	.string "I'm out of here. Smell ya!$"
@@ -61,6 +61,6 @@ Route22_Text_LateRivalVictory::
 	.string "あははーッ！$"
 
 Route22_Text_LeagueGateSign::
-	.string "POKéMON LEAGUE\n"
+	.string "TOEPFER LEAGUE\n"
 	.string "Front Gate$"
 

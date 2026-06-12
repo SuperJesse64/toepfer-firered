@@ -15,7 +15,7 @@ SaffronCity_Dojo_Text_ChoosePrizedFightingMon::
     .string "But, I beseech you, do not take\n"
     .string "our emblem as your trophy!\p"
     .string "In return, I will give you a prized\n"
-    .string "FIGHTING POKéMON!\p"
+    .string "FIGHTING TOEPFER!\p"
     .string "Choose whichever one you like!$"
 
 SaffronCity_Dojo_Text_StayAndTrainWithUs::
@@ -74,7 +74,7 @@ SaffronCity_Dojo_Text_HitoshiPostBattle::
 
 SaffronCity_Dojo_Text_YouWantHitmonlee::
     .string "You want the hard-kicking\n"
-    .string "HITMONLEE?$"
+    .string "MESSENGER?$"
 
 SaffronCity_Dojo_Text_ReceivedMonFromKarateMaster::
     .string "{PLAYER} received the {STR_VAR_1}\n"
@@ -82,7 +82,7 @@ SaffronCity_Dojo_Text_ReceivedMonFromKarateMaster::
 
 SaffronCity_Dojo_Text_YouWantHitmonchan::
     .string "You want the piston-punching\n"
-    .string "HITMONCHAN?$"
+    .string "TIMEKEEP?$"
 
 SaffronCity_Dojo_Text_ReceivedMonFromKarateMaster2::
     .string "{PLAYER}は　カラテ　だいおう　から\n"

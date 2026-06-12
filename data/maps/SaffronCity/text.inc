@@ -23,7 +23,7 @@ SaffronCity_Text_WatchWhereYoureWalking::
 
 SaffronCity_Text_WeCanExploitMonsAroundWorld::
     .string "With SILPH under control, we can\n"
-    .string "exploit POKéMON around the world!\p"
+    .string "exploit TOEPFER around the world!\p"
     .string "We'll get stinking rich, yeahah!$"
 
 SaffronCity_Text_YouBeatTeamRocket::
@@ -41,13 +41,13 @@ SaffronCity_Text_PeopleComingBackToSaffron::
     .string "SAFFRON now.$"
 
 SaffronCity_Text_FlewHereOnPidgeot::
-    .string "I flew here on my PIDGEOT when\n"
+    .string "I flew here on my PILOT when\n"
     .string "I read about SILPH.\p"
     .string "It's already over?\n"
     .string "I missed the media action…$"
 
 SaffronCity_Text_Pidgeot::
-    .string "PIDGEOT: Bi bibii!$"
+    .string "PILOT: Bi bibii!$"
 
 SaffronCity_Text_SawRocketBossEscaping::
     .string "I saw the ROCKET BOSS escaping\n"
@@ -70,9 +70,9 @@ SaffronCity_Text_FightingDojo::
     .string "FIGHTING DOJO$"
 
 SaffronCity_Text_GymSign::
-    .string "SAFFRON CITY POKéMON GYM\n"
+    .string "SAFFRON CITY TOEPFER GYM\n"
     .string "LEADER: SABRINA\l"
-    .string "The Master of PSYCHIC POKéMON!$"
+    .string "The Master of PSYCHIC TOEPFER!$"
 
 SaffronCity_Text_FullHealCuresStatus::
     .string "TRAINER TIPS\p"
@@ -87,7 +87,7 @@ SaffronCity_Text_GreatBallImprovedCatchRate::
     .string "The new GREAT BALL offers improved\n"
     .string "catching rates.\p"
     .string "Try it on those hard-to-catch\n"
-    .string "POKéMON.$"
+    .string "TOEPFER.$"
 
 SaffronCity_Text_SilphCoSign::
     .string "SILPH CO. OFFICE BUILDING$"
@@ -100,7 +100,7 @@ SaffronCity_Text_SilphsLatestProduct::
     .string "Release to be determined…$"
 
 SaffronCity_Text_TrainerFanClubSign::
-    .string "POKéMON TRAINER FAN CLUB\p"
+    .string "TOEPFER TRAINER FAN CLUB\p"
     .string "Many TRAINERS have scribbled their\n"
     .string "names on this sign.$"
 

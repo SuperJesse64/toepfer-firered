@@ -1,13 +1,13 @@
 Route13_Text_SebastianIntro::
-    .string "My bird POKéMON want to battle\n"
+    .string "My bird TOEPFER want to battle\n"
     .string "with you!$"
 
 Route13_Text_SebastianDefeat::
-    .string "My PIDGEY and PIDGEOTTO combo\n"
+    .string "My MAILROOM and COURIER combo\n"
     .string "lost?$"
 
 Route13_Text_SebastianPostBattle::
-    .string "My POKéMON look happy even though\n"
+    .string "My TOEPFER look happy even though\n"
     .string "they lost.$"
 
 Route13_Text_SusieIntro::
@@ -33,7 +33,7 @@ Route13_Text_ValeriePostBattle::
     .string "LEADERS. I know!$"
 
 Route13_Text_GwenIntro::
-    .string "My cute POKéMON wish to make your\n"
+    .string "My cute TOEPFER wish to make your\n"
     .string "acquaintance.$"
 
 Route13_Text_GwenDefeat::
@@ -41,7 +41,7 @@ Route13_Text_GwenDefeat::
     .string "You totally won!$"
 
 Route13_Text_GwenPostBattle::
-    .string "You have to make POKéMON battle\n"
+    .string "You have to make TOEPFER battle\n"
     .string "to toughen them up.$"
 
 Route13_Text_AlmaIntro::
@@ -54,7 +54,7 @@ Route13_Text_AlmaDefeat::
 
 Route13_Text_AlmaPostBattle::
     .string "CARBOS boosted the SPEED of my\n"
-    .string "POKéMON.$"
+    .string "TOEPFER.$"
 
 Route13_Text_PerryIntro::
     .string "I'm not going to lose.\n"
@@ -76,18 +76,18 @@ Route13_Text_LolaDefeat::
 
 Route13_Text_LolaPostBattle::
     .string "I wonder which is stronger, male or\n"
-    .string "female POKéMON?$"
+    .string "female TOEPFER?$"
 
 Route13_Text_SheilaIntro::
     .string "Do you want to battle some\n"
-    .string "POKéMON with me?$"
+    .string "TOEPFER with me?$"
 
 Route13_Text_SheilaDefeat::
     .string "It's over already?$"
 
 Route13_Text_SheilaPostBattle::
     .string "I don't know anything about\n"
-    .string "POKéMON actually.\p"
+    .string "TOEPFER actually.\p"
     .string "The ones I use… I picked them\n"
     .string "for their looks!$"
 
@@ -102,15 +102,15 @@ Route13_Text_JaredPostBattle::
     .string "Get lost!$"
 
 Route13_Text_RobertIntro::
-    .string "I always go with bird POKéMON.\n"
+    .string "I always go with bird TOEPFER.\n"
     .string "I've dedicated myself to them.$"
 
 Route13_Text_RobertDefeat::
     .string "Out of power!$"
 
 Route13_Text_RobertPostBattle::
-    .string "I wish I could fly like PIDGEY and\n"
-    .string "PIDGEOTTO…$"
+    .string "I wish I could fly like MAILROOM and\n"
+    .string "COURIER…$"
 
 Route13_Text_LookToLeftOfThatPost::
     .string "TRAINER TIPS\p"

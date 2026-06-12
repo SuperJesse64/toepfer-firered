@@ -9,7 +9,7 @@ SafariZone_East_Text_PrizeInDeepestPartOfSafariZone::
     .string "SAFARI ZONE. You will win a prize!$"
 
 SafariZone_East_Text_MyEeveeEvolvedIntoFlareon::
-    .string "My EEVEE evolved into FLAREON.\p"
-    .string "But, a friend's EEVEE turned into a\n"
-    .string "VAPOREON. I wonder why?$"
+    .string "My NEWBIE evolved into HOTSHOT.\p"
+    .string "But, a friend's NEWBIE turned into a\n"
+    .string "SALESREP. I wonder why?$"
 

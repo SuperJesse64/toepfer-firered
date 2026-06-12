@@ -5,16 +5,16 @@ SaffronCity_House_Text_DontLookAtMyLetter::
     .string "Don't look at my letter!$"
 
 SaffronCity_House_Text_Pidgey::
-    .string "PIDGEY: Kurukkoo!$"
+    .string "MAILROOM: Kurukkoo!$"
 
 SaffronCity_House_Text_GettingCopycatPokeDoll::
     .string "The COPYCAT is cute!\n"
-    .string "I'm getting her a POKé DOLL.$"
+    .string "I'm getting her a TOEPFER DOLL.$"
 
 SaffronCity_House_Text_ExplainPPUp::
     .string "I was given a PP UP as a gift.\p"
     .string "It's used to increase the PP of\n"
-    .string "a POKéMON's move.\p"
+    .string "a TOEPFER's move.\p"
     .string "I should use it on a powerful move\n"
     .string "with only a few PP.$"
 

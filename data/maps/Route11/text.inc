@@ -6,7 +6,7 @@ Route11_Text_HugoDefeat::
     .string "Didn't go my way!$"
 
 Route11_Text_HugoPostBattle::
-    .string "POKéMON is life!\n"
+    .string "TOEPFER is life!\n"
     .string "And to live is to play games!$"
 
 Route11_Text_JasperIntro::
@@ -18,7 +18,7 @@ Route11_Text_JasperDefeat::
 
 Route11_Text_JasperPostBattle::
     .string "You can't be a coward in the world\n"
-    .string "of POKéMON!$"
+    .string "of TOEPFER!$"
 
 Route11_Text_EddieIntro::
     .string "Let's go, but don't cheat!$"
@@ -46,7 +46,7 @@ Route11_Text_DillonIntro::
     .string "But, I think I can win.$"
 
 Route11_Text_DillonDefeat::
-    .string "My POKéMON couldn't win…\n"
+    .string "My TOEPFER couldn't win…\n"
     .string "Haven't they grown enough?$"
 
 Route11_Text_DillonPostBattle::
@@ -78,10 +78,10 @@ Route11_Text_YasuIntro::
 
 Route11_Text_YasuDefeat::
     .string "Darn!\n"
-    .string "My POKéMON need to be stronger!$"
+    .string "My TOEPFER need to be stronger!$"
 
 Route11_Text_YasuPostBattle::
-    .string "There's a fat POKéMON that comes\n"
+    .string "There's a fat TOEPFER that comes\n"
     .string "down from the mountains.\p"
     .string "I bet it'd be strong if you can\n"
     .string "catch it.$"
@@ -97,7 +97,7 @@ Route11_Text_BerniePostBattle::
     .string "Well, better get back to work.$"
 
 Route11_Text_DaveIntro::
-    .string "I raised my POKéMON carefully.\n"
+    .string "I raised my TOEPFER carefully.\n"
     .string "They should be ready by now!$"
 
 Route11_Text_DaveDefeat::
@@ -109,5 +109,5 @@ Route11_Text_DavePostBattle::
     .string "I better go find stronger ones!$"
 
 Route11_Text_DiglettsCave::
-    .string "DIGLETT'S CAVE$"
+    .string "SITECREW'S CAVE$"
 

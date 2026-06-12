@@ -12,7 +12,7 @@ Text_ExplosionDeclined::
 
 Text_ExplosionWhichMon::
     .string "You're terribly brave!\p"
-    .string "Which POKéMON should I teach\n"
+    .string "Which TOEPFER should I teach\n"
     .string "EXPLOSION?$"
 
 Text_ExplosionTaught::
@@ -64,7 +64,7 @@ MtEmber_Exterior_Text_WhatsPasswordAgain::
 MtEmber_Exterior_Text_FirstPasswordGoldeen::
     .string "What, you forgot the password?\n"
     .string "There're actually two.\p"
-    .string "The first one's “GOLDEEN need\n"
+    .string "The first one's “SMALLFRY need\n"
     .string "log.”\p"
     .string "And the second one is…$"
 

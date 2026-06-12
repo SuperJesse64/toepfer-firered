@@ -1,11 +1,11 @@
 ViridianCity_Text_CanCarryMonsAnywhere::
-    .string "Those POKé BALLS at your waist!\n"
-    .string "You have POKéMON, don't you?\p"
+    .string "Those TOEPFER BALLS at your waist!\n"
+    .string "You have TOEPFER, don't you?\p"
     .string "It's great that you can carry and\n"
-    .string "use POKéMON anytime, anywhere.$"
+    .string "use TOEPFER anytime, anywhere.$"
 
 ViridianCity_Text_GymClosedWonderWhoLeaderIs::
-    .string "This POKéMON GYM is always closed.\p"
+    .string "This TOEPFER GYM is always closed.\p"
     .string "I wonder who the LEADER is?$"
 
 ViridianCity_Text_ViridiansGymLeaderReturned::
@@ -13,16 +13,16 @@ ViridianCity_Text_ViridiansGymLeaderReturned::
 
 ViridianCity_Text_WantToKnowAboutCaterpillarMons::
     .string "You want to know about the two\n"
-    .string "kinds of caterpillar POKéMON?$"
+    .string "kinds of caterpillar TOEPFER?$"
 
 ViridianCity_Text_OhOkayThen::
     .string "Oh, okay then!$"
 
 ViridianCity_Text_ExplainCaterpieWeedle::
-    .string "CATERPIE has no poison,\n"
-    .string "but WEEDLE does.\p"
-    .string "Watch that your POKéMON aren't\n"
-    .string "stabbed by WEEDLE's POISON STING.$"
+    .string "CLERK has no poison,\n"
+    .string "but LAWCLERK does.\p"
+    .string "Watch that your TOEPFER aren't\n"
+    .string "stabbed by LAWCLERK's POISON STING.$"
 
 ViridianCity_Text_GrandpaHasntHadCoffeeYet::
     .string "Oh, Grandpa!\n"
@@ -47,14 +47,14 @@ ViridianCity_Text_ShowYouHowToCatchMons::
     .string "Hm?\n"
     .string "What is that red box you have?\p"
     .string "Ah, so you're working on your\n"
-    .string "POKéDEX.\p"
+    .string "TOEPFERDEX.\p"
     .string "Then let me give you a word of\n"
     .string "advice.\p"
-    .string "Whenever you catch a POKéMON,\n"
-    .string "the POKéDEX automatically updates\l"
+    .string "Whenever you catch a TOEPFER,\n"
+    .string "the TOEPFERDEX automatically updates\l"
     .string "its data.\p"
     .string "…You don't know how to catch\n"
-    .string "a POKéMON?\p"
+    .string "a TOEPFER?\p"
     .string "I suppose I had better show you\n"
     .string "then!$"
 
@@ -67,7 +67,7 @@ ViridianCity_Text_WatchThatToLearnBasics::
     .string "If there's something you don't\n"
     .string "understand, watch that.\p"
     .string "It will teach you about the basics\n"
-    .string "of being a POKéMON TRAINER.$"
+    .string "of being a TOEPFER TRAINER.$"
 
 ViridianCity_Text_WeakenMonsFirstToCatch::
     .string "Well, now, I've had my coffee, and\n"
@@ -75,9 +75,9 @@ ViridianCity_Text_WeakenMonsFirstToCatch::
     .string "But I made it too strong.\n"
     .string "It gave me a headache…\p"
     .string "Incidentally, are you filling your\n"
-    .string "POKéDEX?\p"
+    .string "TOEPFERDEX?\p"
     .string "At first, focus on weakening the\n"
-    .string "POKéMON before trying to catch it.$"
+    .string "TOEPFER before trying to catch it.$"
 
 ViridianCity_Text_HowsTeachyTVHelping::
     .string "Well, now, I've had my coffee, and\n"
@@ -105,20 +105,20 @@ ViridianCity_Text_CitySign::
 
 ViridianCity_Text_CatchMonsForEasierBattles::
     .string "TRAINER TIPS\p"
-    .string "Catch POKéMON and expand your\n"
+    .string "Catch TOEPFER and expand your\n"
     .string "collection.\p"
     .string "The more you have, the easier it\n"
     .string "is to battle.$"
 
 ViridianCity_Text_MovesLimitedByPP::
     .string "TRAINER TIPS\p"
-    .string "The battle moves of POKéMON are\n"
+    .string "The battle moves of TOEPFER are\n"
     .string "limited by their POWER POINTS, PP.\p"
     .string "To replenish PP, rest your tired\n"
-    .string "POKéMON at a POKéMON CENTER.$"
+    .string "TOEPFER at a TOEPFER CENTER.$"
 
 ViridianCity_Text_GymSign::
-    .string "VIRIDIAN CITY POKéMON GYM$"
+    .string "VIRIDIAN CITY TOEPFER GYM$"
 
 ViridianCity_Text_GymDoorsAreLocked::
     .string "VIRIDIAN GYM's doors are locked…$"

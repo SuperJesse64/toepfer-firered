@@ -1,1067 +1,916 @@
 const u8 gDummyPokedexText[] = _(
-    "This is a newly discovered POKéMON. It is\n"
+    "This is a newly discovered TOEPFER. It is\n"
     "currently under investigation. No detailed\n"
     "information is available at this time.");
 
 const u8 gDummyPokedexTextUnused[] = _("");
 
 const u8 gBulbasaurPokedexText[] = _(
-    "There is a plant seed on its back right\n"
-    "from the day this POKéMON is born.\n"
-    "The seed slowly grows larger.");
+    "Fresh from onboarding, PLANTBOY keeps\n"
+    "desk ferns alive and morale wilting.\n"
+    "HR calls it growth.");
 
 const u8 gBulbasaurPokedexTextUnused[] = _("");
-
 const u8 gIvysaurPokedexText[] = _(
-    "There is a plant bulb on its back.\n"
-    "When it absorbs nutrients, the bulb is said\n"
-    "to blossom into a large flower.");
+    "PLANTMGR schedules fertilizer like\n"
+    "quarterly reviews. Every leaf gets a\n"
+    "performance plan.");
 
 const u8 gIvysaurPokedexTextUnused[] = _("");
-
 const u8 gVenusaurPokedexText[] = _(
-    "A bewitching aroma wafts from its flower.\n"
-    "The fragrance becalms those engaged in\n"
-    "a battle.");
+    "PLANTCEO photosynthesizes profits from\n"
+    "the corner office. Sunlight is a\n"
+    "taxable benefit.");
 
 const u8 gVenusaurPokedexTextUnused[] = _("");
-
 const u8 gCharmanderPokedexText[] = _(
-    "From the time it is born, a flame burns\n"
-    "at the tip of its tail. Its life would end\n"
-    "if the flame were to go out.");
+    "COLDCALLER dials until the headset\n"
+    "melts. Voicemail is just a warm lead\n"
+    "waiting.");
 
 const u8 gCharmanderPokedexTextUnused[] = _("");
-
 const u8 gCharmeleonPokedexText[] = _(
-    "It lashes about with its tail to knock\n"
-    "down its foe. It then tears up the fallen\n"
-    "opponent with sharp claws.");
+    "CLOSER turns maybe into signed\n"
+    "contracts before coffee cools. The pen\n"
+    "never rests.");
 
 const u8 gCharmeleonPokedexTextUnused[] = _("");
-
 const u8 gCharizardPokedexText[] = _(
-    "Its wings can carry this POKéMON close to\n"
-    "an altitude of 4,600 feet. It blows out\n"
-    "fire at very high temperatures.");
+    "DEALMAKER closes deals hot enough to\n"
+    "void the NDA. Legal keeps a fire\n"
+    "extinguisher.");
 
 const u8 gCharizardPokedexTextUnused[] = _("");
-
 const u8 gSquirtlePokedexText[] = _(
-    "When it retracts its long neck into its\n"
-    "shell, it squirts out water with vigorous\n"
-    "force.");
+    "HELPDESK resets passwords and dampens\n"
+    "panic. Have you tried turning it off\n"
+    "and on?");
 
 const u8 gSquirtlePokedexTextUnused[] = _("");
-
 const u8 gWartortlePokedexText[] = _(
-    "This POKéMON is very popular as a pet.\n"
-    "Its fur-covered tail is a symbol of its\n"
-    "longevity.");
+    "SYSADMIN guards the server room like a\n"
+    "prized shell collection. Root needs\n"
+    "three approvals.");
 
 const u8 gWartortlePokedexTextUnused[] = _("");
-
 const u8 gBlastoisePokedexText[] = _(
-    "It crushes its foe under its heavy body\n"
-    "to cause fainting. In a pinch, it will\n"
-    "withdraw inside its shell.");
+    "ITDIRECT cannons through legacy\n"
+    "systems at budget reviews. Uptime is\n"
+    "nonnegotiable policy.");
 
 const u8 gBlastoisePokedexTextUnused[] = _("");
-
 const u8 gCaterpiePokedexText[] = _(
-    "It is covered with a green skin. When it\n"
-    "grows, it sheds the skin, covers itself\n"
-    "with silk, and becomes a cocoon.");
+    "CLERK files paperwork faster than\n"
+    "anyone can shred it. The inbox never\n"
+    "stops inching.");
 
 const u8 gCaterpiePokedexTextUnused[] = _("");
-
 const u8 gMetapodPokedexText[] = _(
-    "Even though it is encased in a sturdy\n"
-    "shell, the body inside is tender.\n"
-    "It can't withstand a harsh attack.");
+    "ASSISTANT cocoons in meetings until\n"
+    "promoted. Hard shell outside, soft\n"
+    "deadlines within.");
 
 const u8 gMetapodPokedexTextUnused[] = _("");
-
 const u8 gButterfreePokedexText[] = _(
-    "The wings are protected by rain-repellent\n"
-    "dust. As a result, this POKéMON can fly\n"
-    "about even in rain.");
+    "DIRECTOR floats above org charts\n"
+    "spreading memos. Every department gets\n"
+    "a gentle directive.");
 
 const u8 gButterfreePokedexTextUnused[] = _("");
-
 const u8 gWeedlePokedexText[] = _(
-    "Often found in forests and grasslands.\n"
-    "It has a sharp, toxic barb of around two\n"
-    "inches on top of its head.");
+    "LAWCLERK needles through footnotes at\n"
+    "two AM. Discovery never sleeps, and\n"
+    "neither does he.");
 
 const u8 gWeedlePokedexTextUnused[] = _("");
-
 const u8 gKakunaPokedexText[] = _(
-    "This POKéMON is in a temporary stage\n"
-    "while making its body. It is almost\n"
-    "completely unable to move on its own.");
+    "PARALEGAL stays rigid until the\n"
+    "partner says go. Motion filed, body\n"
+    "still not moving.");
 
 const u8 gKakunaPokedexTextUnused[] = _("");
-
 const u8 gBeedrillPokedexText[] = _(
-    "May appear in a swarm. Flies at violent\n"
-    "speeds, all the while stabbing with the\n"
-    "toxic stinger on its rear.");
+    "LEGALBOSS stings anyone who reads the\n"
+    "fine print wrong. Three partners, zero\n"
+    "mercy shown.");
 
 const u8 gBeedrillPokedexTextUnused[] = _("");
-
 const u8 gPidgeyPokedexText[] = _(
-    "Does not like to fight. It hides in\n"
-    "tall grass and so on, foraging for food\n"
-    "such as small bugs.");
+    "MAILROOM sorts interoffice mail by\n"
+    "wing flap. Certified delivery means\n"
+    "certified exhaustion.");
 
 const u8 gPidgeyPokedexTextUnused[] = _("");
-
 const u8 gPidgeottoPokedexText[] = _(
-    "The claws on its feet are well developed.\n"
-    "It can carry prey such as an EXEGGCUTE\n"
-    "to its nest over 60 miles away.");
+    "COURIER beats rush hour with a beak\n"
+    "full of contracts. Same-day delivery,\n"
+    "same-day overtime.");
 
 const u8 gPidgeottoPokedexTextUnused[] = _("");
-
 const u8 gPidgeotPokedexText[] = _(
-    "It spreads its gorgeous wings widely to\n"
-    "intimidate enemies. It races through the\n"
-    "skies at Mach-2 speed.");
+    "PILOT flies executives above traffic\n"
+    "and accountability. Clear skies,\n"
+    "unclear expense reports.");
 
 const u8 gPidgeotPokedexTextUnused[] = _("");
-
 const u8 gRattataPokedexText[] = _(
-    "Its fangs are long and very sharp.\n"
-    "They grow continuously, so it gnaws on\n"
-    "hard things to whittle them down.");
+    "TEMPWORK clocks in at dawn and out\n"
+    "whenever payroll blinks. Benefits are\n"
+    "a future milestone.");
 
 const u8 gRattataPokedexTextUnused[] = _("");
-
 const u8 gRaticatePokedexText[] = _(
-    "Its rear feet have three toes each.\n"
-    "They are webbed, enabling it to swim\n"
-    "across rivers.");
+    "STAFFER finally made perm after three\n"
+    "years of maybe. The break room now\n"
+    "knows their name.");
 
 const u8 gRaticatePokedexTextUnused[] = _("");
-
 const u8 gSpearowPokedexText[] = _(
-    "It busily flits around here and there.\n"
-    "Even if it is frail, it can be a tough\n"
-    "foe that uses MIRROR MOVE.");
+    "CASHIER scans barcodes and patience at\n"
+    "equal speed. Every beep is another\n"
+    "minute of life.");
 
 const u8 gSpearowPokedexTextUnused[] = _("");
-
 const u8 gFearowPokedexText[] = _(
-    "Its huge and magnificent wings can keep it\n"
-    "aloft in the sky. It can remain flying a\n"
-    "whole day without landing.");
+    "FLOORLEAD patrols aisles like a hawk\n"
+    "with a clipboard. Shrinkage drops when\n"
+    "fear goes up.");
 
 const u8 gFearowPokedexTextUnused[] = _("");
-
 const u8 gEkansPokedexText[] = _(
-    "A very common sight in grassland, etc.\n"
-    "It flicks its tongue in and out to sense\n"
-    "danger in its surroundings.");
+    "SNAKEOIL pitches wellness plans that\n"
+    "cure nothing but budget. Slither into\n"
+    "the demo today.");
 
 const u8 gEkansPokedexTextUnused[] = _("");
-
 const u8 gArbokPokedexText[] = _(
-    "The pattern on its belly appears to be a\n"
-    "frightening face. Weak foes will flee just\n"
-    "at the sight of the pattern.");
+    "OILBARON owns the pipeline and the\n"
+    "pipeline owns you. Barrels of synergy,\n"
+    "drops of truth.");
 
 const u8 gArbokPokedexTextUnused[] = _("");
-
 const u8 gPikachuPokedexText[] = _(
-    "It has small electric sacs on both its\n"
-    "cheeks. If threatened, it looses electric\n"
-    "charges from the sacs.");
+    "TECHIE lives on caffeine, cables, and\n"
+    "unresolved tickets. The glow of\n"
+    "monitors is home.");
 
 const u8 gPikachuPokedexTextUnused[] = _("");
-
 const u8 gRaichuPokedexText[] = _(
-    "Its electric charges can reach even\n"
-    "100,000 volts. Careless contact can cause\n"
-    "even an Indian elephant to faint.");
+    "TECHLEAD approves pull requests and\n"
+    "punishes scope creep. One merge away\n"
+    "from burnout.");
 
 const u8 gRaichuPokedexTextUnused[] = _("");
-
 const u8 gSandshrewPokedexText[] = _(
-    "It burrows and lives underground.\n"
-    "If threatened, it curls itself up into a\n"
-    "ball for protection.");
+    "FIELDREP digs into client sites and\n"
+    "sand traps alike. Territory maps fit\n"
+    "in one claw.");
 
 const u8 gSandshrewPokedexTextUnused[] = _("");
-
 const u8 gSandslashPokedexText[] = _(
-    "It is adept at attacking with the spines\n"
-    "on its back and its sharp claws while\n"
-    "quickly scurrying about.");
+    "FIELDBOSS rolls up quarterly numbers\n"
+    "like a burrow. No account escapes the\n"
+    "final audit.");
 
 const u8 gSandslashPokedexTextUnused[] = _("");
-
 const u8 gNidoranFPokedexText[] = _(
-    "Though small, it must be treated with\n"
-    "caution because of its powerfully toxic\n"
-    "barbs. The female has smaller horns.");
+    "QUEENBEE runs the hive floor with\n"
+    "poison diplomacy. Cross her and feel\n"
+    "the sting memo.");
 
 const u8 gNidoranFPokedexTextUnused[] = _("");
-
 const u8 gNidorinaPokedexText[] = _(
-    "The female has a gentle temperament.\n"
-    "It emits ultrasonic cries that have the\n"
-    "power to befuddle foes.");
+    "DIVA demands spotlight, budget, and a\n"
+    "better chair. Drama is just unpaid\n"
+    "emotional labor.");
 
 const u8 gNidorinaPokedexTextUnused[] = _("");
-
 const u8 gNidoqueenPokedexText[] = _(
-    "The body is covered by stiff, needle-\n"
-    "like scales. If it becomes excited,\n"
-    "the needles bristle outwards.");
+    "IRONLADY armors the boardroom against\n"
+    "nonsense. Soft skills, hard spikes,\n"
+    "zero tolerance.");
 
 const u8 gNidoqueenPokedexTextUnused[] = _("");
-
 const u8 gNidoranMPokedexText[] = _(
-    "Its large ears are flapped like wings\n"
-    "when it is listening to distant sounds.\n"
-    "It extends toxic barbs when angered.");
+    "NEWHIRE still has the orientation\n"
+    "lanyard on. Enthusiasm high, parking\n"
+    "pass still pending.");
 
 const u8 gNidoranMPokedexTextUnused[] = _("");
-
 const u8 gNidorinoPokedexText[] = _(
-    "It is easily angered. By swinging its well-\n"
-    "developed horn wildly, it can even punch\n"
-    "through diamond.");
+    "SUPERVISOR micromanages with horns and\n"
+    "a smile. Your timesheet is always\n"
+    "slightly wrong.");
 
 const u8 gNidorinoPokedexTextUnused[] = _("");
-
 const u8 gNidokingPokedexText[] = _(
-    "It is recognized by its rock-hard hide\n"
-    "and its extended horn. Be careful with\n"
-    "the horn as it contains venom.");
+    "KINGPIN rules the floor from a corner\n"
+    "cubicle. Loyalty rewarded, dissent\n"
+    "reorganized quietly.");
 
 const u8 gNidokingPokedexTextUnused[] = _("");
-
 const u8 gClefairyPokedexText[] = _(
-    "Its adorable appearance makes it popular\n"
-    "as a pet. However, it is rare and\n"
-    "difficult to find.");
+    "PARTTIMER floats shift to shift hoping\n"
+    "for hours. Dreaming of full-time and\n"
+    "dental coverage.");
 
 const u8 gClefairyPokedexTextUnused[] = _("");
-
 const u8 gClefablePokedexText[] = _(
-    "It has an acute sense of hearing. It can\n"
-    "easily hear a pin being dropped nearly\n"
-    "1,100 yards away.");
+    "FULLTIMER finally earned PTO and a\n"
+    "nameplate. Weekends exist on paper,\n"
+    "not in practice.");
 
 const u8 gClefablePokedexTextUnused[] = _("");
-
 const u8 gVulpixPokedexText[] = _(
-    "While young, it has six gorgeous tails.\n"
-    "When it grows, several new tails are\n"
-    "sprouted.");
+    "PRESSREP spins every scandal into a\n"
+    "teachable moment. Nine tails, nine\n"
+    "talking points ready.");
 
 const u8 gVulpixPokedexTextUnused[] = _("");
-
 const u8 gNinetalesPokedexText[] = _(
-    "It has nine long tails and fur that \n"
-    "gleams gold. It is said to live for \n"
-    "1,000 years.");
+    "PRMANAGER crafts narratives smoother\n"
+    "than silk. Bad news ships Friday at\n"
+    "five sharp.");
 
 const u8 gNinetalesPokedexTextUnused[] = _("");
-
 const u8 gJigglypuffPokedexText[] = _(
-    "It captivates foes with its huge, round\n"
-    "eyes, then lulls them to sleep by singing\n"
-    "a soothing melody.");
+    "EMCEE lulls the all-hands until\n"
+    "everyone naps. Applause mandatory,\n"
+    "consciousness optional.");
 
 const u8 gJigglypuffPokedexTextUnused[] = _("");
-
 const u8 gWigglytuffPokedexText[] = _(
-    "Its fur is extremely fine, dense, and\n"
-    "supple. The exquisitely pleasant fur\n"
-    "conveys an image of luxury.");
+    "KEYNOTER holds the stage until Q and A\n"
+    "dies. Inspiration billed at consultant\n"
+    "rates.");
 
 const u8 gWigglytuffPokedexTextUnused[] = _("");
-
 const u8 gZubatPokedexText[] = _(
-    "It has no eyes. Instead, it relies on\n"
-    "its ultrasonic cries for echo location to\n"
-    "flit about in darkness.");
+    "NIGHTCREW flutters through graveyard\n"
+    "shifts unseen. Fluorescents hum,\n"
+    "productivity does not.");
 
 const u8 gZubatPokedexTextUnused[] = _("");
-
 const u8 gGolbatPokedexText[] = _(
-    "It clamps down on its prey with needle-\n"
-    "sharp fangs and drains over 10 ounces of\n"
-    "blood in one gulp.");
+    "GRAVEYARD shift lead drinks cold\n"
+    "coffee like blood. Dawn is just\n"
+    "another deadline missed.");
 
 const u8 gGolbatPokedexTextUnused[] = _("");
-
 const u8 gOddishPokedexText[] = _(
-    "Its scientific name is “Oddium Wanderus.”\n"
-    "At night, it is said to walk nearly 1,000\n"
-    "feet on its two roots.");
+    "JANITOR mops floors and executive egos\n"
+    "nightly. The trash reveals more than\n"
+    "audits do.");
 
 const u8 gOddishPokedexTextUnused[] = _("");
-
 const u8 gGloomPokedexText[] = _(
-    "Its pistils exude an incredibly foul odor.\n"
-    "The horrid stench can cause fainting at a\n"
-    "distance of 1.25 miles.");
+    "GARDENER cultivates lobby plants and\n"
+    "rumors alike. Nothing wilts faster\n"
+    "than open secrets.");
 
 const u8 gGloomPokedexTextUnused[] = _("");
-
 const u8 gVileplumePokedexText[] = _(
-    "Its petals are the largest in the world.\n"
-    "It fiendishly scatters allergy-causing\n"
-    "pollen from its petals.");
+    "BUILDMGR pollenates projects until\n"
+    "walls bloom. Allergy season is just\n"
+    "sprint planning.");
 
 const u8 gVileplumePokedexTextUnused[] = _("");
-
 const u8 gParasPokedexText[] = _(
-    "Growing out of the bug's back are\n"
-    "mushrooms called tochukaso. The mushrooms\n"
-    "grow with the bug host.");
+    "LINECOOK fries morale alongside the\n"
+    "lunch rush. One ticket, one tantrum,\n"
+    "repeat forever.");
 
 const u8 gParasPokedexTextUnused[] = _("");
-
 const u8 gParasectPokedexText[] = _(
-    "It scatters toxic spores from the\n"
-    "mushroom cap. In China, the spores are\n"
-    "used as herbal medicine.");
+    "HEADCHEF runs the kitchen like a\n"
+    "hostile takeover. Plates out, feelings\n"
+    "optional, tips split.");
 
 const u8 gParasectPokedexTextUnused[] = _("");
-
 const u8 gVenonatPokedexText[] = _(
-    "Its eyes act as radar, enabling it to be\n"
-    "active in darkness. The eyes can also\n"
-    "shoot powerful beams.");
+    "TESTER clicks every button until\n"
+    "something breaks. Bug reports are love\n"
+    "letters to dev teams.");
 
 const u8 gVenonatPokedexTextUnused[] = _("");
-
 const u8 gVenomothPokedexText[] = _(
-    "The wings are covered with dustlike\n"
-    "scales. Every time it flaps its wings, it\n"
-    "looses highly toxic dust.");
+    "QAMANAGER mothballs releases until\n"
+    "standards met. Ship date is a\n"
+    "suggestion, not a promise.");
 
 const u8 gVenomothPokedexTextUnused[] = _("");
-
 const u8 gDiglettPokedexText[] = _(
-    "It burrows through the ground at a\n"
-    "shallow depth. It leaves raised earth in\n"
-    "its wake, making it easy to spot.");
+    "SITECREW tunnels under deadlines\n"
+    "without daylight. Hard hats required,\n"
+    "optimism buried deeper.");
 
 const u8 gDiglettPokedexTextUnused[] = _("");
-
 const u8 gDugtrioPokedexText[] = _(
-    "In battle, it digs through the ground and\n"
-    "strikes the unsuspecting foe from an\n"
-    "unexpected direction.");
+    "FOREMAN coordinates three diggers and\n"
+    "one budget. Underground politics run\n"
+    "deeper than pipes.");
 
 const u8 gDugtrioPokedexTextUnused[] = _("");
-
 const u8 gMeowthPokedexText[] = _(
-    "All it does is sleep during the daytime.\n"
-    "At night, it patrols its territory with its\n"
-    "eyes aglow.");
+    "PETTYCASH swipes from the fund and\n"
+    "your trust. Expense reports always\n"
+    "miss a few coins.");
 
 const u8 gMeowthPokedexTextUnused[] = _("");
-
 const u8 gPersianPokedexText[] = _(
-    "Has a vicious temperament. Beware if it\n"
-    "raises its tail straight up. It is a signal\n"
-    "that it is about to pounce and bite.");
+    "CHIEFFIN audits every penny with\n"
+    "velvet claws. The company card has a\n"
+    "very short leash.");
 
 const u8 gPersianPokedexTextUnused[] = _("");
-
 const u8 gPsyduckPokedexText[] = _(
-    "It is constantly wracked by a headache.\n"
-    "When the headache turns intense, it begins\n"
-    "using mysterious powers.");
+    "HELPER migrates between desks solving\n"
+    "problems badly. Headaches migrate\n"
+    "straight to golduck.");
 
 const u8 gPsyduckPokedexTextUnused[] = _("");
-
 const u8 gGolduckPokedexText[] = _(
-    "The forelegs are webbed, helping to make\n"
-    "it an adept swimmer. It can be seen\n"
-    "swimming elegantly in lakes, etc.");
+    "COUNSELOR listens until the billable\n"
+    "hour ends. Insight costs extra,\n"
+    "silence costs more.");
 
 const u8 gGolduckPokedexTextUnused[] = _("");
-
 const u8 gMankeyPokedexText[] = _(
-    "Light and agile on its feet, and ferocious\n"
-    "in temperament. When angered, it flies into\n"
-    "an uncontrollable frenzy.");
+    "TRAINEE punches above rank and below\n"
+    "standards. Orientation video still\n"
+    "playing in their head.");
 
 const u8 gMankeyPokedexTextUnused[] = _("");
-
 const u8 gPrimeapePokedexText[] = _(
-    "It is always outrageously furious. If it\n"
-    "gives chase, it will tenaciously track the\n"
-    "target no matter how far.");
+    "BOUNCER ejects trouble from the club\n"
+    "and the Slack. No ID, no entry, no\n"
+    "refund on dignity.");
 
 const u8 gPrimeapePokedexTextUnused[] = _("");
-
 const u8 gGrowlithePokedexText[] = _(
-    "Very friendly and faithful to people.\n"
-    "It will try to repel enemies by barking\n"
-    "and biting.");
+    "DOORMAN greets VIPs and growls at\n"
+    "vendors. Tail wags for executives,\n"
+    "snarls for interns.");
 
 const u8 gGrowlithePokedexTextUnused[] = _("");
-
 const u8 gArcaninePokedexText[] = _(
-    "A POKéMON that is described in Chinese\n"
-    "legends. It is said to race at an\n"
-    "unbelievable speed.");
+    "CHIEFSEC patrols the perimeter and the\n"
+    "parking lot. Unauthorized access ends\n"
+    "at the lobby.");
 
 const u8 gArcaninePokedexTextUnused[] = _("");
-
 const u8 gPoliwagPokedexText[] = _(
-    "Its slick black skin is thin and damp.\n"
-    "A part of its internal organs can be seen\n"
-    "through the skin as a spiral pattern.");
+    "POOLBOY skims leaves and gossip from\n"
+    "the fountain. Depth is shallow,\n"
+    "secrets run deep.");
 
 const u8 gPoliwagPokedexTextUnused[] = _("");
-
 const u8 gPoliwhirlPokedexText[] = _(
-    "Its two legs are well developed.\n"
-    "Even though it can live on the ground,\n"
-    "it prefers living in water.");
+    "LIFEGUARD whistles at running near the\n"
+    "cubicles. No diving into spreadsheets\n"
+    "without floaties.");
 
 const u8 gPoliwhirlPokedexTextUnused[] = _("");
-
 const u8 gPoliwrathPokedexText[] = _(
-    "An adept swimmer, it knows the front\n"
-    "crawl, butterfly, and more. It is faster\n"
-    "than the best human swimmers.");
+    "HEADGUARD flexes policy until\n"
+    "compliance submits. Muscle is the\n"
+    "final approval workflow.");
 
 const u8 gPoliwrathPokedexTextUnused[] = _("");
-
 const u8 gAbraPokedexText[] = _(
-    "It sleeps for 18 hours a day. It uses a\n"
-    "variety of extrasensory powers even\n"
-    "while asleep.");
+    "PROTEGE teleports away from feedback\n"
+    "mid-sentence. Potential unlimited,\n"
+    "attention span limited.");
 
 const u8 gAbraPokedexTextUnused[] = _("");
-
 const u8 gKadabraPokedexText[] = _(
-    "It happened one morning - a boy with\n"
-    "extrasensory powers awoke in bed\n"
-    "transformed into KADABRA.");
+    "ANALYST bends spreadsheets until they\n"
+    "confess. Numbers never lie, but they\n"
+    "do get coached.");
 
 const u8 gKadabraPokedexTextUnused[] = _("");
-
 const u8 gAlakazamPokedexText[] = _(
-    "It does not like physical attacks very \n"
-    "much. Instead, it freely uses extra-\n"
-    "sensory powers to defeat foes.");
+    "EXECUTIVE reads minds and quarterly\n"
+    "projections. IQ high, empathy\n"
+    "outsourced to HR.");
 
 const u8 gAlakazamPokedexTextUnused[] = _("");
-
 const u8 gMachopPokedexText[] = _(
-    "Its whole body is composed of muscles.\n"
-    "Even though it's the size of a human\n"
-    "child, it can hurl 100 grown-ups.");
+    "GYMMEMBER reps the company wellness\n"
+    "plan daily. Corporate discount on pain\n"
+    "and gain.");
 
 const u8 gMachopPokedexTextUnused[] = _("");
-
 const u8 gMachokePokedexText[] = _(
-    "Its formidable body never gets tired.\n"
-    "It helps people by doing work such as\n"
-    "the moving of heavy goods.");
+    "TRAINER spots interns until they drop\n"
+    "the bar. Form matters, feelings do not\n"
+    "count here.");
 
 const u8 gMachokePokedexTextUnused[] = _("");
-
 const u8 gMachampPokedexText[] = _(
-    "Its four ruggedly developed arms can\n"
-    "launch a flurry of 1,000 punches in just\n"
-    "two seconds.");
+    "HEADCACH runs three departments with\n"
+    "six arms. Multitasking is just unpaid\n"
+    "overtime.");
 
 const u8 gMachampPokedexTextUnused[] = _("");
-
 const u8 gBellsproutPokedexText[] = _(
-    "Its bud looks like a human face. Because\n"
-    "of the bud, it is rumored to be a type of\n"
-    "legendary mandrake plant.");
+    "CLIMBER vines toward promotion one\n"
+    "rung at a time. Sunlight is middle\n"
+    "management above.");
 
 const u8 gBellsproutPokedexTextUnused[] = _("");
-
 const u8 gWeepinbellPokedexText[] = _(
-    "The leafy parts act as cutters for\n"
-    "slashing foes. It spits a fluid that\n"
-    "dissolves everything.");
+    "LADDERUP hangs between floors waiting\n"
+    "for a lift. Elevator broken, ambition\n"
+    "still ringing.");
 
 const u8 gWeepinbellPokedexTextUnused[] = _("");
-
 const u8 gVictreebelPokedexText[] = _(
-    "Lures prey into its mouth with a honeylike\n"
-    "aroma. The helpless prey is melted with\n"
-    "a dissolving fluid.");
+    "TOPRUNG digests rivals and lunch\n"
+    "meetings whole. Corner office view,\n"
+    "carnivorous calendar.");
 
 const u8 gVictreebelPokedexTextUnused[] = _("");
-
 const u8 gTentacoolPokedexText[] = _(
-    "Its eyes are as transparent as crystals.\n"
-    "From them, it shoots mysterious\n"
-    "beams of light.");
+    "REMOTE worker never leaves the home\n"
+    "pod. Slack green dot is the only proof\n"
+    "of life.");
 
 const u8 gTentacoolPokedexTextUnused[] = _("");
-
 const u8 gTentacruelPokedexText[] = _(
-    "It has 80 tentacles that move about\n"
-    "freely. They can sting, causing poisoning\n"
-    "and sharp, stabbing pain.");
+    "OVERSEER tentacles reach every screen\n"
+    "share silently. Mic off does not mean\n"
+    "unseen.");
 
 const u8 gTentacruelPokedexTextUnused[] = _("");
-
 const u8 gGeodudePokedexText[] = _(
-    "Its round form makes it easy to pick up.\n"
-    "Some people have used them to hurl\n"
-    "at each other in a snowball fight.");
+    "NAYSAYER blocks every initiative with\n"
+    "rocky skepticism. Progress halted,\n"
+    "meeting extended again.");
 
 const u8 gGeodudePokedexTextUnused[] = _("");
-
 const u8 gGravelerPokedexText[] = _(
-    "Be careful while hiking on mountain trails.\n"
-    "GRAVELER may come rolling down the path\n"
-    "without slowing.");
+    "GATEKEEPER rolls over fresh ideas at\n"
+    "the door. Innovation requires three\n"
+    "forms and a bribe.");
 
 const u8 gGravelerPokedexTextUnused[] = _("");
-
 const u8 gGolemPokedexText[] = _(
-    "It is enclosed in a hard shell that is as\n"
-    "rugged as slabs of rock. It sheds skin\n"
-    "once a year to grow larger.");
+    "BLOCKER stops traffic, projects, and\n"
+    "small talk. Immovable object,\n"
+    "immovable deadline.");
 
 const u8 gGolemPokedexTextUnused[] = _("");
-
 const u8 gPonytaPokedexText[] = _(
-    "Its body is light, and its legs are\n"
-    "incredibly powerful. It can clear\n"
-    "Ayers Rock in one leap.");
+    "RUNNER gallops interoffice mail before\n"
+    "the elevator. Hoofbeats echo through\n"
+    "empty halls.");
 
 const u8 gPonytaPokedexTextUnused[] = _("");
-
 const u8 gRapidashPokedexText[] = _(
-    "It can gallop at a top speed of 150\n"
-    "miles per hour. It can race as fast as a\n"
-    "bullet train while ablaze.");
+    "DISPATCH routes couriers faster than\n"
+    "approval chains. Flame trail optional,\n"
+    "overtime mandatory.");
 
 const u8 gRapidashPokedexTextUnused[] = _("");
-
 const u8 gSlowpokePokedexText[] = _(
-    "It is always vacantly lost in thought, but\n"
-    "no one knows what it is thinking about.\n"
-    "It is good at fishing with its tail.");
+    "DAWDLER responds to emails next fiscal\n"
+    "quarter. Urgent flagged, still unread,\n"
+    "somehow fine.");
 
 const u8 gSlowpokePokedexTextUnused[] = _("");
-
 const u8 gSlowbroPokedexText[] = _(
-    "When a SLOWPOKE went hunting in the sea,\n"
-    "its tail was bitten by a SHELLDER. That\n"
-    "made it evolve into SLOWBRO.");
+    "LOAFER shelled out for silence and a\n"
+    "corner desk. Productivity naps behind\n"
+    "a closed door.");
 
 const u8 gSlowbroPokedexTextUnused[] = _("");
-
 const u8 gMagnemitePokedexText[] = _(
-    "It moves while constantly hovering.\n"
-    "It discharges THUNDER WAVE and so on\n"
-    "from the units at its sides.");
+    "OFFICEAID attaches to every desk\n"
+    "needing staples. Magnetic personality,\n"
+    "paperclip budget.");
 
 const u8 gMagnemitePokedexTextUnused[] = _("");
-
 const u8 gMagnetonPokedexText[] = _(
-    "A linked cluster formed of several\n"
-    "MAGNEMITE. It discharges powerful\n"
-    "magnetic waves at high voltage.");
+    "TEAMLEAD pulls departments together or\n"
+    "apart. Alignment achieved, casualties\n"
+    "acceptable.");
 
 const u8 gMagnetonPokedexTextUnused[] = _("");
-
 const u8 gFarfetchdPokedexText[] = _(
-    "It always walks about with a plant stalk\n"
-    "clamped in its beak. The stalk is used for\n"
-    "building its nest.");
+    "CATERER brings leek soup to every\n"
+    "board lunch. Side dish of guilt\n"
+    "included, no substitutions.");
 
 const u8 gFarfetchdPokedexTextUnused[] = _("");
-
 const u8 gDoduoPokedexText[] = _(
-    "A two-headed POKéMON that was discovered\n"
-    "as a sudden mutation. It runs at a pace\n"
-    "of over 60 miles per hour.");
+    "ASSOCIATE splits focus between two\n"
+    "bosses daily. Two heads, half the\n"
+    "credit, double blame.");
 
 const u8 gDoduoPokedexTextUnused[] = _("");
-
 const u8 gDodrioPokedexText[] = _(
-    "An odd species that is rarely found.\n"
-    "The three heads respectively represent\n"
-    "joy, sadness, and anger.");
+    "PARTNER adds a third opinion nobody\n"
+    "requested. Consensus means agreeing\n"
+    "with the loudest beak.");
 
 const u8 gDodrioPokedexTextUnused[] = _("");
-
 const u8 gSeelPokedexText[] = _(
-    "Covered with light blue fur, its hide is\n"
-    "thick and tough. It is active in bitter\n"
-    "cold of minus 40 degrees Fahrenheit.");
+    "SHIPPER seals crates and excuses\n"
+    "before departure. Cold chain, cold\n"
+    "hearts, on-time delivery.");
 
 const u8 gSeelPokedexTextUnused[] = _("");
-
 const u8 gDewgongPokedexText[] = _(
-    "Its body is covered with a pure white\n"
-    "fur. The colder the weather, the more\n"
-    "active it becomes.");
+    "TRUCKER hauls freight and gossip\n"
+    "cross-country. CB radio runs on diesel\n"
+    "and drama.");
 
 const u8 gDewgongPokedexTextUnused[] = _("");
-
 const u8 gGrimerPokedexText[] = _(
-    "Sludge exposed to X rays from the moon\n"
-    "transformed into GRIMER. It loves feeding\n"
-    "on filthy things.");
+    "GOSSIP sticks to every surface in the\n"
+    "break room. Sanitize the rumor before\n"
+    "it hardens.");
 
 const u8 gGrimerPokedexTextUnused[] = _("");
-
 const u8 gMukPokedexText[] = _(
-    "It is usually undetectable because it\n"
-    "blends in with the ground. Touching it can\n"
-    "cause terrible poisoning.");
+    "SANITATION dissolves messes organic\n"
+    "and political. Nothing toxic survives\n"
+    "the mop bucket.");
 
 const u8 gMukPokedexTextUnused[] = _("");
-
 const u8 gShellderPokedexText[] = _(
-    "It is encased in a shell that is harder\n"
-    "than diamond. Inside, however, it is\n"
-    "surprisingly tender.");
+    "LOCKSMITH opens doors and closed-door\n"
+    "meetings. Shell tight, secrets\n"
+    "tighter, key under mat.");
 
 const u8 gShellderPokedexTextUnused[] = _("");
-
 const u8 gCloysterPokedexText[] = _(
-    "Its shell is extremely hard. It cannot be\n"
-    "shattered, even with a bomb. The shell\n"
-    "opens only when it is attacking.");
+    "VAULTMGR guards assets behind a\n"
+    "pearl-white firewall. Breach attempts\n"
+    "bounce off politely.");
 
 const u8 gCloysterPokedexTextUnused[] = _("");
-
 const u8 gGastlyPokedexText[] = _(
-    "A being that exists as a thin gas. It can\n"
-    "topple an Indian elephant by enveloping\n"
-    "the prey in two seconds.");
+    "FLOATER drifts desk to desk with no\n"
+    "badge scan. HR forgot to onboard the\n"
+    "ghost again.");
 
 const u8 gGastlyPokedexTextUnused[] = _("");
-
 const u8 gHaunterPokedexText[] = _(
-    "If you get the feeling of being watched\n"
-    "in darkness when nobody is around,\n"
-    "HAUNTER is there.");
+    "LINGERER haunts the break room after\n"
+    "clock-out. Free snacks vanish whenever\n"
+    "it appears.");
 
 const u8 gHaunterPokedexTextUnused[] = _("");
-
 const u8 gGengarPokedexText[] = _(
-    "It is said to emerge from darkness to\n"
-    "steal the lives of those who become lost\n"
-    "in mountains.");
+    "FIXER makes problems disappear from\n"
+    "the ledger. Smile wide, shadow long,\n"
+    "questions shorter.");
 
 const u8 gGengarPokedexTextUnused[] = _("");
-
 const u8 gOnixPokedexText[] = _(
-    "It usually lives underground. It searches\n"
-    "for food while boring its way through the\n"
-    "ground at 50 miles per hour.");
+    "SYSENGINE coils through cable trays\n"
+    "like policy. One break and the whole\n"
+    "network shudders.");
 
 const u8 gOnixPokedexTextUnused[] = _("");
-
 const u8 gDrowzeePokedexText[] = _(
-    "A descendent of the legendary animal\n"
-    "baku, which is said to eat dreams. It is\n"
-    "skilled at hypnotism.");
+    "NIGHTCLERK dreams invoices into\n"
+    "existence at three AM. Sleepwalking\n"
+    "through the close books.");
 
 const u8 gDrowzeePokedexTextUnused[] = _("");
-
 const u8 gHypnoPokedexText[] = _(
-    "It carries a pendulum-like device. There\n"
-    "once was an incident in which it took \n"
-    "away a child it hypnotized.");
+    "NIGHTLEAD hypnotizes staff into\n"
+    "overtime compliance. Watch the pocket\n"
+    "watch, sign the waiver.");
 
 const u8 gHypnoPokedexTextUnused[] = _("");
-
 const u8 gKrabbyPokedexText[] = _(
-    "It can be found near the sea. The large\n"
-    "pincers grow back if they are torn out of\n"
-    "their sockets.");
+    "BILLING pinches accounts until they\n"
+    "squeak. Every line item clawed from\n"
+    "reluctant clients.");
 
 const u8 gKrabbyPokedexTextUnused[] = _("");
-
 const u8 gKinglerPokedexText[] = _(
-    "Its large and hard pincer has 10,000-\n"
-    "horsepower strength. However, being so\n"
-    "big, it is unwieldy to move.");
+    "COLLECTOR grabs overdue payments with\n"
+    "both claws. Interest compounds,\n"
+    "patience does not.");
 
 const u8 gKinglerPokedexTextUnused[] = _("");
-
 const u8 gVoltorbPokedexText[] = _(
-    "A life-form whose identity is unknown.\n"
-    "It is said to SCREECH or suddenly\n"
-    "SELFDESTRUCT.");
+    "OPERATOR spins up systems until\n"
+    "something sparks. Self-destruct is a\n"
+    "feature, not a bug.");
 
 const u8 gVoltorbPokedexTextUnused[] = _("");
-
 const u8 gElectrodePokedexText[] = _(
-    "It explodes in response to even minor\n"
-    "stimuli. It is feared, with the nickname\n"
-    "of “The Bomb Ball.”");
+    "CHIEFTECH detonates legacy code on\n"
+    "schedule. Boom means deployment\n"
+    "succeeded this quarter.");
 
 const u8 gElectrodePokedexTextUnused[] = _("");
-
 const u8 gExeggcutePokedexText[] = _(
-    "Even though it appears to be eggs of\n"
-    "some sort, it was discovered to be a life-\n"
-    "form more like plant seeds.");
+    "RECRUIT huddles in orientation\n"
+    "clutching handbooks. Crack one shell,\n"
+    "ten policies spill out.");
 
 const u8 gExeggcutePokedexTextUnused[] = _("");
-
 const u8 gExeggutorPokedexText[] = _(
-    "It is called “The Walking Tropical\n"
-    "Rainforest.” Each of the nuts has\n"
-    "a face and a will of its own.");
+    "RECRUITER headhunts talent from rival\n"
+    "break rooms. Three heads, one offer\n"
+    "letter, no mercy.");
 
 const u8 gExeggutorPokedexTextUnused[] = _("");
-
 const u8 gCubonePokedexText[] = _(
-    "It wears the skull of its dead mother on\n"
-    "its head. When it becomes lonesome, it is\n"
-    "said to cry loudly.");
+    "BUILDER constructs facades and floor\n"
+    "plans nightly. Hard hat on, past\n"
+    "buried, blueprint ready.");
 
 const u8 gCubonePokedexTextUnused[] = _("");
-
 const u8 gMarowakPokedexText[] = _(
-    "It is small and was originally very weak.\n"
-    "Its temperament turned ferocious when it\n"
-    "began using bones.");
+    "SITELEAD carries the project bone\n"
+    "through winter. Morale buried,\n"
+    "deadline very much alive.");
 
 const u8 gMarowakPokedexTextUnused[] = _("");
-
 const u8 gHitmonleePokedexText[] = _(
-    "The legs freely contract and stretch.\n"
-    "The stretchy legs allow it to hit a\n"
-    "distant foe with a rising kick.");
+    "MESSENGER kicks memos down the hall at\n"
+    "speed. Urgent stamped, recipient still\n"
+    "not ready.");
 
 const u8 gHitmonleePokedexTextUnused[] = _("");
-
 const u8 gHitmonchanPokedexText[] = _(
-    "The spirit of a pro boxer has infused this\n"
-    "POKéMON. It throws punches that are\n"
-    "faster than a bullet train.");
+    "TIMEKEEP punches clocks and faces with\n"
+    "equal force. Late again, documented,\n"
+    "noted, filed.");
 
 const u8 gHitmonchanPokedexTextUnused[] = _("");
-
 const u8 gLickitungPokedexText[] = _(
-    "Its tongue is twice the length of its\n"
-    "body. It can be moved like an arm for\n"
-    "grabbing food and attacking.");
+    "FOODRUNNER licks every plate before\n"
+    "the executive suite. Speed over\n"
+    "sanitation, always.");
 
 const u8 gLickitungPokedexTextUnused[] = _("");
-
 const u8 gKoffingPokedexText[] = _(
-    "Its thin, balloon-like body is inflated by\n"
-    "horribly toxic gases. It reeks when it is\n"
-    "nearby.");
+    "TOXICREP spews fumes in every stand-up\n"
+    "meeting. Ventilation insufficient,\n"
+    "attitude abundant.");
 
 const u8 gKoffingPokedexTextUnused[] = _("");
-
 const u8 gWeezingPokedexText[] = _(
-    "Very rarely, a sudden mutation can result\n"
-    "in two small KOFFING twins becoming\n"
-    "conjoined as a WEEZING.");
+    "SMOKEBOSS obscures metrics behind a\n"
+    "haze of spin. Two heads, one\n"
+    "narrative, zero clarity.");
 
 const u8 gWeezingPokedexTextUnused[] = _("");
-
 const u8 gRhyhornPokedexText[] = _(
-    "Strong, but not too bright, this POKéMON\n"
-    "can shatter even a skyscraper with its\n"
-    "charging TACKLES.");
+    "BULLPEN charges through trades like a\n"
+    "rampage. Horns down, market up, ethics\n"
+    "negotiable.");
 
 const u8 gRhyhornPokedexTextUnused[] = _("");
-
 const u8 gRhydonPokedexText[] = _(
-    "It begins walking on its hind legs after\n"
-    "evolution. It can punch holes through\n"
-    "boulders with its horn.");
+    "BROKER rhymes bull with billable hours\n"
+    "daily. Commissions horned in before\n"
+    "the bell rings.");
 
 const u8 gRhydonPokedexTextUnused[] = _("");
-
 const u8 gChanseyPokedexText[] = _(
-    "It lays several eggs a day. The eggs are\n"
-    "apparently rich in nutrients and extremely\n"
-    "delicious.");
+    "HRCLERK heals bruised egos with policy\n"
+    "pamphlets. Eggs in one basket,\n"
+    "grievances in another.");
 
 const u8 gChanseyPokedexTextUnused[] = _("");
-
 const u8 gTangelaPokedexText[] = _(
-    "Blue plant vines cloak the POKéMON's\n"
-    "identity in a tangled mass. It entangles\n"
-    "anything that gets close.");
+    "AUDITOR tangles every receipt until\n"
+    "truth emerges. Compliance is a knot,\n"
+    "not a suggestion.");
 
 const u8 gTangelaPokedexTextUnused[] = _("");
-
 const u8 gKangaskhanPokedexText[] = _(
-    "The female raises its offspring in a pouch\n"
-    "on its belly. It is skilled at attacking\n"
-    "using COMET PUNCH.");
+    "CARETAKER pouches interns through\n"
+    "crisis and snacks. Maternal leave\n"
+    "policy written in practice.");
 
 const u8 gKangaskhanPokedexTextUnused[] = _("");
-
 const u8 gHorseaPokedexText[] = _(
-    "It maintains balance using its tail, which\n"
-    "is wound up like a coil. It may spray ink\n"
-    "from its mouth.");
+    "WATERBOY fetches coffee for the\n"
+    "loading dock. Small fins, big hustle,\n"
+    "zero recognition.");
 
 const u8 gHorseaPokedexTextUnused[] = _("");
-
 const u8 gSeadraPokedexText[] = _(
-    "Its body bristles with sharp spikes.\n"
-    "Carelessly trying to touch it could cause\n"
-    "fainting from the spikes.");
+    "DOCKMGR directs shipments with a stern\n"
+    "fin daily. Tide waits for no purchase\n"
+    "order.");
 
 const u8 gSeadraPokedexTextUnused[] = _("");
-
 const u8 gGoldeenPokedexText[] = _(
-    "Its dorsal and pectoral fins are strongly\n"
-    "developed like muscles. It can swim at a\n"
-    "speed of five knots.");
+    "SMALLFRY swims in the talent pool\n"
+    "bottom tier. Big dreams, tiny budget,\n"
+    "large appetite.");
 
 const u8 gGoldeenPokedexTextUnused[] = _("");
-
 const u8 gSeakingPokedexText[] = _(
-    "The horn on its head is sharp like a\n"
-    "drill. It bores a hole in a boulder to\n"
-    "make its nest.");
+    "BIGFISH dominates the pond and the\n"
+    "bonus pool. Scale tips toward whoever\n"
+    "swallows rivals.");
 
 const u8 gSeakingPokedexTextUnused[] = _("");
-
 const u8 gStaryuPokedexText[] = _(
-    "It appears in large numbers by seashores.\n"
-    "At night, its central core flashes with a\n"
-    "red light.");
+    "STARLET twinkles in the company talent\n"
+    "show. Five points of potential, one\n"
+    "spotlight.");
 
 const u8 gStaryuPokedexTextUnused[] = _("");
-
 const u8 gStarmiePokedexText[] = _(
-    "This POKéMON has a geometric body.\n"
-    "Because of its body, the locals suspect\n"
-    "that it is an alien creature.");
+    "HEADLINER commands the stage and the\n"
+    "org chart. All eyes up, all budgets\n"
+    "down now.");
 
 const u8 gStarmiePokedexTextUnused[] = _("");
-
 const u8 gMrmimePokedexText[] = _(
-    "It is adept at conning people. It is said\n"
-    "to be able to create walls out of thin\n"
-    "air by miming.");
+    "PERFORMER mimes deadlines behind\n"
+    "invisible walls. Silent suffering,\n"
+    "loud applause required.");
 
 const u8 gMrmimePokedexTextUnused[] = _("");
-
 const u8 gScytherPokedexText[] = _(
-    "It tears and shreds prey with its wickedly\n"
-    "sharp scythes. It very rarely spreads its\n"
-    "wings to fly.");
+    "SURGEON cuts costs with precision and\n"
+    "no anesthesia. Scalpels sharp,\n"
+    "feelings numb.");
 
 const u8 gScytherPokedexTextUnused[] = _("");
-
 const u8 gJynxPokedexText[] = _(
-    "It speaks using a language that sounds\n"
-    "human. Research is under way to determine\n"
-    "what is being said.");
+    "GREETER kisses cheeks and freezes\n"
+    "small talk cold. Hospitality with a\n"
+    "chilling subtext.");
 
 const u8 gJynxPokedexTextUnused[] = _("");
-
 const u8 gElectabuzzPokedexText[] = _(
-    "It loves to feed on strong electricity.\n"
-    "It occasionally appears around large\n"
-    "power plants and so on.");
+    "LINEMAN buzzes through outages and\n"
+    "live wires. Sparks fly, tickets close,\n"
+    "hair singes.");
 
 const u8 gElectabuzzPokedexTextUnused[] = _("");
-
 const u8 gMagmarPokedexText[] = _(
-    "Found near the mouth of a volcano.\n"
-    "This fire-breather's body temperature is\n"
-    "nearly 2,200 degrees Fahrenheit.");
+    "FIREMARSH heats up safety drills until\n"
+    "everyone sweats. Exit signs glow,\n"
+    "excuses burn off.");
 
 const u8 gMagmarPokedexTextUnused[] = _("");
-
 const u8 gPinsirPokedexText[] = _(
-    "Its two long pincer horns are powerful.\n"
-    "Once they grip an enemy, they won't\n"
-    "release until the foe is torn.");
+    "STOCKROOM pins inventory until nothing\n"
+    "moves. Shelves orderly, soul slightly\n"
+    "crushed.");
 
 const u8 gPinsirPokedexTextUnused[] = _("");
-
 const u8 gTaurosPokedexText[] = _(
-    "When it is about to TACKLE, it whips\n"
-    "its body repeatedly with its three\n"
-    "long tails.");
+    "TRADER stampedes the floor when the\n"
+    "bell rings. Horns locked with bears,\n"
+    "coffee spilled.");
 
 const u8 gTaurosPokedexTextUnused[] = _("");
-
 const u8 gMagikarpPokedexText[] = _(
-    "It is virtually worthless in terms of both\n"
-    "power and speed. It is the most weak and\n"
-    "pathetic POKéMON in the world.");
+    "UNDERDOG flops in the pond while\n"
+    "executives laugh. Promotion feels like\n"
+    "a myth told upstream.");
 
 const u8 gMagikarpPokedexTextUnused[] = _("");
-
 const u8 gGyaradosPokedexText[] = _(
-    "It has an extremely aggressive nature.\n"
-    "The HYPER BEAM it shoots from its mouth\n"
-    "totally incinerates all targets.");
+    "PROMOTED finally made VP after years\n"
+    "of splashing. Teeth out, title up,\n"
+    "respect mandatory.");
 
 const u8 gGyaradosPokedexTextUnused[] = _("");
-
 const u8 gLaprasPokedexText[] = _(
-    "Its high intelligence enables it to\n"
-    "understand human speech. It likes to ferry\n"
-    "people on its back.");
+    "CHAUFFEUR ferries brass across town in\n"
+    "comfort. Back seat meetings, front\n"
+    "seat discretion.");
 
 const u8 gLaprasPokedexTextUnused[] = _("");
-
 const u8 gDittoPokedexText[] = _(
-    "It can freely recombine its own cellular\n"
-    "structure to transform into other life-\n"
-    "forms.");
+    "COPYCAT mirrors every deck until\n"
+    "originality blurs. Performance review\n"
+    "says highly adaptable.");
 
 const u8 gDittoPokedexTextUnused[] = _("");
-
 const u8 gEeveePokedexText[] = _(
-    "An extremely rare POKéMON that may\n"
-    "evolve in a number of different ways\n"
-    "depending on stimuli.");
+    "NEWBIE evolves role based on whoever\n"
+    "speaks loudest. Potential unlimited,\n"
+    "desk still temporary.");
 
 const u8 gEeveePokedexTextUnused[] = _("");
-
 const u8 gVaporeonPokedexText[] = _(
-    "Its body's cellular structure is similar to\n"
-    "the molecular composition of water.\n"
-    "It can melt invisibly in water.");
+    "SALESREP flows into any client\n"
+    "conversation smoothly. Commissions\n"
+    "ripple, quotas still rise.");
 
 const u8 gVaporeonPokedexTextUnused[] = _("");
-
 const u8 gJolteonPokedexText[] = _(
-    "If it is angered or startled, the fur all\n"
-    "over its body bristles like sharp needles\n"
-    "that pierce foes.");
+    "LIVEWIRE jolts stale meetings back to\n"
+    "life briefly. Energy spikes, then the\n"
+    "bill arrives.");
 
 const u8 gJolteonPokedexTextUnused[] = _("");
-
 const u8 gFlareonPokedexText[] = _(
-    "It has a flame bag inside its body. After\n"
-    "inhaling deeply, it blows out flames of\n"
-    "nearly 3,100 degrees Fahrenheit.");
+    "HOTSHOT burns through leads faster\n"
+    "than forecasts. Flashy close, smoky\n"
+    "aftermath, charred quota.");
 
 const u8 gFlareonPokedexTextUnused[] = _("");
-
 const u8 gPorygonPokedexText[] = _(
-    "Using the most advanced technologies,\n"
-    "scientists finally succeeded in making the\n"
-    "first artificial POKéMON.");
+    "DATAENTRY processes forms at digital\n"
+    "clock speed. Pixel perfect, soul\n"
+    "slightly corrupted.");
 
 const u8 gPorygonPokedexTextUnused[] = _("");
-
 const u8 gOmanytePokedexText[] = _(
-    "A prehistoric POKéMON that lived in the\n"
-    "primordial sea, it swims by twisting its\n"
-    "10 tentacles about.");
+    "JUNIOR fossilizes in the archive\n"
+    "basement politely. Ancient resume,\n"
+    "modern pay grade.");
 
 const u8 gOmanytePokedexTextUnused[] = _("");
-
 const u8 gOmastarPokedexText[] = _(
-    "Its tentacles are highly developed as if\n"
-    "they are hands and feet. As soon as it\n"
-    "ensnares prey, it bites.");
+    "SENIOR spirals up the ladder with\n"
+    "tentacle grip. Tenure coiled tight\n"
+    "around the org chart.");
 
 const u8 gOmastarPokedexTextUnused[] = _("");
-
 const u8 gKabutoPokedexText[] = _(
-    "This POKéMON was regenerated from the\n"
-    "fossil of an ancient creature. It protects\n"
-    "itself with a hard shell.");
+    "GUARD stands fossil-still at the\n"
+    "server room door. Threats bounce off\n"
+    "the carapace.");
 
 const u8 gKabutoPokedexTextUnused[] = _("");
-
 const u8 gKabutopsPokedexText[] = _(
-    "It swims freely through water. It catches\n"
-    "prey with its scythe-like arms and drains\n"
-    "the victim's fluids.");
+    "ENFORCER slices through policy\n"
+    "violations cleanly. Blades out,\n"
+    "compliance in, appeals closed.");
 
 const u8 gKabutopsPokedexTextUnused[] = _("");
-
 const u8 gAerodactylPokedexText[] = _(
-    "It was regenerated from a dinosaur's\n"
-    "genetic matter that was found in amber.\n"
-    "It flies with high-pitched cries.");
+    "TRAVELER commutes by air to skip\n"
+    "stand-ups. Prehistoric perks, modern\n"
+    "expense fraud.");
 
 const u8 gAerodactylPokedexTextUnused[] = _("");
-
 const u8 gSnorlaxPokedexText[] = _(
-    "It is not satisfied unless it eats over 880\n"
-    "pounds of food every day. When it is done\n"
-    "eating, it goes promptly to sleep.");
+    "OUTOFOFF sleeps through pager duty and\n"
+    "all-hands. PTO balance infinite,\n"
+    "responsiveness zero.");
 
 const u8 gSnorlaxPokedexTextUnused[] = _("");
-
 const u8 gArticunoPokedexText[] = _(
-    "One of the legendary bird POKéMON.\n"
-    "With its long tail trailing behind, its\n"
-    "flying form is magnificent.");
+    "CHIEFOPS freezes budgets until Q4\n"
+    "thaws. Cold logic, colder emails, ice\n"
+    "in veins.");
 
 const u8 gArticunoPokedexTextUnused[] = _("");
-
 const u8 gZapdosPokedexText[] = _(
-    "One of the legendary bird POKéMON.\n"
-    "While it is flying, it makes crackling and\n"
-    "snapping sounds.");
+    "CHIEFENG electrifies infrastructure\n"
+    "until it screams. Sparks mean\n"
+    "innovation, burns mean KPIs.");
 
 const u8 gZapdosPokedexTextUnused[] = _("");
-
 const u8 gMoltresPokedexText[] = _(
-    "One of the legendary bird POKéMON.\n"
-    "Those seeing it are overwhelmed by its\n"
-    "orange wings that seem to be on fire.");
+    "REHIRE rose from the layoff list\n"
+    "phoenix-style. Same desk, new title,\n"
+    "old trauma included.");
 
 const u8 gMoltresPokedexTextUnused[] = _("");
-
 const u8 gDratiniPokedexText[] = _(
-    "Even the young can exceed 6.5 feet in\n"
-    "length. It grows larger by repeatedly\n"
-    "shedding skin.");
+    "CADET coils around the org chart\n"
+    "learning ropes. Small scale now,\n"
+    "boardroom appetite growing.");
 
 const u8 gDratiniPokedexTextUnused[] = _("");
-
 const u8 gDragonairPokedexText[] = _(
-    "It is said to live in seas and lakes.\n"
-    "Even though it has no wings, it has been\n"
-    "seen flying occasionally.");
+    "MANAGER stretches between teams until\n"
+    "thin. Long neck, longer meetings,\n"
+    "short patience.");
 
 const u8 gDragonairPokedexTextUnused[] = _("");
-
 const u8 gDragonitePokedexText[] = _(
-    "It can fly in spite of its big and bulky\n"
-    "physique. It circles the globe in just\n"
-    "16 hours.");
+    "CHAIRMAN lands deals from the\n"
+    "penthouse nest. Wings wide, dividends\n"
+    "wider, objections smaller.");
 
 const u8 gDragonitePokedexTextUnused[] = _("");
-
 const u8 gMewtwoPokedexText[] = _(
-    "A POKéMON whose genetic code was\n"
-    "repeatedly recombined for research.\n"
-    "It turned vicious as a result.");
+    "CLONE duplicated from the perfect\n"
+    "employee template. Free will sold\n"
+    "separately, NDA eternal.");
 
 const u8 gMewtwoPokedexTextUnused[] = _("");
-
 const u8 gMewPokedexText[] = _(
-    "A POKéMON of South America that was\n"
-    "thought to have been extinct. It is very\n"
-    "intelligent and learns any move.");
+    "WILDCARD appears in meetings\n"
+    "uninvited, unchanged. No job title\n"
+    "fits, neither does any box.");
 
 const u8 gMewPokedexTextUnused[] = _("");
-
 const u8 gChikoritaPokedexText[] = _(
 #if REVISION == 0
     "Its pleasantly aromatic leaves have the\n"

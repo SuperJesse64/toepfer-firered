@@ -1,0 +1,44 @@
+name: Build Toepfer FireRed
+
+on:
+  push:
+    branches: [ master, main ]
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    env:
+      GAME_VERSION: FIRERED
+      GAME_LANGUAGE: ENGLISH
+      GAME_REVISION: 0
+      MODERN: 0
+      COMPARE: 0
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Checkout agbcc
+        uses: actions/checkout@v4
+        with:
+          path: agbcc
+          repository: pret/agbcc
+
+      - name: Install binutils
+        run: sudo apt-get update && sudo apt-get install -yq gcc-arm-none-eabi binutils-arm-none-eabi libpng-dev
+
+      - name: Install agbcc
+        working-directory: agbcc
+        run: |
+          ./build.sh
+          ./install.sh ../
+
+      - name: Build Toepfer FireRed
+        run: make -j$(nproc) firered
+
+      - name: Upload ROM
+        uses: actions/upload-artifact@v4
+        with:
+          name: toepfer-firered-rom
+          path: pokefirered.gba
+          if-no-files-found: error

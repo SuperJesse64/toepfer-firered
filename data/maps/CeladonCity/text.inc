@@ -1,5 +1,5 @@
 CeladonCity_Text_GotMyKoffingInCinnabar::
-    .string "I got my KOFFING in CINNABAR.\p"
+    .string "I got my TOXICREP in CINNABAR.\p"
     .string "It's usually nice, but it breathes\n"
     .string "poison when it's angry.$"
 
@@ -20,12 +20,12 @@ CeladonCity_Text_BlewItAllAtSlots::
     .string "COINS for prizes!$"
 
 CeladonCity_Text_MyTrustedPalPoliwrath::
-    .string "This is my trusted pal, POLIWRATH.\p"
-    .string "It evolved from a POLIWHIRL when\n"
+    .string "This is my trusted pal, HEADGUARD.\p"
+    .string "It evolved from a LIFEGUARD when\n"
     .string "I used a WATER STONE.$"
 
 CeladonCity_Text_Poliwrath::
-    .string "POLIWRATH: Ribi ribit!$"
+    .string "HEADGUARD: Ribi ribit!$"
 
 CeladonCity_Text_GetLostOrIllPunchYou::
     .string "What are you staring at?\n"
@@ -48,7 +48,7 @@ CeladonCity_Text_CitySign::
     .string "The City of Rainbow Dreams$"
 
 CeladonCity_Text_GymSign::
-    .string "CELADON CITY POKéMON GYM\n"
+    .string "CELADON CITY TOEPFER GYM\n"
     .string "LEADER: ERIKA\l"
     .string "The Nature-Loving Princess!$"
 
@@ -61,7 +61,7 @@ CeladonCity_Text_DeptStoreSign::
 
 CeladonCity_Text_GuardSpecProtectsFromStatus::
     .string "TRAINER TIPS\p"
-    .string "GUARD SPEC. protects POKéMON\n"
+    .string "GUARD SPEC. protects TOEPFER\n"
     .string "from status-reduction moves during\l"
     .string "battle.\p"
     .string "Get your items at the\n"
@@ -98,7 +98,7 @@ Text_SoftboiledDeclined::
     .string "I hope we can chat again.$"
 
 Text_SoftboiledWhichMon::
-    .string "So, who's the POKéMON that gets\n"
+    .string "So, who's the TOEPFER that gets\n"
     .string "the chance to learn SOFTBOILED?$"
 
 Text_SoftboiledTaught::

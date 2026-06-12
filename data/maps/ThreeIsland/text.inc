@@ -124,7 +124,7 @@ ThreeIsland_Text_PaxtonPostBattle::
 ThreeIsland_Text_ThankYouOhYourMonGotHurt::
     .string "Thank you! Those goons were\n"
     .string "nothing but bad trouble.\p"
-    .string "Oh, look, your POKéMON got hurt\n"
+    .string "Oh, look, your TOEPFER got hurt\n"
     .string "on my account.$"
 
 ThreeIsland_Text_GivenFullRestore::
@@ -137,7 +137,7 @@ ThreeIsland_Text_OhYourBagIsFull::
 
 ThreeIsland_Text_YouveGotImpressiveMons::
     .string "You've got seriously impressive\n"
-    .string "POKéMON with you.$"
+    .string "TOEPFER with you.$"
 
 ThreeIsland_Text_LostelleWentOffTowardsBondBridge::
     .string "It'd be fantastic if someone as\n"
@@ -157,11 +157,11 @@ ThreeIsland_Text_WouldntWantToSeeBikersHereAgain::
     .string "like those BIKERS here again.$"
 
 ThreeIsland_Text_WhenDodouEvolvesGoingToPlayGame::
-    .string "I'm going to train my DODUO in the\n"
+    .string "I'm going to train my ASSOCIATE in the\n"
     .string "BERRY FOREST.\p"
     .string "When it evolves, I'm going to play\n"
     .string "a game on TWO ISLAND.$"
 
 ThreeIsland_Text_Doduo::
-    .string "DODUO: Gigiih!$"
+    .string "ASSOCIATE: Gigiih!$"
 

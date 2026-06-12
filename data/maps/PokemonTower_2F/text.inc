@@ -1,7 +1,7 @@
 PokemonTower_2F_Text_RivalIntro::
     .string "{RIVAL}: Hey, {PLAYER}!\n"
     .string "What brings you here?\l"
-    .string "Is your POKéMON dead?\p"
+    .string "Is your TOEPFER dead?\p"
     .string "Hey! It's alive!\p"
     .string "I can at least make them faint!\n"
     .string "Let's go!$"
@@ -20,9 +20,9 @@ PokemonTower_2F_Text_RivalVictory::
     .string "もっと　ちゃんと　そだてて　やれよ$"
 
 PokemonTower_2F_Text_RivalPostBattle::
-    .string "How's your POKéDEX coming?\n"
-    .string "I just caught a CUBONE!\p"
-    .string "I can't find the bigger MAROWAK.\n"
+    .string "How's your TOEPFERDEX coming?\n"
+    .string "I just caught a BUILDER!\p"
+    .string "I can't find the bigger SITELEAD.\n"
     .string "Where could they be?\p"
     .string "I bet there aren't any left!\p"
     .string "Well, I better get going.\n"

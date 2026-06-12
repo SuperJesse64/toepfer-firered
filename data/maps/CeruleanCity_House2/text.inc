@@ -3,14 +3,14 @@ CeruleanCity_House2_Text_RocketsStoleTMForDig::
     .string "Look what they've done to my\n"
     .string "house!\p"
     .string "They stole a TM for teaching\n"
-    .string "POKéMON how to DIG holes!\p"
+    .string "TOEPFER how to DIG holes!\p"
     .string "I was going to use it on a\n"
-    .string "MANKEY or a SANDSHREW…\p"
+    .string "TRAINEE or a FIELDREP…\p"
     .string "That cost me a bundle, it did!$"
 
 CeruleanCity_House2_Text_TeachDiglettDigWithoutTM::
     .string "I figure what's lost is lost.\p"
-    .string "I decided to teach DIGLETT how to\n"
+    .string "I decided to teach SITECREW how to\n"
     .string "DIG without a TM.$"
 
 CeruleanCity_House2_Text_TeamRocketTryingToDigIntoNoGood::

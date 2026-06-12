@@ -2,20 +2,20 @@ SilphCo_7F_Text_HaveMonForSavingUs::
     .string "Oh! Hi! You're not a ROCKET!\n"
     .string "You came to save us?\l"
     .string "Why, thank you!\p"
-    .string "I want you to have this POKéMON\n"
+    .string "I want you to have this TOEPFER\n"
     .string "for saving us.$"
 
 SilphCo_7F_Text_ObtainedLaprasFromEmployee::
-    .string "{PLAYER} obtained a LAPRAS from\n"
+    .string "{PLAYER} obtained a CHAUFFEUR from\n"
     .string "the SILPH employee!$"
 
 SilphCo_7F_Text_ExplainLapras::
-    .string "It's a LAPRAS.\n"
-    .string "It's a very intelligent POKéMON.\p"
+    .string "It's a CHAUFFEUR.\n"
+    .string "It's a very intelligent TOEPFER.\p"
     .string "We kept it in our lab, but it will\n"
     .string "be much better off with you.\p"
     .string "I think you will be a good TRAINER\n"
-    .string "for LAPRAS!\p"
+    .string "for CHAUFFEUR!\p"
     .string "It's a good swimmer.\n"
     .string "It'll give you a lift across water!$"
 
@@ -33,7 +33,7 @@ SilphCo_7F_Text_SavedAtLast::
 
 SilphCo_7F_Text_RocketsAfterMasterBall::
     .string "TEAM ROCKET was after the MASTER\n"
-    .string "BALL, which catches any POKéMON.$"
+    .string "BALL, which catches any TOEPFER.$"
 
 SilphCo_7F_Text_CanceledMasterBallProject::
     .string "We canceled the MASTER BALL\n"
@@ -41,7 +41,7 @@ SilphCo_7F_Text_CanceledMasterBallProject::
 
 SilphCo_7F_Text_BadIfTeamRocketTookOver::
     .string "It would be bad if TEAM ROCKET\n"
-    .string "took over SILPH or our POKéMON.$"
+    .string "took over SILPH or our TOEPFER.$"
 
 SilphCo_7F_Text_WowYouChasedOffTeamRocket::
     .string "Wow!\p"
@@ -128,11 +128,11 @@ SilphCo_7F_Text_RivalVictory::
 SilphCo_7F_Text_RivalPostBattle::
     .string "Well, {PLAYER}!\n"
     .string "I'm moving on up and ahead!\p"
-    .string "By checking my POKéDEX, I'm\n"
+    .string "By checking my TOEPFERDEX, I'm\n"
     .string "starting to see what's strong and\l"
     .string "how they evolve!\p"
     .string "Am I a genius or what?\p"
-    .string "I'm going to the POKéMON LEAGUE to\n"
+    .string "I'm going to the TOEPFER LEAGUE to\n"
     .string "boot out the ELITE FOUR.\p"
     .string "I'll become the world's most\n"
     .string "powerful TRAINER!\p"

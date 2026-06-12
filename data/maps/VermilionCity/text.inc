@@ -1,6 +1,6 @@
 VermilionCity_Text_GrimerMultipliesInSludge::
     .string "We're careful about pollution here.\p"
-    .string "We've heard GRIMER multiplies in\n"
+    .string "We've heard GOSSIP multiplies in\n"
     .string "toxic sludge.$"
 
 VermilionCity_Text_DidYouSeeSSAnneInHarbor::
@@ -15,14 +15,14 @@ VermilionCity_Text_SSAnneHasDepartedForYear::
 VermilionCity_Text_BuildingOnThisLand::
     .string "I'm putting up a building on this\n"
     .string "plot of land. I own it all.\p"
-    .string "My POKéMON is tamping the land\n"
+    .string "My TOEPFER is tamping the land\n"
     .string "to lay the foundation.$"
 
 VermilionCity_Text_Machop::
-    .string "MACHOP: Guoh! Gogogoh!$"
+    .string "GYMMEMBER: Guoh! Gogogoh!$"
 
 VermilionCity_Text_MachopStompingLandFlat::
-    .string "A MACHOP is stomping the land flat.$"
+    .string "A GYMMEMBER is stomping the land flat.$"
 
 VermilionCity_Text_SSAnneVisitsOnceAYear::
     .string "The S.S. ANNE is a famous luxury\n"
@@ -36,17 +36,17 @@ VermilionCity_Text_CitySign::
 VermilionCity_Text_SnorlaxBlockingRoute12::
     .string "NOTICE!\p"
     .string "ROUTE 12 may be blocked off by a\n"
-    .string "sleeping POKéMON.\p"
+    .string "sleeping TOEPFER.\p"
     .string "Detour through ROCK TUNNEL to\n"
     .string "LAVENDER TOWN.\p"
     .string "VERMILION POLICE$"
 
 VermilionCity_Text_PokemonFanClubSign::
-    .string "POKéMON FAN CLUB\n"
-    .string "All POKéMON fans welcome!$"
+    .string "TOEPFER FAN CLUB\n"
+    .string "All TOEPFER fans welcome!$"
 
 VermilionCity_Text_GymSign::
-    .string "VERMILION CITY POKéMON GYM\n"
+    .string "VERMILION CITY TOEPFER GYM\n"
     .string "LEADER: LT. SURGE\l"
     .string "The Lightning American!$"
 

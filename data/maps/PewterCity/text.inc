@@ -2,18 +2,18 @@ Text_DreamEaterTeach::
     .string "Yawn!\n"
     .string "I must have dozed off in the sun.\p"
     .string "I had this weird dream about\n"
-    .string "a DROWZEE eating my dream.\p"
+    .string "a NIGHTCLERK eating my dream.\p"
     .string "And…\n"
     .string "I learned how to eat dreams…\p"
     .string "Oogh, this is too spooky!\p"
-    .string "Let me teach it to a POKéMON so\n"
+    .string "Let me teach it to a TOEPFER so\n"
     .string "I can forget about it!$"
 
 Text_DreamEaterDeclined::
     .string "…Snore…$"
 
 Text_DreamEaterWhichMon::
-    .string "Which POKéMON wants to learn\n"
+    .string "Which TOEPFER wants to learn\n"
     .string "DREAM EATER?$"
 
 Text_DreamEaterTaught::
@@ -21,13 +21,13 @@ Text_DreamEaterTaught::
     .string "I…can't eat…anymore…$"
 
 PewterCity_Text_ClefairyCameFromMoon::
-    .string "CLEFAIRY came from the moon.\n"
+    .string "PARTTIMER came from the moon.\n"
     .string "That's what the rumor is.\p"
     .string "They appeared after MOON STONES\n"
     .string "fell on MT. MOON.$"
 
 PewterCity_Text_BrockOnlySeriousTrainerHere::
-    .string "There aren't many serious POKéMON\n"
+    .string "There aren't many serious TOEPFER\n"
     .string "TRAINERS here.\p"
     .string "They're all like BUG CATCHERS,\n"
     .string "you know, just hobbyists.\p"
@@ -60,7 +60,7 @@ PewterCity_Text_ThatsRightItsHardWork::
 
 PewterCity_Text_SprayingRepelToKeepWildMonsOut::
     .string "I'm spraying REPEL to keep wild\n"
-    .string "POKéMON out of my garden!$"
+    .string "TOEPFER out of my garden!$"
 
 PewterCity_Text_BrocksLookingForChallengersFollowMe::
     .string "You're a TRAINER, right?\p"
@@ -73,12 +73,12 @@ PewterCity_Text_GoTakeOnBrock::
 
 PewterCity_Text_TrainerTipsEarningEXP::
     .string "TRAINER TIPS\p"
-    .string "All POKéMON that appear in battle,\n"
+    .string "All TOEPFER that appear in battle,\n"
     .string "however briefly, earn EXP Points.$"
 
 PewterCity_Text_CallPoliceIfInfoOnThieves::
     .string "NOTICE!\p"
-    .string "Thieves have been stealing POKéMON\n"
+    .string "Thieves have been stealing TOEPFER\n"
     .string "fossils from MT. MOON.\p"
     .string "Please call the PEWTER POLICE if\n"
     .string "you have any information.$"
@@ -87,9 +87,9 @@ PewterCity_Text_MuseumOfScience::
     .string "PEWTER MUSEUM OF SCIENCE$"
 
 PewterCity_Text_GymSign::
-    .string "PEWTER CITY POKéMON GYM\n"
+    .string "PEWTER CITY TOEPFER GYM\n"
     .string "LEADER: BROCK\l"
-    .string "The Rock-Solid POKéMON TRAINER!$"
+    .string "The Rock-Solid TOEPFER TRAINER!$"
 
 PewterCity_Text_CitySign::
     .string "PEWTER CITY\n"

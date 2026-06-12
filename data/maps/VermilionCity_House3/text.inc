@@ -1,9 +1,9 @@
 VermilionCity_House3_Text_PidgeyFlyLetterToSaffron::
-    .string "I'm getting my PIDGEY to fly a\n"
+    .string "I'm getting my MAILROOM to fly a\n"
     .string "letter to SAFFRON in the north.$"
 
 VermilionCity_House3_Text_Pidgey::
-    .string "PIDGEY: Kurukkoo!$"
+    .string "MAILROOM: Kurukkoo!$"
 
 VermilionCity_House3_Text_DearPippiLetter::
     .string "Dear PIPPI,\n"
@@ -15,6 +15,6 @@ VermilionCity_House3_Text_DearPippiLetter::
 VermilionCity_House3_Text_SendMyPidgeyToUnionRoom::
     .string "I want to exchange MAIL with all\n"
     .string "sorts of people.\p"
-    .string "I send my PIDGEY to a UNION ROOM\n"
+    .string "I send my MAILROOM to a UNION ROOM\n"
     .string "to exchange MAIL for me.$"
 

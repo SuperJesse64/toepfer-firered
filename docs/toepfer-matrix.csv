@@ -1,0 +1,152 @@
+dex_num,slug,ingame_name,category,dex_entry,char_count
+1,bulbasaur,PLANTBOY,PLANT TOEP,"Fresh from onboarding, PLANTBOY keeps desk ferns alive and morale wilting. HR calls it growth.",94
+2,ivysaur,PLANTMGR,PLANT TOEP,"PLANTMGR schedules fertilizer like quarterly reviews. Every leaf gets a performance plan.",89
+3,venusaur,PLANTCEO,PLANT TOEP,"PLANTCEO photosynthesizes profits from the corner office. Sunlight is a taxable benefit.",88
+4,charmander,COLDCALLER,SALES TOEP,"COLDCALLER dials until the headset melts. Voicemail is just a warm lead waiting.",80
+5,charmeleon,CLOSER,SALES TOEP,"CLOSER turns maybe into signed contracts before coffee cools. The pen never rests.",82
+6,charizard,DEALMAKER,SALES TOEP,"DEALMAKER closes deals hot enough to void the NDA. Legal keeps a fire extinguisher.",83
+7,squirtle,HELPDESK,OPS TOEP,"HELPDESK resets passwords and dampens panic. Have you tried turning it off and on?",82
+8,wartortle,SYSADMIN,OPS TOEP,"SYSADMIN guards the server room like a prized shell collection. Root needs three approvals.",91
+9,blastoise,ITDIRECT,OPS TOEP,"ITDIRECT cannons through legacy systems at budget reviews. Uptime is nonnegotiable policy.",90
+10,caterpie,CLERK,HR TOEP,"CLERK files paperwork faster than anyone can shred it. The inbox never stops inching.",85
+11,metapod,ASSISTANT,HR TOEP,"ASSISTANT cocoons in meetings until promoted. Hard shell outside, soft deadlines within.",88
+12,butterfree,DIRECTOR,HR TOEP,"DIRECTOR floats above org charts spreading memos. Every department gets a gentle directive.",91
+13,weedle,LAWCLERK,LEGAL TOEP,"LAWCLERK needles through footnotes at two AM. Discovery never sleeps, and neither does he.",90
+14,kakuna,PARALEGAL,LEGAL TOEP,"PARALEGAL stays rigid until the partner says go. Motion filed, body still not moving.",85
+15,beedrill,LEGALBOSS,LEGAL TOEP,"LEGALBOSS stings anyone who reads the fine print wrong. Three partners, zero mercy shown.",89
+16,pidgey,MAILROOM,FLYER TOEP,"MAILROOM sorts interoffice mail by wing flap. Certified delivery means certified exhaustion.",92
+17,pidgeotto,COURIER,FLYER TOEP,"COURIER beats rush hour with a beak full of contracts. Same-day delivery, same-day overtime.",92
+18,pidgeot,PILOT,FLYER TOEP,"PILOT flies executives above traffic and accountability. Clear skies, unclear expense reports.",94
+19,rattata,TEMPWORK,GIG TOEP,"TEMPWORK clocks in at dawn and out whenever payroll blinks. Benefits are a future milestone.",92
+20,raticate,STAFFER,GIG TOEP,"STAFFER finally made perm after three years of maybe. The break room now knows their name.",90
+21,spearow,CASHIER,RETAIL TOEP,"CASHIER scans barcodes and patience at equal speed. Every beep is another minute of life.",89
+22,fearow,FLOORLEAD,RETAIL TOEP,"FLOORLEAD patrols aisles like a hawk with a clipboard. Shrinkage drops when fear goes up.",89
+23,ekans,SNAKEOIL,SNAKE TOEP,"SNAKEOIL pitches wellness plans that cure nothing but budget. Slither into the demo today.",90
+24,arbok,OILBARON,SNAKE TOEP,"OILBARON owns the pipeline and the pipeline owns you. Barrels of synergy, drops of truth.",89
+25,pikachu,TECHIE,IT TOEP,"TECHIE lives on caffeine, cables, and unresolved tickets. The glow of monitors is home.",87
+26,raichu,TECHLEAD,IT TOEP,"TECHLEAD approves pull requests and punishes scope creep. One merge away from burnout.",86
+27,sandshrew,FIELDREP,FIELD TOEP,"FIELDREP digs into client sites and sand traps alike. Territory maps fit in one claw.",85
+28,sandslash,FIELDBOSS,FIELD TOEP,"FIELDBOSS rolls up quarterly numbers like a burrow. No account escapes the final audit.",87
+29,nidoran_f,QUEENBEE,QUEEN TOEP,"QUEENBEE runs the hive floor with poison diplomacy. Cross her and feel the sting memo.",86
+30,nidorina,DIVA,QUEEN TOEP,"DIVA demands spotlight, budget, and a better chair. Drama is just unpaid emotional labor.",89
+31,nidoqueen,IRONLADY,QUEEN TOEP,"IRONLADY armors the boardroom against nonsense. Soft skills, hard spikes, zero tolerance.",89
+32,nidoran_m,NEWHIRE,KING TOEP,"NEWHIRE still has the orientation lanyard on. Enthusiasm high, parking pass still pending.",90
+33,nidorino,SUPERVISOR,KING TOEP,"SUPERVISOR micromanages with horns and a smile. Your timesheet is always slightly wrong.",88
+34,nidoking,KINGPIN,KING TOEP,"KINGPIN rules the floor from a corner cubicle. Loyalty rewarded, dissent reorganized quietly.",93
+35,clefairy,PARTTIMER,MOON TOEP,"PARTTIMER floats shift to shift hoping for hours. Dreaming of full-time and dental coverage.",92
+36,clefable,FULLTIMER,MOON TOEP,"FULLTIMER finally earned PTO and a nameplate. Weekends exist on paper, not in practice.",87
+37,vulpix,PRESSREP,PR TOEP,"PRESSREP spins every scandal into a teachable moment. Nine tails, nine talking points ready.",92
+38,ninetales,PRMANAGER,PR TOEP,"PRMANAGER crafts narratives smoother than silk. Bad news ships Friday at five sharp.",84
+39,jigglypuff,EMCEE,SING TOEP,"EMCEE lulls the all-hands until everyone naps. Applause mandatory, consciousness optional.",90
+40,wigglytuff,KEYNOTER,SING TOEP,"KEYNOTER holds the stage until Q and A dies. Inspiration billed at consultant rates.",84
+41,zubat,NIGHTCREW,NIGHT TOEP,"NIGHTCREW flutters through graveyard shifts unseen. Fluorescents hum, productivity does not.",92
+42,golbat,GRAVEYARD,NIGHT TOEP,"GRAVEYARD shift lead drinks cold coffee like blood. Dawn is just another deadline missed.",89
+43,oddish,JANITOR,GARDEN TOEP,"JANITOR mops floors and executive egos nightly. The trash reveals more than audits do.",86
+44,gloom,GARDENER,GARDEN TOEP,"GARDENER cultivates lobby plants and rumors alike. Nothing wilts faster than open secrets.",90
+45,vileplume,BUILDMGR,GARDEN TOEP,"BUILDMGR pollenates projects until walls bloom. Allergy season is just sprint planning.",87
+46,paras,LINECOOK,FUNGI TOEP,"LINECOOK fries morale alongside the lunch rush. One ticket, one tantrum, repeat forever.",88
+47,parasect,HEADCHEF,FUNGI TOEP,"HEADCHEF runs the kitchen like a hostile takeover. Plates out, feelings optional, tips split.",93
+48,venonat,TESTER,QA TOEP,"TESTER clicks every button until something breaks. Bug reports are love letters to dev teams.",93
+49,venomoth,QAMANAGER,QA TOEP,"QAMANAGER mothballs releases until standards met. Ship date is a suggestion, not a promise.",91
+50,diglett,SITECREW,BASE TOEP,"SITECREW tunnels under deadlines without daylight. Hard hats required, optimism buried deeper.",94
+51,dugtrio,FOREMAN,BASE TOEP,"FOREMAN coordinates three diggers and one budget. Underground politics run deeper than pipes.",93
+52,meowth,PETTYCASH,COIN TOEP,"PETTYCASH swipes from the fund and your trust. Expense reports always miss a few coins.",87
+53,persian,CHIEFFIN,COIN TOEP,"CHIEFFIN audits every penny with velvet claws. The company card has a very short leash.",87
+54,psyduck,HELPER,STRESS TOEP,"HELPER migrates between desks solving problems badly. Headaches migrate straight to golduck.",92
+55,golduck,COUNSELOR,STRESS TOEP,"COUNSELOR listens until the billable hour ends. Insight costs extra, silence costs more.",88
+56,mankey,TRAINEE,RAGE TOEP,"TRAINEE punches above rank and below standards. Orientation video still playing in their head.",94
+57,primeape,BOUNCER,RAGE TOEP,"BOUNCER ejects trouble from the club and the Slack. No ID, no entry, no refund on dignity.",90
+58,growlithe,DOORMAN,GUARD TOEP,"DOORMAN greets VIPs and growls at vendors. Tail wags for executives, snarls for interns.",88
+59,arcanine,CHIEFSEC,GUARD TOEP,"CHIEFSEC patrols the perimeter and the parking lot. Unauthorized access ends at the lobby.",90
+60,poliwag,POOLBOY,SWIM TOEP,"POOLBOY skims leaves and gossip from the fountain. Depth is shallow, secrets run deep.",86
+61,poliwhirl,LIFEGUARD,SWIM TOEP,"LIFEGUARD whistles at running near the cubicles. No diving into spreadsheets without floaties.",94
+62,poliwrath,HEADGUARD,SWIM TOEP,"HEADGUARD flexes policy until compliance submits. Muscle is the final approval workflow.",88
+63,abra,PROTEGE,TELE TOEP,"PROTEGE teleports away from feedback mid-sentence. Potential unlimited, attention span limited.",95
+64,kadabra,ANALYST,TELE TOEP,"ANALYST bends spreadsheets until they confess. Numbers never lie, but they do get coached.",90
+65,alakazam,EXECUTIVE,TELE TOEP,"EXECUTIVE reads minds and quarterly projections. IQ high, empathy outsourced to HR.",83
+66,machop,GYMMEMBER,GYM TOEP,"GYMMEMBER reps the company wellness plan daily. Corporate discount on pain and gain.",84
+67,machoke,TRAINER,GYM TOEP,"TRAINER spots interns until they drop the bar. Form matters, feelings do not count here.",88
+68,machamp,HEADCACH,GYM TOEP,"HEADCACH runs three departments with six arms. Multitasking is just unpaid overtime.",84
+69,bellsprout,CLIMBER,VINE TOEP,"CLIMBER vines toward promotion one rung at a time. Sunlight is middle management above.",87
+70,weepinbell,LADDERUP,VINE TOEP,"LADDERUP hangs between floors waiting for a lift. Elevator broken, ambition still ringing.",90
+71,victreebel,TOPRUNG,VINE TOEP,"TOPRUNG digests rivals and lunch meetings whole. Corner office view, carnivorous calendar.",90
+72,tentacool,REMOTE,SEA TOEP,"REMOTE worker never leaves the home pod. Slack green dot is the only proof of life.",83
+73,tentacruel,OVERSEER,SEA TOEP,"OVERSEER tentacles reach every screen share silently. Mic off does not mean unseen.",83
+74,geodude,NAYSAYER,ROCK TOEP,"NAYSAYER blocks every initiative with rocky skepticism. Progress halted, meeting extended again.",96
+75,graveler,GATEKEEPER,ROCK TOEP,"GATEKEEPER rolls over fresh ideas at the door. Innovation requires three forms and a bribe.",91
+76,golem,BLOCKER,ROCK TOEP,"BLOCKER stops traffic, projects, and small talk. Immovable object, immovable deadline.",86
+77,ponyta,RUNNER,RUSH TOEP,"RUNNER gallops interoffice mail before the elevator. Hoofbeats echo through empty halls.",88
+78,rapidash,DISPATCH,RUSH TOEP,"DISPATCH routes couriers faster than approval chains. Flame trail optional, overtime mandatory.",95
+79,slowpoke,DAWDLER,ASYNC TOEP,"DAWDLER responds to emails next fiscal quarter. Urgent flagged, still unread, somehow fine.",91
+80,slowbro,LOAFER,ASYNC TOEP,"LOAFER shelled out for silence and a corner desk. Productivity naps behind a closed door.",89
+81,magnemite,OFFICEAID,MAG TOEP,"OFFICEAID attaches to every desk needing staples. Magnetic personality, paperclip budget.",89
+82,magneton,TEAMLEAD,MAG TOEP,"TEAMLEAD pulls departments together or apart. Alignment achieved, casualties acceptable.",88
+83,farfetchd,CATERER,LEEK TOEP,"CATERER brings leek soup to every board lunch. Side dish of guilt included, no substitutions.",93
+84,doduo,ASSOCIATE,DUO TOEP,"ASSOCIATE splits focus between two bosses daily. Two heads, half the credit, double blame.",90
+85,dodrio,PARTNER,DUO TOEP,"PARTNER adds a third opinion nobody requested. Consensus means agreeing with the loudest beak.",94
+86,seel,SHIPPER,COLD TOEP,"SHIPPER seals crates and excuses before departure. Cold chain, cold hearts, on-time delivery.",93
+87,dewgong,TRUCKER,COLD TOEP,"TRUCKER hauls freight and gossip cross-country. CB radio runs on diesel and drama.",82
+88,grimer,GOSSIP,TOXIC TOEP,"GOSSIP sticks to every surface in the break room. Sanitize the rumor before it hardens.",87
+89,muk,SANITATION,TOXIC TOEP,"SANITATION dissolves messes organic and political. Nothing toxic survives the mop bucket.",89
+90,shellder,LOCKSMITH,SHELL TOEP,"LOCKSMITH opens doors and closed-door meetings. Shell tight, secrets tighter, key under mat.",92
+91,cloyster,VAULTMGR,SHELL TOEP,"VAULTMGR guards assets behind a pearl-white firewall. Breach attempts bounce off politely.",90
+92,gastly,FLOATER,GHOST TOEP,"FLOATER drifts desk to desk with no badge scan. HR forgot to onboard the ghost again.",85
+93,haunter,LINGERER,GHOST TOEP,"LINGERER haunts the break room after clock-out. Free snacks vanish whenever it appears.",87
+94,gengar,FIXER,GHOST TOEP,"FIXER makes problems disappear from the ledger. Smile wide, shadow long, questions shorter.",91
+95,onix,SYSENGINE,INFRA TOEP,"SYSENGINE coils through cable trays like policy. One break and the whole network shudders.",90
+96,drowzee,NIGHTCLERK,NAP TOEP,"NIGHTCLERK dreams invoices into existence at three AM. Sleepwalking through the close books.",92
+97,hypno,NIGHTLEAD,NAP TOEP,"NIGHTLEAD hypnotizes staff into overtime compliance. Watch the pocket watch, sign the waiver.",93
+98,krabby,BILLING,CRAB TOEP,"BILLING pinches accounts until they squeak. Every line item clawed from reluctant clients.",90
+99,kingler,COLLECTOR,CRAB TOEP,"COLLECTOR grabs overdue payments with both claws. Interest compounds, patience does not.",88
+100,voltorb,OPERATOR,ORB TOEP,"OPERATOR spins up systems until something sparks. Self-destruct is a feature, not a bug.",88
+101,electrode,CHIEFTECH,ORB TOEP,"CHIEFTECH detonates legacy code on schedule. Boom means deployment succeeded this quarter.",90
+102,exeggcute,RECRUIT,EGG TOEP,"RECRUIT huddles in orientation clutching handbooks. Crack one shell, ten policies spill out.",92
+103,exeggutor,RECRUITER,EGG TOEP,"RECRUITER headhunts talent from rival break rooms. Three heads, one offer letter, no mercy.",91
+104,cubone,BUILDER,BONE TOEP,"BUILDER constructs facades and floor plans nightly. Hard hat on, past buried, blueprint ready.",94
+105,marowak,SITELEAD,BONE TOEP,"SITELEAD carries the project bone through winter. Morale buried, deadline very much alive.",90
+106,hitmonlee,MESSENGER,KICK TOEP,"MESSENGER kicks memos down the hall at speed. Urgent stamped, recipient still not ready.",88
+107,hitmonchan,TIMEKEEP,PUNCH TOEP,"TIMEKEEP punches clocks and faces with equal force. Late again, documented, noted, filed.",89
+108,lickitung,FOODRUNNER,LICK TOEP,"FOODRUNNER licks every plate before the executive suite. Speed over sanitation, always.",87
+109,koffing,TOXICREP,GAS TOEP,"TOXICREP spews fumes in every stand-up meeting. Ventilation insufficient, attitude abundant.",92
+110,weezing,SMOKEBOSS,GAS TOEP,"SMOKEBOSS obscures metrics behind a haze of spin. Two heads, one narrative, zero clarity.",89
+111,rhyhorn,BULLPEN,HORN TOEP,"BULLPEN charges through trades like a rampage. Horns down, market up, ethics negotiable.",88
+112,rhydon,BROKER,HORN TOEP,"BROKER rhymes bull with billable hours daily. Commissions horned in before the bell rings.",90
+113,chansey,HRCLERK,NURSE TOEP,"HRCLERK heals bruised egos with policy pamphlets. Eggs in one basket, grievances in another.",92
+114,tangela,AUDITOR,VINE TOEP,"AUDITOR tangles every receipt until truth emerges. Compliance is a knot, not a suggestion.",90
+115,kangaskhan,CARETAKER,MOM TOEP,"CARETAKER pouches interns through crisis and snacks. Maternal leave policy written in practice.",95
+116,horsea,WATERBOY,SEA TOEP,"WATERBOY fetches coffee for the loading dock. Small fins, big hustle, zero recognition.",87
+117,seadra,DOCKMGR,SEA TOEP,"DOCKMGR directs shipments with a stern fin daily. Tide waits for no purchase order.",83
+118,goldeen,SMALLFRY,FISH TOEP,"SMALLFRY swims in the talent pool bottom tier. Big dreams, tiny budget, large appetite.",87
+119,seaking,BIGFISH,FISH TOEP,"BIGFISH dominates the pond and the bonus pool. Scale tips toward whoever swallows rivals.",89
+120,staryu,STARLET,STAR TOEP,"STARLET twinkles in the company talent show. Five points of potential, one spotlight.",85
+121,starmie,HEADLINER,STAR TOEP,"HEADLINER commands the stage and the org chart. All eyes up, all budgets down now.",82
+122,mr_mime,PERFORMER,MIME TOEP,"PERFORMER mimes deadlines behind invisible walls. Silent suffering, loud applause required.",91
+123,scyther,SURGEON,CUT TOEP,"SURGEON cuts costs with precision and no anesthesia. Scalpels sharp, feelings numb.",83
+124,jynx,GREETER,ICE TOEP,"GREETER kisses cheeks and freezes small talk cold. Hospitality with a chilling subtext.",87
+125,electabuzz,LINEMAN,BUZZ TOEP,"LINEMAN buzzes through outages and live wires. Sparks fly, tickets close, hair singes.",86
+126,magmar,FIREMARSH,FIRE TOEP,"FIREMARSH heats up safety drills until everyone sweats. Exit signs glow, excuses burn off.",90
+127,pinsir,STOCKROOM,PIN TOEP,"STOCKROOM pins inventory until nothing moves. Shelves orderly, soul slightly crushed.",85
+128,tauros,TRADER,BULL TOEP,"TRADER stampedes the floor when the bell rings. Horns locked with bears, coffee spilled.",88
+129,magikarp,UNDERDOG,FLOP TOEP,"UNDERDOG flops in the pond while executives laugh. Promotion feels like a myth told upstream.",93
+130,gyarados,PROMOTED,FLOP TOEP,"PROMOTED finally made VP after years of splashing. Teeth out, title up, respect mandatory.",90
+131,lapras,CHAUFFEUR,RIDE TOEP,"CHAUFFEUR ferries brass across town in comfort. Back seat meetings, front seat discretion.",90
+132,ditto,COPYCAT,COPY TOEP,"COPYCAT mirrors every deck until originality blurs. Performance review says highly adaptable.",93
+133,eevee,NEWBIE,ADAPT TOEP,"NEWBIE evolves role based on whoever speaks loudest. Potential unlimited, desk still temporary.",95
+134,vaporeon,SALESREP,ADAPT TOEP,"SALESREP flows into any client conversation smoothly. Commissions ripple, quotas still rise.",92
+135,jolteon,LIVEWIRE,ADAPT TOEP,"LIVEWIRE jolts stale meetings back to life briefly. Energy spikes, then the bill arrives.",89
+136,flareon,HOTSHOT,ADAPT TOEP,"HOTSHOT burns through leads faster than forecasts. Flashy close, smoky aftermath, charred quota.",96
+137,porygon,DATAENTRY,DATA TOEP,"DATAENTRY processes forms at digital clock speed. Pixel perfect, soul slightly corrupted.",89
+138,omanyte,JUNIOR,FOSSIL TOEP,"JUNIOR fossilizes in the archive basement politely. Ancient resume, modern pay grade.",85
+139,omastar,SENIOR,FOSSIL TOEP,"SENIOR spirals up the ladder with tentacle grip. Tenure coiled tight around the org chart.",90
+140,kabuto,GUARD,BUG TOEP,"GUARD stands fossil-still at the server room door. Threats bounce off the carapace.",83
+141,kabutops,ENFORCER,BUG TOEP,"ENFORCER slices through policy violations cleanly. Blades out, compliance in, appeals closed.",93
+142,aerodactyl,TRAVELER,WING TOEP,"TRAVELER commutes by air to skip stand-ups. Prehistoric perks, modern expense fraud.",84
+143,snorlax,OUTOFOFF,NAP TOEP,"OUTOFOFF sleeps through pager duty and all-hands. PTO balance infinite, responsiveness zero.",92
+144,articuno,CHIEFOPS,ICE TOEP,"CHIEFOPS freezes budgets until Q4 thaws. Cold logic, colder emails, ice in veins.",81
+145,zapdos,CHIEFENG,ZAP TOEP,"CHIEFENG electrifies infrastructure until it screams. Sparks mean innovation, burns mean KPIs.",94
+146,moltres,REHIRE,BURN TOEP,"REHIRE rose from the layoff list phoenix-style. Same desk, new title, old trauma included.",90
+147,dratini,CADET,DRAG TOEP,"CADET coils around the org chart learning ropes. Small scale now, boardroom appetite growing.",93
+148,dragonair,MANAGER,DRAG TOEP,"MANAGER stretches between teams until thin. Long neck, longer meetings, short patience.",87
+149,dragonite,CHAIRMAN,DRAG TOEP,"CHAIRMAN lands deals from the penthouse nest. Wings wide, dividends wider, objections smaller.",94
+150,mewtwo,CLONE,CLONE TOEP,"CLONE duplicated from the perfect employee template. Free will sold separately, NDA eternal.",92
+151,mew,WILDCARD,MYTH TOEP,"WILDCARD appears in meetings uninvited, unchanged. No job title fits, neither does any box.",91

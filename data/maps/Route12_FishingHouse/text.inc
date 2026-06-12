@@ -20,10 +20,10 @@ Route12_FishingHouse_Text_IfYouCatchBigMagikarpShowMe::
     .string "From the seas to rivers, go out\n"
     .string "and land the big one, my friend.\p"
     .string "Now, I have a request.\p"
-    .string "If you catch a big MAGIKARP \n"
+    .string "If you catch a big UNDERDOG \n"
     .string "with that ROD, I want to see it.\p"
     .string "As much as I love to fish, I also\n"
-    .string "love seeing gigantic MAGIKARP.$"
+    .string "love seeing gigantic UNDERDOG.$"
 
 Route12_FishingHouse_Text_OhThatsDisappointing::
     .string "Oh…\n"
@@ -34,14 +34,14 @@ Route12_FishingHouse_Text_TryFishingBringMeMagikarp::
     .string "Have you been fishing?\p"
     .string "Try fishing with the SUPER ROD in\n"
     .string "any body of water.\p"
-    .string "You'll find different POKéMON in\n"
+    .string "You'll find different TOEPFER in\n"
     .string "different places.\p"
     .string "Oh, and don't forget to bring me\n"
-    .string "gigantic MAGIKARP.$"
+    .string "gigantic UNDERDOG.$"
 
 Route12_FishingHouse_Text_OhMagikarpAllowMeToSee::
     .string "Oh? {PLAYER}?\n"
-    .string "Why, if it isn't a MAGIKARP!\p"
+    .string "Why, if it isn't a UNDERDOG!\p"
     .string "Allow me to see it, quick!$"
 
 Route12_FishingHouse_Text_WhoaXInchesTakeThis::
@@ -70,7 +70,7 @@ Route12_FishingHouse_Text_HmmXInchesDoesntMeasureUp::
 
 Route12_FishingHouse_Text_DoesntLookLikeMagikarp::
     .string "Uh… That doesn't look much like\n"
-    .string "a MAGIKARP.$"
+    .string "a UNDERDOG.$"
 
 Route12_FishingHouse_Text_NoRoomForGift::
     .string "Oh, no!\p"
@@ -78,7 +78,7 @@ Route12_FishingHouse_Text_NoRoomForGift::
     .string "no room for it.$"
 
 Route12_FishingHouse_Text_MostGiganticMagikarpXInches::
-    .string "The most gigantic MAGIKARP\n"
+    .string "The most gigantic UNDERDOG\n"
     .string "I have ever witnessed…\p"
     .string "{STR_VAR_3} inches!$"
 

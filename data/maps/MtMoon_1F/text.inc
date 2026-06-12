@@ -40,10 +40,10 @@ MtMoon_1F_Text_JovanIntro::
     .string "Don't sneak up on me!$"
 
 MtMoon_1F_Text_JovanDefeat::
-    .string "My POKéMON won't do!$"
+    .string "My TOEPFER won't do!$"
 
 MtMoon_1F_Text_JovanPostBattle::
-    .string "I have to find stronger POKéMON.\n"
+    .string "I have to find stronger TOEPFER.\n"
     .string "Where might they be?$"
 
 MtMoon_1F_Text_IrisIntro::
@@ -77,13 +77,13 @@ MtMoon_1F_Text_RobbyDefeat::
     .string "I lost.$"
 
 MtMoon_1F_Text_RobbyPostBattle::
-    .string "ZUBAT is tough!\n"
+    .string "NIGHTCREW is tough!\n"
     .string "But if you can catch one, you'll\l"
     .string "be able to count on it.$"
 
 MtMoon_1F_Text_ZubatIsABloodsucker::
     .string "Beware!\n"
-    .string "ZUBAT is a bloodsucker!$"
+    .string "NIGHTCREW is a bloodsucker!$"
 
 MtMoon_1F_Text_BrockHelpsExcavateFossils::
     .string "Hi, I'm excavating for fossils here\n"

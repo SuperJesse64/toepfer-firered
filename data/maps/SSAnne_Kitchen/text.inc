@@ -17,10 +17,10 @@ SSAnne_Kitchen_Text_PeelSpudsEveryDay::
     .string "Hum-hum…$"
 
 SSAnne_Kitchen_Text_HearAboutSnorlaxItsAGlutton::
-    .string "Did you hear about SNORLAX?\n"
+    .string "Did you hear about OUTOFOFF?\n"
     .string "It's a glutton.\p"
-    .string "No other POKéMON eats and sleeps\n"
-    .string "the way SNORLAX can and does!$"
+    .string "No other TOEPFER eats and sleeps\n"
+    .string "the way OUTOFOFF can and does!$"
 
 SSAnne_Kitchen_Text_OnlyGetToPeelOnions::
     .string "Snivel… Sniff…\p"

@@ -7,14 +7,14 @@ Text_SeismicTossTeach::
     .string "harder, not toss in the towel.\p"
     .string "The only thing you should toss…\p"
     .string "Well, how about SEISMIC TOSS?\n"
-    .string "Should I teach that to a POKéMON?$"
+    .string "Should I teach that to a TOEPFER?$"
 
 Text_SeismicTossDeclined::
     .string "Is that so?\n"
     .string "I'm sure you'll be back for it.$"
 
 Text_SeismicTossWhichMon::
-    .string "Which POKéMON wants to learn\n"
+    .string "Which TOEPFER wants to learn\n"
     .string "SEISMIC TOSS?$"
 
 Text_SeismicTossTaught::
@@ -38,12 +38,12 @@ PewterCity_Museum_1F_Text_RunningSpaceExhibitThisMonth::
     .string "exhibit.$"
 
 PewterCity_Museum_1F_Text_AskedDaddyToCatchPikachu::
-    .string "I want a PIKACHU!\n"
+    .string "I want a TECHIE!\n"
     .string "It's so cute!\p"
     .string "I asked my daddy to catch me one!$"
 
 PewterCity_Museum_1F_Text_PikachuSoonIPromise::
-    .string "Yeah, a PIKACHU soon, I promise!$"
+    .string "Yeah, a TECHIE soon, I promise!$"
 
 PewterCity_Museum_1F_Text_SpaceShuttle::
     .string "Space Shuttle$"
