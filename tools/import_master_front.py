@@ -169,8 +169,7 @@ def remove_orphans(img: Image.Image) -> Image.Image:
     return out
 
 
-def rgb_to_indexed(source: Path) -> Image.Image:
-    rgb = Image.open(source).convert("RGB")
+def convert_rgb_to_indexed(rgb: Image.Image) -> Image.Image:
     if rgb.size != SPRITE_SIZE:
         rgb = rgb.resize(SPRITE_SIZE, Image.Resampling.NEAREST)
 
@@ -196,6 +195,11 @@ def rgb_to_indexed(source: Path) -> Image.Image:
     indexed = preserve_exact_colors(indexed, rgb)
     indexed = restore_outlines(indexed, rgb)
     return finalize_transparent_index(indexed)
+
+
+def rgb_to_indexed(source: Path) -> Image.Image:
+    rgb = Image.open(source).convert("RGB")
+    return convert_rgb_to_indexed(rgb)
 
 
 def validate_sprite(path: Path) -> None:
