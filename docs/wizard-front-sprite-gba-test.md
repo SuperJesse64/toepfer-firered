@@ -1,90 +1,20 @@
-# Wizard front sprite — GBA hardware test
+# Wizard front sprite — see it in normal play
 
-Verify all 151 Toepfer wizard front sprites on real GBA hardware (or emulator).
+The wizard front sprite is deployed to **all 151 Kanto species** under `graphics/pokemon/<slug>/front.png`. No special test script is required — just play the game.
 
-## What was added
+## Get a `.gba`
 
-An in-game battle loop in your bedroom (Pallet Town, 2F):
+1. Push to `toepfer` `master` (or run **Actions → Build Toepfer FireRed** manually).
+2. Download the **`toepfer-firered-rom`** artifact (`pokefirered.gba`).
 
-- **Location:** the posted notice on the east wall (top-right of the room, tile near the PC).
-- **Mechanism:** each interaction battles the next species in dex order (#1 Bulbasaur → #151 Mew), showing the **enemy front sprite** in battle.
-- **Progress:** stored in `VAR_TOEPFER_FRONT_SPRITE_TEST_INDEX` (`0x40F0`); wraps to #1 after #151.
+## Where to look in-game
 
-Files:
+1. **New Game** → pick your starter from Prof. Oak.
+2. **First rival battle** (Route 1, after leaving Pallet Town) — the rival's starter shows the **enemy front sprite** (wizard).
+3. **Route 1 grass** — wild Pidgey/Rattata also use the wizard front sprite.
 
-| File | Purpose |
-|------|---------|
-| `data/scripts/wizard_front_sprite_test.inc` | Test script |
-| `data/maps/PalletTown_PlayersHouse_2F/scripts.inc` | Hooks bedroom sign |
-| `include/constants/vars.h` | Names the progress var |
+Your own starter shows its **back** sprite in battle; check any **wild or trainer Pokémon on the enemy side** for the wizard front.
 
-## Get a `.gba` file
+## What you should see
 
-### Option A — GitHub Actions (recommended)
-
-No local pret/agbcc toolchain is required. CI builds on every push to `main`/`master` and on manual dispatch.
-
-1. **Commit and push** the wizard sprite import **and** this test (see suggested commit below). Your branch is currently **22 commits ahead** of remote with **uncommitted** sprite files — CI will not include those until pushed.
-
-2. Open **Actions → Build Toepfer FireRed → Run workflow** (or push to trigger automatically).
-
-3. When the run finishes, download the **`toepfer-firered-rom`** artifact (`pokefirered.gba`).
-
-4. Flash `pokefirered.gba` to your cart (or open in mGBA / VisualBoyAdvance).
-
-**Suggested commit message** (when you are ready to commit):
-
-```
-Deploy wizard front sprites and add in-game GBA sprite test.
-
-Import wizard-test-front to all 151 species and hook a bedroom sign
-battle loop so each species front sprite can be checked on hardware.
-```
-
-### Option B — Local build
-
-Requires [pret/pokefirered](https://github.com/pret/pokefirered) toolchain (agbcc + arm-none-eabi). Not set up on this machine.
-
-```bash
-git clone https://github.com/pret/agbcc.git && cd agbcc && ./build.sh && ./install.sh ../
-make -j$(nproc) firered
-# Output: pokefirered.gba
-```
-
-## How to run the test in-game
-
-1. Start a **New Game** (or use a save with at least one Pokémon).
-2. Get your **starter from Prof. Oak** (the test refuses to run with an empty party).
-3. Return to **your bedroom** (Pallet Town → your house → stairs → 2F).
-4. Walk to the **notice on the east wall** (same tile as before; text now mentions the sprite test).
-5. Press **A** → confirm **Yes** to battle.
-6. In battle, check the **enemy front sprite** (wizard variant). Use **RUN** to exit quickly.
-7. Talk to the notice again → next species (#2, #3, … #151).
-8. After #151, the counter resets to #1.
-
-**Tips**
-
-- RUN is fastest; you do not need to win.
-- Flee fails if your Pokémon is faster and attacks — use a weak/low-level lead or a status move if needed.
-- To **restart at #1** mid-run: use an emulator save editor to set var `0x40F0` to `0`, or finish all 151 to wrap.
-
-## What you are checking
-
-Each species should show the **64×64 indexed wizard front** with:
-
-- ≤ 16 colors, palette index 0 transparent
-- Correct palette per species (`graphics/pokemon/<slug>/normal.pal`)
-- No garbled tiles, wrong colors, or missing transparency
-
-## Blockers
-
-| Issue | Resolution |
-|-------|------------|
-| CI build missing new sprites | Commit + push `graphics/pokemon/*/front.png` and `.pal` changes |
-| No `.gba` locally | Use CI artifact |
-| “You need a Pokémon…” | Get starter from Oak first |
-| Test not in ROM | Ensure `wizard_front_sprite_test.inc` is included in your build |
-
-## Removing the test later
-
-Revert the sign hook in `PalletTown_PlayersHouse_2F/scripts.inc`, remove the include from `event_scripts.s`, and delete `wizard_front_sprite_test.inc`.
+Each species uses the same 64×64 indexed wizard front with per-species palette (`normal.pal`). No garbled tiles, wrong colors, or missing transparency.
