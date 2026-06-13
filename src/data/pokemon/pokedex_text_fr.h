@@ -6,907 +6,907 @@ const u8 gDummyPokedexText[] = _(
 const u8 gDummyPokedexTextUnused[] = _("");
 
 const u8 gBulbasaurPokedexText[] = _(
-    "Fresh from onboarding, PLANTBOY keeps\n"
+    "Fresh from onboarding, TOEPFER keeps\n"
     "desk ferns alive and morale wilting.\n"
     "HR calls it growth.");
 
 const u8 gBulbasaurPokedexTextUnused[] = _("");
 const u8 gIvysaurPokedexText[] = _(
-    "PLANTMGR schedules fertilizer like\n"
+    "TOEPFERJR schedules fertilizer like\n"
     "quarterly reviews. Every leaf gets a\n"
     "performance plan.");
 
 const u8 gIvysaurPokedexTextUnused[] = _("");
 const u8 gVenusaurPokedexText[] = _(
-    "PLANTCEO photosynthesizes profits from\n"
-    "the corner office. Sunlight is a\n"
+    "TOEPFERSR photosynthesizes profits\n"
+    "from the corner office. Sunlight is a\n"
     "taxable benefit.");
 
 const u8 gVenusaurPokedexTextUnused[] = _("");
 const u8 gCharmanderPokedexText[] = _(
-    "COLDCALLER dials until the headset\n"
-    "melts. Voicemail is just a warm lead\n"
+    "LILTOEPF dials until the headset melts\n"
+    "daily. Voicemail is just a warm lead\n"
     "waiting.");
 
 const u8 gCharmanderPokedexTextUnused[] = _("");
 const u8 gCharmeleonPokedexText[] = _(
-    "CLOSER turns maybe into signed\n"
+    "BIGTOEPF turns maybe into signed\n"
     "contracts before coffee cools. The pen\n"
     "never rests.");
 
 const u8 gCharmeleonPokedexTextUnused[] = _("");
 const u8 gCharizardPokedexText[] = _(
-    "DEALMAKER closes deals hot enough to\n"
+    "MEGATOEPF closes deals hot enough to\n"
     "void the NDA. Legal keeps a fire\n"
     "extinguisher.");
 
 const u8 gCharizardPokedexTextUnused[] = _("");
 const u8 gSquirtlePokedexText[] = _(
-    "HELPDESK resets passwords and dampens\n"
+    "DRTOEPFER resets passwords and dampens\n"
     "panic. Have you tried turning it off\n"
     "and on?");
 
 const u8 gSquirtlePokedexTextUnused[] = _("");
 const u8 gWartortlePokedexText[] = _(
-    "SYSADMIN guards the server room like a\n"
+    "SIRTOEPF guards the server room like a\n"
     "prized shell collection. Root needs\n"
     "three approvals.");
 
 const u8 gWartortlePokedexTextUnused[] = _("");
 const u8 gBlastoisePokedexText[] = _(
-    "ITDIRECT cannons through legacy\n"
+    "LORDTOEPF cannons through legacy\n"
     "systems at budget reviews. Uptime is\n"
     "nonnegotiable policy.");
 
 const u8 gBlastoisePokedexTextUnused[] = _("");
 const u8 gCaterpiePokedexText[] = _(
-    "CLERK files paperwork faster than\n"
+    "KINGTOEPF files paperwork faster than\n"
     "anyone can shred it. The inbox never\n"
     "stops inching.");
 
 const u8 gCaterpiePokedexTextUnused[] = _("");
 const u8 gMetapodPokedexText[] = _(
-    "ASSISTANT cocoons in meetings until\n"
+    "QUEENTOEPF cocoons in meetings until\n"
     "promoted. Hard shell outside, soft\n"
     "deadlines within.");
 
 const u8 gMetapodPokedexTextUnused[] = _("");
 const u8 gButterfreePokedexText[] = _(
-    "DIRECTOR floats above org charts\n"
+    "PRINCEOEPF floats above org charts\n"
     "spreading memos. Every department gets\n"
     "a gentle directive.");
 
 const u8 gButterfreePokedexTextUnused[] = _("");
 const u8 gWeedlePokedexText[] = _(
-    "LAWCLERK needles through footnotes at\n"
+    "CYBEROEPF needles through footnotes at\n"
     "two AM. Discovery never sleeps, and\n"
     "neither does he.");
 
 const u8 gWeedlePokedexTextUnused[] = _("");
 const u8 gKakunaPokedexText[] = _(
-    "PARALEGAL stays rigid until the\n"
+    "ROBOTOEPF stays rigid until the\n"
     "partner says go. Motion filed, body\n"
     "still not moving.");
 
 const u8 gKakunaPokedexTextUnused[] = _("");
 const u8 gBeedrillPokedexText[] = _(
-    "LEGALBOSS stings anyone who reads the\n"
+    "LASERTOEP stings anyone who reads the\n"
     "fine print wrong. Three partners, zero\n"
     "mercy shown.");
 
 const u8 gBeedrillPokedexTextUnused[] = _("");
 const u8 gPidgeyPokedexText[] = _(
-    "MAILROOM sorts interoffice mail by\n"
+    "PLASMATOEP sorts interoffice mail by\n"
     "wing flap. Certified delivery means\n"
     "certified exhaustion.");
 
 const u8 gPidgeyPokedexTextUnused[] = _("");
 const u8 gPidgeottoPokedexText[] = _(
-    "COURIER beats rush hour with a beak\n"
+    "QUANTOEPF beats rush hour with a beak\n"
     "full of contracts. Same-day delivery,\n"
     "same-day overtime.");
 
 const u8 gPidgeottoPokedexTextUnused[] = _("");
 const u8 gPidgeotPokedexText[] = _(
-    "PILOT flies executives above traffic\n"
-    "and accountability. Clear skies,\n"
-    "unclear expense reports.");
+    "ATOMTOEPF flies executives above\n"
+    "traffic and accountability. Clear\n"
+    "skies, unclear expense reports.");
 
 const u8 gPidgeotPokedexTextUnused[] = _("");
 const u8 gRattataPokedexText[] = _(
-    "TEMPWORK clocks in at dawn and out\n"
+    "NANOTOEPF clocks in at dawn and out\n"
     "whenever payroll blinks. Benefits are\n"
     "a future milestone.");
 
 const u8 gRattataPokedexTextUnused[] = _("");
 const u8 gRaticatePokedexText[] = _(
-    "STAFFER finally made perm after three\n"
-    "years of maybe. The break room now\n"
-    "knows their name.");
+    "GIANTOEPF finally made perm after\n"
+    "three years of maybe. The break room\n"
+    "now knows their name.");
 
 const u8 gRaticatePokedexTextUnused[] = _("");
 const u8 gSpearowPokedexText[] = _(
-    "CASHIER scans barcodes and patience at\n"
-    "equal speed. Every beep is another\n"
+    "MICROTOEP scans barcodes and patience\n"
+    "at equal speed. Every beep is another\n"
     "minute of life.");
 
 const u8 gSpearowPokedexTextUnused[] = _("");
 const u8 gFearowPokedexText[] = _(
-    "FLOORLEAD patrols aisles like a hawk\n"
+    "MUTANTOEP patrols aisles like a hawk\n"
     "with a clipboard. Shrinkage drops when\n"
     "fear goes up.");
 
 const u8 gFearowPokedexTextUnused[] = _("");
 const u8 gEkansPokedexText[] = _(
-    "SNAKEOIL pitches wellness plans that\n"
+    "GAMMAOEPF pitches wellness plans that\n"
     "cure nothing but budget. Slither into\n"
     "the demo today.");
 
 const u8 gEkansPokedexTextUnused[] = _("");
 const u8 gArbokPokedexText[] = _(
-    "OILBARON owns the pipeline and the\n"
+    "RADIOTOEP owns the pipeline and the\n"
     "pipeline owns you. Barrels of synergy,\n"
     "drops of truth.");
 
 const u8 gArbokPokedexTextUnused[] = _("");
 const u8 gPikachuPokedexText[] = _(
-    "TECHIE lives on caffeine, cables, and\n"
-    "unresolved tickets. The glow of\n"
+    "GLOWTOEPF lives on caffeine, cables,\n"
+    "and unresolved tickets. The glow of\n"
     "monitors is home.");
 
 const u8 gPikachuPokedexTextUnused[] = _("");
 const u8 gRaichuPokedexText[] = _(
-    "TECHLEAD approves pull requests and\n"
+    "TOXICTOEP approves pull requests and\n"
     "punishes scope creep. One merge away\n"
     "from burnout.");
 
 const u8 gRaichuPokedexTextUnused[] = _("");
 const u8 gSandshrewPokedexText[] = _(
-    "FIELDREP digs into client sites and\n"
+    "ACIDTOEPF digs into client sites and\n"
     "sand traps alike. Territory maps fit\n"
     "in one claw.");
 
 const u8 gSandshrewPokedexTextUnused[] = _("");
 const u8 gSandslashPokedexText[] = _(
-    "FIELDBOSS rolls up quarterly numbers\n"
+    "FROSTOEPF rolls up quarterly numbers\n"
     "like a burrow. No account escapes the\n"
     "final audit.");
 
 const u8 gSandslashPokedexTextUnused[] = _("");
 const u8 gNidoranFPokedexText[] = _(
-    "QUEENBEE runs the hive floor with\n"
+    "BLAZETOEPF runs the hive floor with\n"
     "poison diplomacy. Cross her and feel\n"
     "the sting memo.");
 
 const u8 gNidoranFPokedexTextUnused[] = _("");
 const u8 gNidorinaPokedexText[] = _(
-    "DIVA demands spotlight, budget, and a\n"
-    "better chair. Drama is just unpaid\n"
-    "emotional labor.");
+    "SHOCKOEPF demands spotlight, budget,\n"
+    "and a better chair. Drama is just\n"
+    "unpaid emotional labor.");
 
 const u8 gNidorinaPokedexTextUnused[] = _("");
 const u8 gNidoqueenPokedexText[] = _(
-    "IRONLADY armors the boardroom against\n"
-    "nonsense. Soft skills, hard spikes,\n"
-    "zero tolerance.");
+    "PSYCHOTOEP armors the boardroom\n"
+    "against nonsense. Soft skills, hard\n"
+    "spikes, zero tolerance.");
 
 const u8 gNidoqueenPokedexTextUnused[] = _("");
 const u8 gNidoranMPokedexText[] = _(
-    "NEWHIRE still has the orientation\n"
+    "TELETOEPF still has the orientation\n"
     "lanyard on. Enthusiasm high, parking\n"
     "pass still pending.");
 
 const u8 gNidoranMPokedexTextUnused[] = _("");
 const u8 gNidorinoPokedexText[] = _(
-    "SUPERVISOR micromanages with horns and\n"
+    "CLONETOEPF micromanages with horns and\n"
     "a smile. Your timesheet is always\n"
     "slightly wrong.");
 
 const u8 gNidorinoPokedexTextUnused[] = _("");
 const u8 gNidokingPokedexText[] = _(
-    "KINGPIN rules the floor from a corner\n"
-    "cubicle. Loyalty rewarded, dissent\n"
-    "reorganized quietly.");
+    "COPYTOEPF rules the floor from a\n"
+    "corner cubicle. Loyalty rewarded,\n"
+    "dissent reorganized quietly.");
 
 const u8 gNidokingPokedexTextUnused[] = _("");
 const u8 gClefairyPokedexText[] = _(
-    "PARTTIMER floats shift to shift hoping\n"
+    "FAKETOEPF floats shift to shift hoping\n"
     "for hours. Dreaming of full-time and\n"
     "dental coverage.");
 
 const u8 gClefairyPokedexTextUnused[] = _("");
 const u8 gClefablePokedexText[] = _(
-    "FULLTIMER finally earned PTO and a\n"
+    "GLITCHOEPF finally earned PTO and a\n"
     "nameplate. Weekends exist on paper,\n"
     "not in practice.");
 
 const u8 gClefablePokedexTextUnused[] = _("");
 const u8 gVulpixPokedexText[] = _(
-    "PRESSREP spins every scandal into a\n"
+    "BETATOEPF spins every scandal into a\n"
     "teachable moment. Nine tails, nine\n"
     "talking points ready.");
 
 const u8 gVulpixPokedexTextUnused[] = _("");
 const u8 gNinetalesPokedexText[] = _(
-    "PRMANAGER crafts narratives smoother\n"
+    "ALPHATOEPF crafts narratives smoother\n"
     "than silk. Bad news ships Friday at\n"
     "five sharp.");
 
 const u8 gNinetalesPokedexTextUnused[] = _("");
 const u8 gJigglypuffPokedexText[] = _(
-    "EMCEE lulls the all-hands until\n"
+    "OMEGATOEPF lulls the all-hands until\n"
     "everyone naps. Applause mandatory,\n"
     "consciousness optional.");
 
 const u8 gJigglypuffPokedexTextUnused[] = _("");
 const u8 gWigglytuffPokedexText[] = _(
-    "KEYNOTER holds the stage until Q and A\n"
-    "dies. Inspiration billed at consultant\n"
-    "rates.");
+    "ZETATOEPF holds the stage until Q and\n"
+    "A dies. Inspiration billed at\n"
+    "consultant rates.");
 
 const u8 gWigglytuffPokedexTextUnused[] = _("");
 const u8 gZubatPokedexText[] = _(
-    "NIGHTCREW flutters through graveyard\n"
+    "NULLTOEPF flutters through graveyard\n"
     "shifts unseen. Fluorescents hum,\n"
     "productivity does not.");
 
 const u8 gZubatPokedexTextUnused[] = _("");
 const u8 gGolbatPokedexText[] = _(
-    "GRAVEYARD shift lead drinks cold\n"
+    "VOIDTOEPF shift lead drinks cold\n"
     "coffee like blood. Dawn is just\n"
     "another deadline missed.");
 
 const u8 gGolbatPokedexTextUnused[] = _("");
 const u8 gOddishPokedexText[] = _(
-    "JANITOR mops floors and executive egos\n"
-    "nightly. The trash reveals more than\n"
-    "audits do.");
+    "CHAOSTOEP mops floors and executive\n"
+    "egos nightly. The trash reveals more\n"
+    "than audits do.");
 
 const u8 gOddishPokedexTextUnused[] = _("");
 const u8 gGloomPokedexText[] = _(
-    "GARDENER cultivates lobby plants and\n"
+    "ORDEROEPF cultivates lobby plants and\n"
     "rumors alike. Nothing wilts faster\n"
     "than open secrets.");
 
 const u8 gGloomPokedexTextUnused[] = _("");
 const u8 gVileplumePokedexText[] = _(
-    "BUILDMGR pollenates projects until\n"
+    "LAWTOEPF pollenates projects until\n"
     "walls bloom. Allergy season is just\n"
     "sprint planning.");
 
 const u8 gVileplumePokedexTextUnused[] = _("");
 const u8 gParasPokedexText[] = _(
-    "LINECOOK fries morale alongside the\n"
+    "CRIMETOEP fries morale alongside the\n"
     "lunch rush. One ticket, one tantrum,\n"
     "repeat forever.");
 
 const u8 gParasPokedexTextUnused[] = _("");
 const u8 gParasectPokedexText[] = _(
-    "HEADCHEF runs the kitchen like a\n"
+    "DETTOEPF runs the kitchen like a\n"
     "hostile takeover. Plates out, feelings\n"
     "optional, tips split.");
 
 const u8 gParasectPokedexTextUnused[] = _("");
 const u8 gVenonatPokedexText[] = _(
-    "TESTER clicks every button until\n"
+    "SPYTOEPF clicks every button until\n"
     "something breaks. Bug reports are love\n"
     "letters to dev teams.");
 
 const u8 gVenonatPokedexTextUnused[] = _("");
 const u8 gVenomothPokedexText[] = _(
-    "QAMANAGER mothballs releases until\n"
+    "AGENTOEPF mothballs releases until\n"
     "standards met. Ship date is a\n"
     "suggestion, not a promise.");
 
 const u8 gVenomothPokedexTextUnused[] = _("");
 const u8 gDiglettPokedexText[] = _(
-    "SITECREW tunnels under deadlines\n"
+    "NINJATOEPF tunnels under deadlines\n"
     "without daylight. Hard hats required,\n"
     "optimism buried deeper.");
 
 const u8 gDiglettPokedexTextUnused[] = _("");
 const u8 gDugtrioPokedexText[] = _(
-    "FOREMAN coordinates three diggers and\n"
-    "one budget. Underground politics run\n"
-    "deeper than pipes.");
+    "PIRATEOEPF coordinates three diggers\n"
+    "and one budget. Underground politics\n"
+    "run deeper than pipes.");
 
 const u8 gDugtrioPokedexTextUnused[] = _("");
 const u8 gMeowthPokedexText[] = _(
-    "PETTYCASH swipes from the fund and\n"
+    "COWBOYOEP swipes from the fund and\n"
     "your trust. Expense reports always\n"
     "miss a few coins.");
 
 const u8 gMeowthPokedexTextUnused[] = _("");
 const u8 gPersianPokedexText[] = _(
-    "CHIEFFIN audits every penny with\n"
+    "KNIGHTOEP audits every penny with\n"
     "velvet claws. The company card has a\n"
     "very short leash.");
 
 const u8 gPersianPokedexTextUnused[] = _("");
 const u8 gPsyduckPokedexText[] = _(
-    "HELPER migrates between desks solving\n"
-    "problems badly. Headaches migrate\n"
-    "straight to golduck.");
+    "WIZARDOEP migrates between desks\n"
+    "solving problems badly. Headaches\n"
+    "migrate straight to WITCHTOEP.");
 
 const u8 gPsyduckPokedexTextUnused[] = _("");
 const u8 gGolduckPokedexText[] = _(
-    "COUNSELOR listens until the billable\n"
+    "WITCHTOEP listens until the billable\n"
     "hour ends. Insight costs extra,\n"
     "silence costs more.");
 
 const u8 gGolduckPokedexTextUnused[] = _("");
 const u8 gMankeyPokedexText[] = _(
-    "TRAINEE punches above rank and below\n"
+    "VAMPTOEPF punches above rank and below\n"
     "standards. Orientation video still\n"
     "playing in their head.");
 
 const u8 gMankeyPokedexTextUnused[] = _("");
 const u8 gPrimeapePokedexText[] = _(
-    "BOUNCER ejects trouble from the club\n"
+    "WERETOEPF ejects trouble from the club\n"
     "and the Slack. No ID, no entry, no\n"
     "refund on dignity.");
 
 const u8 gPrimeapePokedexTextUnused[] = _("");
 const u8 gGrowlithePokedexText[] = _(
-    "DOORMAN greets VIPs and growls at\n"
+    "ZOMBIETOEP greets VIPs and growls at\n"
     "vendors. Tail wags for executives,\n"
     "snarls for interns.");
 
 const u8 gGrowlithePokedexTextUnused[] = _("");
 const u8 gArcaninePokedexText[] = _(
-    "CHIEFSEC patrols the perimeter and the\n"
-    "parking lot. Unauthorized access ends\n"
-    "at the lobby.");
+    "GHOSTOEPF patrols the perimeter and\n"
+    "the parking lot. Unauthorized access\n"
+    "ends at the lobby.");
 
 const u8 gArcaninePokedexTextUnused[] = _("");
 const u8 gPoliwagPokedexText[] = _(
-    "POOLBOY skims leaves and gossip from\n"
-    "the fountain. Depth is shallow,\n"
+    "ANGELTOEPF skims leaves and gossip\n"
+    "from the fountain. Depth is shallow,\n"
     "secrets run deep.");
 
 const u8 gPoliwagPokedexTextUnused[] = _("");
 const u8 gPoliwhirlPokedexText[] = _(
-    "LIFEGUARD whistles at running near the\n"
-    "cubicles. No diving into spreadsheets\n"
-    "without floaties.");
+    "DEMONTOEPF whistles at running near\n"
+    "the cubicles. No diving into\n"
+    "spreadsheets without floaties.");
 
 const u8 gPoliwhirlPokedexTextUnused[] = _("");
 const u8 gPoliwrathPokedexText[] = _(
-    "HEADGUARD flexes policy until\n"
+    "ALIENOEPF flexes policy until\n"
     "compliance submits. Muscle is the\n"
     "final approval workflow.");
 
 const u8 gPoliwrathPokedexTextUnused[] = _("");
 const u8 gAbraPokedexText[] = _(
-    "PROTEGE teleports away from feedback\n"
-    "mid-sentence. Potential unlimited,\n"
-    "attention span limited.");
+    "UFOTOEPFER teleports away from\n"
+    "feedback mid-sentence. Potential\n"
+    "unlimited, attention span limited.");
 
 const u8 gAbraPokedexTextUnused[] = _("");
 const u8 gKadabraPokedexText[] = _(
-    "ANALYST bends spreadsheets until they\n"
-    "confess. Numbers never lie, but they\n"
-    "do get coached.");
+    "SPACEOEPF bends spreadsheets until\n"
+    "they confess. Numbers never lie, but\n"
+    "they do get coached.");
 
 const u8 gKadabraPokedexTextUnused[] = _("");
 const u8 gAlakazamPokedexText[] = _(
-    "EXECUTIVE reads minds and quarterly\n"
+    "MOONTOEPF reads minds and quarterly\n"
     "projections. IQ high, empathy\n"
     "outsourced to HR.");
 
 const u8 gAlakazamPokedexTextUnused[] = _("");
 const u8 gMachopPokedexText[] = _(
-    "GYMMEMBER reps the company wellness\n"
+    "STARTOEPF reps the company wellness\n"
     "plan daily. Corporate discount on pain\n"
     "and gain.");
 
 const u8 gMachopPokedexTextUnused[] = _("");
 const u8 gMachokePokedexText[] = _(
-    "TRAINER spots interns until they drop\n"
+    "SUNTOEPF spots interns until they drop\n"
     "the bar. Form matters, feelings do not\n"
     "count here.");
 
 const u8 gMachokePokedexTextUnused[] = _("");
 const u8 gMachampPokedexText[] = _(
-    "HEADCACH runs three departments with\n"
+    "EARTHTOEPF runs three departments with\n"
     "six arms. Multitasking is just unpaid\n"
     "overtime.");
 
 const u8 gMachampPokedexTextUnused[] = _("");
 const u8 gBellsproutPokedexText[] = _(
-    "CLIMBER vines toward promotion one\n"
+    "SPROUTOEP vines toward promotion one\n"
     "rung at a time. Sunlight is middle\n"
     "management above.");
 
 const u8 gBellsproutPokedexTextUnused[] = _("");
 const u8 gWeepinbellPokedexText[] = _(
-    "LADDERUP hangs between floors waiting\n"
+    "JEDITOEPF hangs between floors waiting\n"
     "for a lift. Elevator broken, ambition\n"
     "still ringing.");
 
 const u8 gWeepinbellPokedexTextUnused[] = _("");
 const u8 gVictreebelPokedexText[] = _(
-    "TOPRUNG digests rivals and lunch\n"
+    "SITHTOEPF digests rivals and lunch\n"
     "meetings whole. Corner office view,\n"
     "carnivorous calendar.");
 
 const u8 gVictreebelPokedexTextUnused[] = _("");
 const u8 gTentacoolPokedexText[] = _(
-    "REMOTE worker never leaves the home\n"
+    "BORGTOEPF worker never leaves the home\n"
     "pod. Slack green dot is the only proof\n"
     "of life.");
 
 const u8 gTentacoolPokedexTextUnused[] = _("");
 const u8 gTentacruelPokedexText[] = _(
-    "OVERSEER tentacles reach every screen\n"
+    "DROIDOEPF tentacles reach every screen\n"
     "share silently. Mic off does not mean\n"
     "unseen.");
 
 const u8 gTentacruelPokedexTextUnused[] = _("");
 const u8 gGeodudePokedexText[] = _(
-    "NAYSAYER blocks every initiative with\n"
-    "rocky skepticism. Progress halted,\n"
-    "meeting extended again.");
+    "CYBORGTOEP blocks every initiative\n"
+    "with rocky skepticism. Progress\n"
+    "halted, meeting extended again.");
 
 const u8 gGeodudePokedexTextUnused[] = _("");
 const u8 gGravelerPokedexText[] = _(
-    "GATEKEEPER rolls over fresh ideas at\n"
+    "MECHTOEPF rolls over fresh ideas at\n"
     "the door. Innovation requires three\n"
     "forms and a bribe.");
 
 const u8 gGravelerPokedexTextUnused[] = _("");
 const u8 gGolemPokedexText[] = _(
-    "BLOCKER stops traffic, projects, and\n"
+    "TANKTOEPF stops traffic, projects, and\n"
     "small talk. Immovable object,\n"
     "immovable deadline.");
 
 const u8 gGolemPokedexTextUnused[] = _("");
 const u8 gPonytaPokedexText[] = _(
-    "RUNNER gallops interoffice mail before\n"
-    "the elevator. Hoofbeats echo through\n"
-    "empty halls.");
+    "SNIPERTOEP gallops interoffice mail\n"
+    "before the elevator. Hoofbeats echo\n"
+    "through empty halls.");
 
 const u8 gPonytaPokedexTextUnused[] = _("");
 const u8 gRapidashPokedexText[] = _(
-    "DISPATCH routes couriers faster than\n"
+    "MEDICTOEPF routes couriers faster than\n"
     "approval chains. Flame trail optional,\n"
     "overtime mandatory.");
 
 const u8 gRapidashPokedexTextUnused[] = _("");
 const u8 gSlowpokePokedexText[] = _(
-    "DAWDLER responds to emails next fiscal\n"
-    "quarter. Urgent flagged, still unread,\n"
-    "somehow fine.");
+    "CHEFTOEPF responds to emails next\n"
+    "fiscal quarter. Urgent flagged, still\n"
+    "unread, somehow fine.");
 
 const u8 gSlowpokePokedexTextUnused[] = _("");
 const u8 gSlowbroPokedexText[] = _(
-    "LOAFER shelled out for silence and a\n"
-    "corner desk. Productivity naps behind\n"
-    "a closed door.");
+    "NURSETOEPF shelled out for silence and\n"
+    "a corner desk. Productivity naps\n"
+    "behind a closed door.");
 
 const u8 gSlowbroPokedexTextUnused[] = _("");
 const u8 gMagnemitePokedexText[] = _(
-    "OFFICEAID attaches to every desk\n"
+    "NERDTOEPF attaches to every desk\n"
     "needing staples. Magnetic personality,\n"
     "paperclip budget.");
 
 const u8 gMagnemitePokedexTextUnused[] = _("");
 const u8 gMagnetonPokedexText[] = _(
-    "TEAMLEAD pulls departments together or\n"
-    "apart. Alignment achieved, casualties\n"
-    "acceptable.");
+    "JOCKTOEPF pulls departments together\n"
+    "or apart. Alignment achieved,\n"
+    "casualties acceptable.");
 
 const u8 gMagnetonPokedexTextUnused[] = _("");
 const u8 gFarfetchdPokedexText[] = _(
-    "CATERER brings leek soup to every\n"
+    "GOTHTOEPF brings leek soup to every\n"
     "board lunch. Side dish of guilt\n"
     "included, no substitutions.");
 
 const u8 gFarfetchdPokedexTextUnused[] = _("");
 const u8 gDoduoPokedexText[] = _(
-    "ASSOCIATE splits focus between two\n"
+    "KARENOEPF splits focus between two\n"
     "bosses daily. Two heads, half the\n"
     "credit, double blame.");
 
 const u8 gDoduoPokedexTextUnused[] = _("");
 const u8 gDodrioPokedexText[] = _(
-    "PARTNER adds a third opinion nobody\n"
+    "CHADTOEPF adds a third opinion nobody\n"
     "requested. Consensus means agreeing\n"
     "with the loudest beak.");
 
 const u8 gDodrioPokedexTextUnused[] = _("");
 const u8 gSeelPokedexText[] = _(
-    "SHIPPER seals crates and excuses\n"
+    "BOOMERTOEP seals crates and excuses\n"
     "before departure. Cold chain, cold\n"
     "hearts, on-time delivery.");
 
 const u8 gSeelPokedexTextUnused[] = _("");
 const u8 gDewgongPokedexText[] = _(
-    "TRUCKER hauls freight and gossip\n"
+    "ZOOMERTOEP hauls freight and gossip\n"
     "cross-country. CB radio runs on diesel\n"
     "and drama.");
 
 const u8 gDewgongPokedexTextUnused[] = _("");
 const u8 gGrimerPokedexText[] = _(
-    "GOSSIP sticks to every surface in the\n"
-    "break room. Sanitize the rumor before\n"
-    "it hardens.");
+    "GRANDTOEPF sticks to every surface in\n"
+    "the break room. Sanitize the rumor\n"
+    "before it hardens.");
 
 const u8 gGrimerPokedexTextUnused[] = _("");
 const u8 gMukPokedexText[] = _(
-    "SANITATION dissolves messes organic\n"
+    "UNCLETOEPF dissolves messes organic\n"
     "and political. Nothing toxic survives\n"
     "the mop bucket.");
 
 const u8 gMukPokedexTextUnused[] = _("");
 const u8 gShellderPokedexText[] = _(
-    "LOCKSMITH opens doors and closed-door\n"
+    "DADTOEPF opens doors and closed-door\n"
     "meetings. Shell tight, secrets\n"
     "tighter, key under mat.");
 
 const u8 gShellderPokedexTextUnused[] = _("");
 const u8 gCloysterPokedexText[] = _(
-    "VAULTMGR guards assets behind a\n"
+    "MOMTOEPF guards assets behind a\n"
     "pearl-white firewall. Breach attempts\n"
     "bounce off politely.");
 
 const u8 gCloysterPokedexTextUnused[] = _("");
 const u8 gGastlyPokedexText[] = _(
-    "FLOATER drifts desk to desk with no\n"
+    "BROTOEPF drifts desk to desk with no\n"
     "badge scan. HR forgot to onboard the\n"
     "ghost again.");
 
 const u8 gGastlyPokedexTextUnused[] = _("");
 const u8 gHaunterPokedexText[] = _(
-    "LINGERER haunts the break room after\n"
+    "SISTOEPF haunts the break room after\n"
     "clock-out. Free snacks vanish whenever\n"
     "it appears.");
 
 const u8 gHaunterPokedexTextUnused[] = _("");
 const u8 gGengarPokedexText[] = _(
-    "FIXER makes problems disappear from\n"
-    "the ledger. Smile wide, shadow long,\n"
-    "questions shorter.");
+    "TWINTOEPF makes problems disappear\n"
+    "from the ledger. Smile wide, shadow\n"
+    "long, questions shorter.");
 
 const u8 gGengarPokedexTextUnused[] = _("");
 const u8 gOnixPokedexText[] = _(
-    "SYSENGINE coils through cable trays\n"
+    "TRIPTOEPF coils through cable trays\n"
     "like policy. One break and the whole\n"
     "network shudders.");
 
 const u8 gOnixPokedexTextUnused[] = _("");
 const u8 gDrowzeePokedexText[] = _(
-    "NIGHTCLERK dreams invoices into\n"
+    "SOLOTOEPF dreams invoices into\n"
     "existence at three AM. Sleepwalking\n"
     "through the close books.");
 
 const u8 gDrowzeePokedexTextUnused[] = _("");
 const u8 gHypnoPokedexText[] = _(
-    "NIGHTLEAD hypnotizes staff into\n"
+    "DUOTOEPF hypnotizes staff into\n"
     "overtime compliance. Watch the pocket\n"
     "watch, sign the waiver.");
 
 const u8 gHypnoPokedexTextUnused[] = _("");
 const u8 gKrabbyPokedexText[] = _(
-    "BILLING pinches accounts until they\n"
+    "TRIOTOEPF pinches accounts until they\n"
     "squeak. Every line item clawed from\n"
     "reluctant clients.");
 
 const u8 gKrabbyPokedexTextUnused[] = _("");
 const u8 gKinglerPokedexText[] = _(
-    "COLLECTOR grabs overdue payments with\n"
+    "LEGIONOEPF grabs overdue payments with\n"
     "both claws. Interest compounds,\n"
     "patience does not.");
 
 const u8 gKinglerPokedexTextUnused[] = _("");
 const u8 gVoltorbPokedexText[] = _(
-    "OPERATOR spins up systems until\n"
+    "ARMYTOEPF spins up systems until\n"
     "something sparks. Self-destruct is a\n"
     "feature, not a bug.");
 
 const u8 gVoltorbPokedexTextUnused[] = _("");
 const u8 gElectrodePokedexText[] = _(
-    "CHIEFTECH detonates legacy code on\n"
+    "NAVYTOEPF detonates legacy code on\n"
     "schedule. Boom means deployment\n"
     "succeeded this quarter.");
 
 const u8 gElectrodePokedexTextUnused[] = _("");
 const u8 gExeggcutePokedexText[] = _(
-    "RECRUIT huddles in orientation\n"
+    "MARINEOEPF huddles in orientation\n"
     "clutching handbooks. Crack one shell,\n"
     "ten policies spill out.");
 
 const u8 gExeggcutePokedexTextUnused[] = _("");
 const u8 gExeggutorPokedexText[] = _(
-    "RECRUITER headhunts talent from rival\n"
+    "CAPTOEPF headhunts talent from rival\n"
     "break rooms. Three heads, one offer\n"
     "letter, no mercy.");
 
 const u8 gExeggutorPokedexTextUnused[] = _("");
 const u8 gCubonePokedexText[] = _(
-    "BUILDER constructs facades and floor\n"
-    "plans nightly. Hard hat on, past\n"
+    "MAJORTOEPF constructs facades and\n"
+    "floor plans nightly. Hard hat on, past\n"
     "buried, blueprint ready.");
 
 const u8 gCubonePokedexTextUnused[] = _("");
 const u8 gMarowakPokedexText[] = _(
-    "SITELEAD carries the project bone\n"
+    "GENRLTOEP carries the project bone\n"
     "through winter. Morale buried,\n"
     "deadline very much alive.");
 
 const u8 gMarowakPokedexTextUnused[] = _("");
 const u8 gHitmonleePokedexText[] = _(
-    "MESSENGER kicks memos down the hall at\n"
+    "SERGTOEP kicks memos down the hall at\n"
     "speed. Urgent stamped, recipient still\n"
     "not ready.");
 
 const u8 gHitmonleePokedexTextUnused[] = _("");
 const u8 gHitmonchanPokedexText[] = _(
-    "TIMEKEEP punches clocks and faces with\n"
-    "equal force. Late again, documented,\n"
-    "noted, filed.");
+    "BABYTOEPF punches clocks and faces\n"
+    "with equal force. Late again,\n"
+    "documented, noted, filed.");
 
 const u8 gHitmonchanPokedexTextUnused[] = _("");
 const u8 gLickitungPokedexText[] = _(
-    "FOODRUNNER licks every plate before\n"
-    "the executive suite. Speed over\n"
+    "TEENTOEPF licks every plate before the\n"
+    "executive suite. Speed over\n"
     "sanitation, always.");
 
 const u8 gLickitungPokedexTextUnused[] = _("");
 const u8 gKoffingPokedexText[] = _(
-    "TOXICREP spews fumes in every stand-up\n"
-    "meeting. Ventilation insufficient,\n"
-    "attitude abundant.");
+    "WOKETOEPF spews fumes in every\n"
+    "stand-up meeting. Ventilation\n"
+    "insufficient, attitude abundant.");
 
 const u8 gKoffingPokedexTextUnused[] = _("");
 const u8 gWeezingPokedexText[] = _(
-    "SMOKEBOSS obscures metrics behind a\n"
+    "BASEDTOEPF obscures metrics behind a\n"
     "haze of spin. Two heads, one\n"
     "narrative, zero clarity.");
 
 const u8 gWeezingPokedexTextUnused[] = _("");
 const u8 gRhyhornPokedexText[] = _(
-    "BULLPEN charges through trades like a\n"
-    "rampage. Horns down, market up, ethics\n"
-    "negotiable.");
+    "CRINGETOEP charges through trades like\n"
+    "a rampage. Horns down, market up,\n"
+    "ethics negotiable.");
 
 const u8 gRhyhornPokedexTextUnused[] = _("");
 const u8 gRhydonPokedexText[] = _(
-    "BROKER rhymes bull with billable hours\n"
-    "daily. Commissions horned in before\n"
-    "the bell rings.");
+    "RIZZTOEPF rhymes bull with billable\n"
+    "hours daily. Commissions horned in\n"
+    "before the bell rings.");
 
 const u8 gRhydonPokedexTextUnused[] = _("");
 const u8 gChanseyPokedexText[] = _(
-    "HRCLERK heals bruised egos with policy\n"
-    "pamphlets. Eggs in one basket,\n"
+    "SIGMATOEPF heals bruised egos with\n"
+    "policy pamphlets. Eggs in one basket,\n"
     "grievances in another.");
 
 const u8 gChanseyPokedexTextUnused[] = _("");
 const u8 gTangelaPokedexText[] = _(
-    "AUDITOR tangles every receipt until\n"
+    "NPCTOEPF tangles every receipt until\n"
     "truth emerges. Compliance is a knot,\n"
     "not a suggestion.");
 
 const u8 gTangelaPokedexTextUnused[] = _("");
 const u8 gKangaskhanPokedexText[] = _(
-    "CARETAKER pouches interns through\n"
+    "BOSSTOEPF pouches interns through\n"
     "crisis and snacks. Maternal leave\n"
     "policy written in practice.");
 
 const u8 gKangaskhanPokedexTextUnused[] = _("");
 const u8 gHorseaPokedexText[] = _(
-    "WATERBOY fetches coffee for the\n"
+    "FINALTOEPF fetches coffee for the\n"
     "loading dock. Small fins, big hustle,\n"
     "zero recognition.");
 
 const u8 gHorseaPokedexTextUnused[] = _("");
 const u8 gSeadraPokedexText[] = _(
-    "DOCKMGR directs shipments with a stern\n"
-    "fin daily. Tide waits for no purchase\n"
-    "order.");
+    "SECRETOEPF directs shipments with a\n"
+    "stern fin daily. Tide waits for no\n"
+    "purchase order.");
 
 const u8 gSeadraPokedexTextUnused[] = _("");
 const u8 gGoldeenPokedexText[] = _(
-    "SMALLFRY swims in the talent pool\n"
+    "LEGENDTOEP swims in the talent pool\n"
     "bottom tier. Big dreams, tiny budget,\n"
     "large appetite.");
 
 const u8 gGoldeenPokedexTextUnused[] = _("");
 const u8 gSeakingPokedexText[] = _(
-    "BIGFISH dominates the pond and the\n"
+    "MYTHTOEPF dominates the pond and the\n"
     "bonus pool. Scale tips toward whoever\n"
     "swallows rivals.");
 
 const u8 gSeakingPokedexTextUnused[] = _("");
 const u8 gStaryuPokedexText[] = _(
-    "STARLET twinkles in the company talent\n"
-    "show. Five points of potential, one\n"
-    "spotlight.");
+    "RARETOEPF twinkles in the company\n"
+    "talent show. Five points of potential,\n"
+    "one spotlight.");
 
 const u8 gStaryuPokedexTextUnused[] = _("");
 const u8 gStarmiePokedexText[] = _(
-    "HEADLINER commands the stage and the\n"
+    "SHINYTOEPF commands the stage and the\n"
     "org chart. All eyes up, all budgets\n"
     "down now.");
 
 const u8 gStarmiePokedexTextUnused[] = _("");
 const u8 gMrmimePokedexText[] = _(
-    "PERFORMER mimes deadlines behind\n"
+    "GOLDTOEPF mimes deadlines behind\n"
     "invisible walls. Silent suffering,\n"
     "loud applause required.");
 
 const u8 gMrmimePokedexTextUnused[] = _("");
 const u8 gScytherPokedexText[] = _(
-    "SURGEON cuts costs with precision and\n"
-    "no anesthesia. Scalpels sharp,\n"
+    "SILVRTOEP cuts costs with precision\n"
+    "and no anesthesia. Scalpels sharp,\n"
     "feelings numb.");
 
 const u8 gScytherPokedexTextUnused[] = _("");
 const u8 gJynxPokedexText[] = _(
-    "GREETER kisses cheeks and freezes\n"
+    "BRONZTOEPF kisses cheeks and freezes\n"
     "small talk cold. Hospitality with a\n"
     "chilling subtext.");
 
 const u8 gJynxPokedexTextUnused[] = _("");
 const u8 gElectabuzzPokedexText[] = _(
-    "LINEMAN buzzes through outages and\n"
+    "DIAMTOEPF buzzes through outages and\n"
     "live wires. Sparks fly, tickets close,\n"
     "hair singes.");
 
 const u8 gElectabuzzPokedexTextUnused[] = _("");
 const u8 gMagmarPokedexText[] = _(
-    "FIREMARSH heats up safety drills until\n"
+    "RUSTTOEPF heats up safety drills until\n"
     "everyone sweats. Exit signs glow,\n"
     "excuses burn off.");
 
 const u8 gMagmarPokedexTextUnused[] = _("");
 const u8 gPinsirPokedexText[] = _(
-    "STOCKROOM pins inventory until nothing\n"
-    "moves. Shelves orderly, soul slightly\n"
-    "crushed.");
+    "ELITETOEPF pins inventory until\n"
+    "nothing moves. Shelves orderly, soul\n"
+    "slightly crushed.");
 
 const u8 gPinsirPokedexTextUnused[] = _("");
 const u8 gTaurosPokedexText[] = _(
-    "TRADER stampedes the floor when the\n"
+    "NOOBTOEPF stampedes the floor when the\n"
     "bell rings. Horns locked with bears,\n"
     "coffee spilled.");
 
 const u8 gTaurosPokedexTextUnused[] = _("");
 const u8 gMagikarpPokedexText[] = _(
-    "UNDERDOG flops in the pond while\n"
+    "PROTOTOEPF flops in the pond while\n"
     "executives laugh. Promotion feels like\n"
     "a myth told upstream.");
 
 const u8 gMagikarpPokedexTextUnused[] = _("");
 const u8 gGyaradosPokedexText[] = _(
-    "PROMOTED finally made VP after years\n"
+    "GODTOEPF finally made VP after years\n"
     "of splashing. Teeth out, title up,\n"
     "respect mandatory.");
 
 const u8 gGyaradosPokedexTextUnused[] = _("");
 const u8 gLaprasPokedexText[] = _(
-    "CHAUFFEUR ferries brass across town in\n"
-    "comfort. Back seat meetings, front\n"
+    "DEMIGDTOEP ferries brass across town\n"
+    "in comfort. Back seat meetings, front\n"
     "seat discretion.");
 
 const u8 gLaprasPokedexTextUnused[] = _("");
 const u8 gDittoPokedexText[] = _(
-    "COPYCAT mirrors every deck until\n"
+    "MIMETOEPF mirrors every deck until\n"
     "originality blurs. Performance review\n"
     "says highly adaptable.");
 
 const u8 gDittoPokedexTextUnused[] = _("");
 const u8 gEeveePokedexText[] = _(
-    "NEWBIE evolves role based on whoever\n"
-    "speaks loudest. Potential unlimited,\n"
-    "desk still temporary.");
+    "INFINITOEP evolves role based on\n"
+    "whoever speaks loudest. Potential\n"
+    "unlimited, desk still temporary.");
 
 const u8 gEeveePokedexTextUnused[] = _("");
 const u8 gVaporeonPokedexText[] = _(
-    "SALESREP flows into any client\n"
+    "CHAOTTOEPF flows into any client\n"
     "conversation smoothly. Commissions\n"
     "ripple, quotas still rise.");
 
 const u8 gVaporeonPokedexTextUnused[] = _("");
 const u8 gJolteonPokedexText[] = _(
-    "LIVEWIRE jolts stale meetings back to\n"
-    "life briefly. Energy spikes, then the\n"
-    "bill arrives.");
+    "GLTCHTOEPF jolts stale meetings back\n"
+    "to life briefly. Energy spikes, then\n"
+    "the bill arrives.");
 
 const u8 gJolteonPokedexTextUnused[] = _("");
 const u8 gFlareonPokedexText[] = _(
-    "HOTSHOT burns through leads faster\n"
+    "MOONMOOEP burns through leads faster\n"
     "than forecasts. Flashy close, smoky\n"
     "aftermath, charred quota.");
 
 const u8 gFlareonPokedexTextUnused[] = _("");
 const u8 gPorygonPokedexText[] = _(
-    "DATAENTRY processes forms at digital\n"
+    "POTATOEPF processes forms at digital\n"
     "clock speed. Pixel perfect, soul\n"
     "slightly corrupted.");
 
 const u8 gPorygonPokedexTextUnused[] = _("");
 const u8 gOmanytePokedexText[] = _(
-    "JUNIOR fossilizes in the archive\n"
+    "TOMATOEPF fossilizes in the archive\n"
     "basement politely. Ancient resume,\n"
     "modern pay grade.");
 
 const u8 gOmanytePokedexTextUnused[] = _("");
 const u8 gOmastarPokedexText[] = _(
-    "SENIOR spirals up the ladder with\n"
+    "CARROTOEPF spirals up the ladder with\n"
     "tentacle grip. Tenure coiled tight\n"
     "around the org chart.");
 
 const u8 gOmastarPokedexTextUnused[] = _("");
 const u8 gKabutoPokedexText[] = _(
-    "GUARD stands fossil-still at the\n"
+    "ONIONTOEPF stands fossil-still at the\n"
     "server room door. Threats bounce off\n"
     "the carapace.");
 
 const u8 gKabutoPokedexTextUnused[] = _("");
 const u8 gKabutopsPokedexText[] = _(
-    "ENFORCER slices through policy\n"
+    "GARLICTOEP slices through policy\n"
     "violations cleanly. Blades out,\n"
     "compliance in, appeals closed.");
 
 const u8 gKabutopsPokedexTextUnused[] = _("");
 const u8 gAerodactylPokedexText[] = _(
-    "TRAVELER commutes by air to skip\n"
+    "PICKLEOEPF commutes by air to skip\n"
     "stand-ups. Prehistoric perks, modern\n"
     "expense fraud.");
 
 const u8 gAerodactylPokedexTextUnused[] = _("");
 const u8 gSnorlaxPokedexText[] = _(
-    "OUTOFOFF sleeps through pager duty and\n"
-    "all-hands. PTO balance infinite,\n"
+    "WAFFLEOEPF sleeps through pager duty\n"
+    "and all-hands. PTO balance infinite,\n"
     "responsiveness zero.");
 
 const u8 gSnorlaxPokedexTextUnused[] = _("");
 const u8 gArticunoPokedexText[] = _(
-    "CHIEFOPS freezes budgets until Q4\n"
+    "PANCAKTOEP freezes budgets until Q4\n"
     "thaws. Cold logic, colder emails, ice\n"
     "in veins.");
 
 const u8 gArticunoPokedexTextUnused[] = _("");
 const u8 gZapdosPokedexText[] = _(
-    "CHIEFENG electrifies infrastructure\n"
+    "TACOTOEPF electrifies infrastructure\n"
     "until it screams. Sparks mean\n"
     "innovation, burns mean KPIs.");
 
 const u8 gZapdosPokedexTextUnused[] = _("");
 const u8 gMoltresPokedexText[] = _(
-    "REHIRE rose from the layoff list\n"
+    "PIZZATOEPF rose from the layoff list\n"
     "phoenix-style. Same desk, new title,\n"
     "old trauma included.");
 
 const u8 gMoltresPokedexTextUnused[] = _("");
 const u8 gDratiniPokedexText[] = _(
-    "CADET coils around the org chart\n"
+    "BURGEROEPF coils around the org chart\n"
     "learning ropes. Small scale now,\n"
     "boardroom appetite growing.");
 
 const u8 gDratiniPokedexTextUnused[] = _("");
 const u8 gDragonairPokedexText[] = _(
-    "MANAGER stretches between teams until\n"
-    "thin. Long neck, longer meetings,\n"
-    "short patience.");
+    "SUSHITOEPF stretches between teams\n"
+    "until thin. Long neck, longer\n"
+    "meetings, short patience.");
 
 const u8 gDragonairPokedexTextUnused[] = _("");
 const u8 gDragonitePokedexText[] = _(
-    "CHAIRMAN lands deals from the\n"
+    "RAMENTOEPF lands deals from the\n"
     "penthouse nest. Wings wide, dividends\n"
     "wider, objections smaller.");
 
 const u8 gDragonitePokedexTextUnused[] = _("");
 const u8 gMewtwoPokedexText[] = _(
-    "CLONE duplicated from the perfect\n"
+    "COFFEEOEPF duplicated from the perfect\n"
     "employee template. Free will sold\n"
     "separately, NDA eternal.");
 
 const u8 gMewtwoPokedexTextUnused[] = _("");
 const u8 gMewPokedexText[] = _(
-    "WILDCARD appears in meetings\n"
+    "TOEPFERX appears in meetings\n"
     "uninvited, unchanged. No job title\n"
     "fits, neither does any box.");
 

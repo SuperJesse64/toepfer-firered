@@ -159,7 +159,7 @@ def load_csv() -> dict[str, dict[str, str]]:
                 sys.exit(f"bad entry length {len(entry)} for {slug}")
             data[slug] = {
                 "ingame": ingame,
-                "category": f"{theme_for(slug)} TOEP"[:11],
+                "category": "TOEPFER",
                 "entry": entry,
             }
     return data

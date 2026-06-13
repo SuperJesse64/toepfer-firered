@@ -34,10 +34,10 @@ SKIP_FILES = {
 }
 
 NIDORAN_OVERRIDES: dict[str, str] = {
-    "PewterCity_House1/text.inc": "NEWHIRE",
-    "CeladonCity_Condominiums_1F/text.inc": "QUEENBEE",
-    "Route8/text.inc": "QUEENBEE",
-    "trainers.inc": "QUEENBEE",
+    "PewterCity_House1/text.inc": "TELETOEPF",
+    "CeladonCity_Condominiums_1F/text.inc": "BLAZETOEPF",
+    "Route8/text.inc": "BLAZETOEPF",
+    "trainers.inc": "BLAZETOEPF",
 }
 
 BRANDING_REPLACEMENTS = [
