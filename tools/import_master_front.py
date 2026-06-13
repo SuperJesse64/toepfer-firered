@@ -21,9 +21,14 @@ MAX_COLORS = 16
 TRANSPARENT = (0, 0, 0)
 MAGENTA = (255, 0, 255)
 # GBA: palette index 0 is invisible. Opaque black outlines must use a non-zero index.
-OUTLINE_INDEX = 1
 OUTLINE_COLOR = (0, 0, 0)
 QUANTIZE_FILL = (255, 254, 255)  # unique filler; not used in source art
+
+# Exact RGB values that must survive quantize (glasses lenses, shirt highlights, etc.).
+PROTECTED_COLORS: tuple[tuple[int, int, int], ...] = (
+    (236, 236, 229),  # glasses lens / highlight white
+    (161, 162, 166),  # glasses rim gray
+)
 
 
 def load_slugs() -> list[str]:
@@ -74,19 +79,66 @@ def finalize_transparent_index(img: Image.Image) -> Image.Image:
     return apply_palette(img, colors)
 
 
+def find_or_add_color(colors: list[tuple[int, int, int]], rgb: tuple[int, int, int], px: list[int]) -> int:
+    """Return palette index for rgb, reusing an existing slot or the least-used one."""
+    for i, c in enumerate(colors):
+        if c == rgb:
+            return i
+    used = {p for p in px if p != 0}
+    for i in range(MAX_COLORS - 1, 0, -1):
+        if i not in used:
+            colors[i] = rgb
+            return i
+    counts: dict[int, int] = {}
+    for p in px:
+        if p != 0:
+            counts[p] = counts.get(p, 0) + 1
+    victim = min(used, key=lambda i: counts.get(i, 0))
+    colors[victim] = rgb
+    return victim
+
+
+def pick_outline_index(colors: list[tuple[int, int, int]]) -> int:
+    """Pick a palette slot for outlines that does not hold protected lens colors."""
+    protected_indices = {i for i, c in enumerate(colors) if c in PROTECTED_COLORS}
+    for candidate in range(MAX_COLORS - 1, 0, -1):
+        if candidate not in protected_indices:
+            return candidate
+    return MAX_COLORS - 1
+
+
+def preserve_exact_colors(indexed: Image.Image, source_rgb: Image.Image) -> Image.Image:
+    """Keep small highlight colors (glasses lenses) from being merged into black."""
+    src = source_rgb.load()
+    px = list(indexed.getdata())
+    colors = palette_from_indexed(indexed)
+
+    for y in range(SPRITE_SIZE[1]):
+        for x in range(SPRITE_SIZE[0]):
+            c = src[x, y]
+            if c not in PROTECTED_COLORS or is_magenta(c):
+                continue
+            px[y * SPRITE_SIZE[0] + x] = find_or_add_color(colors, c, px)
+
+    out = apply_palette(indexed, colors)
+    out.putdata(px)
+    return out
+
+
 def restore_outlines(indexed: Image.Image, source_rgb: Image.Image) -> Image.Image:
     """Re-apply source black outline pixels to a visible (non-zero) palette index."""
     src = source_rgb.load()
     px = list(indexed.getdata())
     colors = palette_from_indexed(indexed)
-    colors[OUTLINE_INDEX] = OUTLINE_COLOR
+    outline_index = pick_outline_index(colors)
+    colors[outline_index] = OUTLINE_COLOR
 
     for y in range(SPRITE_SIZE[1]):
         for x in range(SPRITE_SIZE[0]):
             if is_magenta(src[x, y]):
                 continue
             if is_outline(src[x, y]):
-                px[y * SPRITE_SIZE[0] + x] = OUTLINE_INDEX
+                px[y * SPRITE_SIZE[0] + x] = outline_index
 
     out = apply_palette(indexed, colors)
     out.putdata(px)
@@ -141,6 +193,7 @@ def rgb_to_indexed(source: Path) -> Image.Image:
 
     indexed = finalize_transparent_index(indexed)
     indexed = remove_orphans(indexed)
+    indexed = preserve_exact_colors(indexed, rgb)
     indexed = restore_outlines(indexed, rgb)
     return finalize_transparent_index(indexed)
 
