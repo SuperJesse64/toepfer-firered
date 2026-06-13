@@ -20,6 +20,10 @@ SPRITE_SIZE = (64, 64)
 MAX_COLORS = 16
 TRANSPARENT = (0, 0, 0)
 MAGENTA = (255, 0, 255)
+# GBA: palette index 0 is invisible. Opaque black outlines must use a non-zero index.
+OUTLINE_INDEX = 1
+OUTLINE_COLOR = (0, 0, 0)
+QUANTIZE_FILL = (255, 254, 255)  # unique filler; not used in source art
 
 
 def load_slugs() -> list[str]:
@@ -51,33 +55,41 @@ def is_magenta(rgb: tuple[int, int, int]) -> bool:
     return r >= 240 and g <= 20 and b >= 240
 
 
-def ensure_black_index_zero(img: Image.Image) -> Image.Image:
+def is_outline(rgb: tuple[int, int, int]) -> bool:
+    """Pure black pixels are the 1px outer outline in pret-style sprites."""
+    return rgb == (0, 0, 0)
+
+
+def apply_palette(img: Image.Image, colors: list[tuple[int, int, int]]) -> Image.Image:
+    out = img.copy()
+    flat = [channel for rgb in colors for channel in rgb]
+    out.putpalette(flat + [0] * (768 - len(flat)))
+    return out
+
+
+def finalize_transparent_index(img: Image.Image) -> Image.Image:
+    """Ensure palette slot 0 is RGB(0,0,0); only backdrop pixels use index 0."""
     colors = palette_from_indexed(img)
-    try:
-        black_idx = colors.index(TRANSPARENT)
-    except ValueError:
-        black_idx = None
+    colors[0] = TRANSPARENT
+    return apply_palette(img, colors)
 
-    pixels = list(img.getdata())
-    if black_idx == 0:
-        return img
 
-    if black_idx is None:
-        darkest = min(
-            range(len(colors)),
-            key=lambda i: colors[i][0] + colors[i][1] + colors[i][2],
-        )
-        swap = {darkest: 0, 0: darkest}
-        pixels = [swap.get(p, p) for p in pixels]
-        colors[0], colors[darkest] = colors[darkest], colors[0]
-    else:
-        pixels = [0 if p == black_idx else (p if p != 0 else black_idx) for p in pixels]
-        colors[0], colors[black_idx] = colors[black_idx], colors[0]
+def restore_outlines(indexed: Image.Image, source_rgb: Image.Image) -> Image.Image:
+    """Re-apply source black outline pixels to a visible (non-zero) palette index."""
+    src = source_rgb.load()
+    px = list(indexed.getdata())
+    colors = palette_from_indexed(indexed)
+    colors[OUTLINE_INDEX] = OUTLINE_COLOR
 
-    out = Image.new("P", img.size)
-    flat_palette = [channel for rgb in colors for channel in rgb]
-    out.putpalette(flat_palette + [0] * (768 - len(flat_palette)))
-    out.putdata(pixels)
+    for y in range(SPRITE_SIZE[1]):
+        for x in range(SPRITE_SIZE[0]):
+            if is_magenta(src[x, y]):
+                continue
+            if is_outline(src[x, y]):
+                px[y * SPRITE_SIZE[0] + x] = OUTLINE_INDEX
+
+    out = apply_palette(indexed, colors)
+    out.putdata(px)
     return out
 
 
@@ -110,19 +122,27 @@ def rgb_to_indexed(source: Path) -> Image.Image:
     if rgb.size != SPRITE_SIZE:
         rgb = rgb.resize(SPRITE_SIZE, Image.Resampling.NEAREST)
 
-    rgba = Image.new("RGBA", SPRITE_SIZE, (0, 0, 0, 0))
-    px = rgb.load()
+    flat = Image.new("RGB", SPRITE_SIZE, QUANTIZE_FILL)
+    src = rgb.load()
+    flat_px = flat.load()
     for y in range(SPRITE_SIZE[1]):
         for x in range(SPRITE_SIZE[0]):
-            c = px[x, y]
-            if not is_magenta(c):
-                rgba.putpixel((x, y), (*c, 255))
+            c = src[x, y]
+            flat_px[x, y] = QUANTIZE_FILL if is_magenta(c) else c
 
-    flat = Image.new("RGB", SPRITE_SIZE, TRANSPARENT)
-    flat.paste(rgba, mask=rgba.split()[3])
     indexed = flat.quantize(colors=MAX_COLORS, method=Image.Quantize.MEDIANCUT)
-    indexed = ensure_black_index_zero(indexed)
-    return remove_orphans(indexed)
+
+    px = list(indexed.getdata())
+    for y in range(SPRITE_SIZE[1]):
+        for x in range(SPRITE_SIZE[0]):
+            if is_magenta(src[x, y]):
+                px[y * SPRITE_SIZE[0] + x] = 0
+    indexed.putdata(px)
+
+    indexed = finalize_transparent_index(indexed)
+    indexed = remove_orphans(indexed)
+    indexed = restore_outlines(indexed, rgb)
+    return finalize_transparent_index(indexed)
 
 
 def validate_sprite(path: Path) -> None:
