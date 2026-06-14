@@ -60,6 +60,14 @@ def is_magenta(rgb: tuple[int, int, int]) -> bool:
     return r >= 240 and g <= 20 and b >= 240
 
 
+def is_backdrop(rgb: tuple[int, int, int]) -> bool:
+    """Magenta chroma key or near-white export background."""
+    if is_magenta(rgb):
+        return True
+    r, g, b = rgb
+    return r >= 248 and g >= 248 and b >= 248
+
+
 def is_outline(rgb: tuple[int, int, int]) -> bool:
     """Pure black pixels are the 1px outer outline in pret-style sprites."""
     return rgb == (0, 0, 0)
@@ -116,7 +124,7 @@ def preserve_exact_colors(indexed: Image.Image, source_rgb: Image.Image) -> Imag
     for y in range(SPRITE_SIZE[1]):
         for x in range(SPRITE_SIZE[0]):
             c = src[x, y]
-            if c not in PROTECTED_COLORS or is_magenta(c):
+            if c not in PROTECTED_COLORS or is_backdrop(c):
                 continue
             px[y * SPRITE_SIZE[0] + x] = find_or_add_color(colors, c, px)
 
@@ -135,7 +143,7 @@ def restore_outlines(indexed: Image.Image, source_rgb: Image.Image) -> Image.Ima
 
     for y in range(SPRITE_SIZE[1]):
         for x in range(SPRITE_SIZE[0]):
-            if is_magenta(src[x, y]):
+            if is_backdrop(src[x, y]):
                 continue
             if is_outline(src[x, y]):
                 px[y * SPRITE_SIZE[0] + x] = outline_index
@@ -169,6 +177,71 @@ def remove_orphans(img: Image.Image) -> Image.Image:
     return out
 
 
+def load_source_rgb(source: Path) -> Image.Image:
+    img = Image.open(source)
+    if img.mode == "RGBA":
+        rgb = Image.new("RGB", img.size, MAGENTA)
+        rgb.paste(img, mask=img.split()[3])
+    else:
+        rgb = img.convert("RGB")
+    if rgb.size != SPRITE_SIZE:
+        rgb = rgb.resize(SPRITE_SIZE, Image.Resampling.NEAREST)
+    px = rgb.load()
+    for y in range(SPRITE_SIZE[1]):
+        for x in range(SPRITE_SIZE[0]):
+            if is_backdrop(px[x, y]):
+                px[x, y] = MAGENTA
+    return rgb
+
+
+def nearest_palette_index(rgb: tuple[int, int, int], colors: list[tuple[int, int, int]]) -> int:
+    best_i = 1
+    best_d = float("inf")
+    for i, c in enumerate(colors):
+        if i == 0:
+            continue
+        d = (rgb[0] - c[0]) ** 2 + (rgb[1] - c[1]) ** 2 + (rgb[2] - c[2]) ** 2
+        if d < best_d:
+            best_d = d
+            best_i = i
+    return best_i
+
+
+def build_shared_palette(*sources: Image.Image) -> list[tuple[int, int, int]]:
+    combined = Image.new("RGB", (SPRITE_SIZE[0] * len(sources), SPRITE_SIZE[1]), QUANTIZE_FILL)
+    for i, rgb in enumerate(sources):
+        combined.paste(rgb, (i * SPRITE_SIZE[0], 0))
+
+    flat = Image.new("RGB", combined.size, QUANTIZE_FILL)
+    src = combined.load()
+    flat_px = flat.load()
+    for y in range(combined.size[1]):
+        for x in range(combined.size[0]):
+            c = src[x, y]
+            flat_px[x, y] = QUANTIZE_FILL if is_backdrop(c) else c
+
+    indexed = flat.quantize(colors=MAX_COLORS, method=Image.Quantize.MEDIANCUT)
+    colors = palette_from_indexed(finalize_transparent_index(indexed))
+    colors[0] = TRANSPARENT
+    return colors
+
+
+def map_rgb_to_palette(rgb: Image.Image, colors: list[tuple[int, int, int]]) -> Image.Image:
+    src = rgb.load()
+    px = []
+    for y in range(SPRITE_SIZE[1]):
+        for x in range(SPRITE_SIZE[0]):
+            c = src[x, y]
+            px.append(0 if is_backdrop(c) else nearest_palette_index(c, colors))
+
+    out = apply_palette(Image.new("P", SPRITE_SIZE), colors)
+    out.putdata(px)
+    out = remove_orphans(out)
+    out = preserve_exact_colors(out, rgb)
+    out = restore_outlines(out, rgb)
+    return finalize_transparent_index(out)
+
+
 def convert_rgb_to_indexed(rgb: Image.Image) -> Image.Image:
     if rgb.size != SPRITE_SIZE:
         rgb = rgb.resize(SPRITE_SIZE, Image.Resampling.NEAREST)
@@ -179,14 +252,14 @@ def convert_rgb_to_indexed(rgb: Image.Image) -> Image.Image:
     for y in range(SPRITE_SIZE[1]):
         for x in range(SPRITE_SIZE[0]):
             c = src[x, y]
-            flat_px[x, y] = QUANTIZE_FILL if is_magenta(c) else c
+            flat_px[x, y] = QUANTIZE_FILL if is_backdrop(c) else c
 
     indexed = flat.quantize(colors=MAX_COLORS, method=Image.Quantize.MEDIANCUT)
 
     px = list(indexed.getdata())
     for y in range(SPRITE_SIZE[1]):
         for x in range(SPRITE_SIZE[0]):
-            if is_magenta(src[x, y]):
+            if is_backdrop(src[x, y]):
                 px[y * SPRITE_SIZE[0] + x] = 0
     indexed.putdata(px)
 
@@ -197,9 +270,15 @@ def convert_rgb_to_indexed(rgb: Image.Image) -> Image.Image:
     return finalize_transparent_index(indexed)
 
 
+def convert_pair_to_indexed(front_rgb: Image.Image, back_rgb: Image.Image) -> tuple[Image.Image, Image.Image]:
+    colors = build_shared_palette(front_rgb, back_rgb)
+    front = map_rgb_to_palette(front_rgb, colors)
+    back = map_rgb_to_palette(back_rgb, colors)
+    return front, back
+
+
 def rgb_to_indexed(source: Path) -> Image.Image:
-    rgb = Image.open(source).convert("RGB")
-    return convert_rgb_to_indexed(rgb)
+    return convert_rgb_to_indexed(load_source_rgb(source))
 
 
 def validate_sprite(path: Path) -> None:
@@ -217,32 +296,52 @@ def validate_sprite(path: Path) -> None:
         raise SystemExit(f"Validation failed for {path}")
 
 
-def deploy_front(indexed: Image.Image, slugs: list[str], update_back: bool) -> None:
-    palette = palette_from_indexed(indexed)
-    staging = ROOT / "docs/sprites/toepfer-front-master.png"
-    staging.parent.mkdir(parents=True, exist_ok=True)
-    indexed.save(staging)
+def deploy_sprites(
+    front: Image.Image,
+    slugs: list[str],
+    back: Image.Image | None = None,
+    update_back: bool = False,
+) -> None:
+    palette = palette_from_indexed(front)
+    staging_dir = ROOT / "docs/sprites"
+    staging_dir.mkdir(parents=True, exist_ok=True)
+    front_path = staging_dir / "toepfer-front-master.png"
+    front.save(front_path)
+    back_path = None
+    if back is not None:
+        back_path = staging_dir / "toepfer-back-master.png"
+        back.save(back_path)
 
     for slug in slugs:
         species_dir = POKEMON_DIR / slug
         if not species_dir.is_dir():
             raise SystemExit(f"Missing species dir: {species_dir}")
-        shutil.copy2(staging, species_dir / "front.png")
-        if update_back:
-            shutil.copy2(staging, species_dir / "back.png")
+        shutil.copy2(front_path, species_dir / "front.png")
+        if back_path is not None:
+            shutil.copy2(back_path, species_dir / "back.png")
+        elif update_back:
+            shutil.copy2(front_path, species_dir / "back.png")
         write_jasc_pal(species_dir / "normal.pal", palette)
         write_jasc_pal(species_dir / "shiny.pal", palette)
 
-    print(f"Deployed front sprite to {len(slugs)} species")
+    if back is not None:
+        print(f"Deployed front + back sprites to {len(slugs)} species")
+    else:
+        print(f"Deployed front sprite to {len(slugs)} species")
 
 
 def main() -> int:
     parser = argparse.ArgumentParser(description="Import master Toepfer front to all species")
     parser.add_argument("source", type=Path, help="RGB/RGBA PNG (64x64, magenta background)")
     parser.add_argument(
+        "--back-source",
+        type=Path,
+        help="Optional separate 64x64 back PNG; shares one 16-color palette with front",
+    )
+    parser.add_argument(
         "--update-back",
         action="store_true",
-        help="Also overwrite back.png (default: front + palettes only)",
+        help="Copy front.png to back.png when --back-source is not set",
     )
     args = parser.parse_args()
 
@@ -250,14 +349,27 @@ def main() -> int:
     if not source.is_file():
         raise SystemExit(f"Source not found: {source}")
 
-    indexed = rgb_to_indexed(source)
-    staging = ROOT / "docs/sprites/toepfer-front-master.png"
-    staging.parent.mkdir(parents=True, exist_ok=True)
-    indexed.save(staging)
-    validate_sprite(staging)
-
     slugs = load_slugs()
-    deploy_front(indexed, slugs, update_back=args.update_back)
+    staging_dir = ROOT / "docs/sprites"
+    staging_dir.mkdir(parents=True, exist_ok=True)
+
+    if args.back_source:
+        back_path = args.back_source if args.back_source.is_absolute() else ROOT / args.back_source
+        if not back_path.is_file():
+            raise SystemExit(f"Back source not found: {back_path}")
+        front_rgb = load_source_rgb(source)
+        back_rgb = load_source_rgb(back_path)
+        front, back = convert_pair_to_indexed(front_rgb, back_rgb)
+        front.save(staging_dir / "toepfer-front-master.png")
+        back.save(staging_dir / "toepfer-back-master.png")
+        validate_sprite(staging_dir / "toepfer-front-master.png")
+        validate_sprite(staging_dir / "toepfer-back-master.png")
+        deploy_sprites(front, slugs, back=back)
+    else:
+        front = rgb_to_indexed(source)
+        front.save(staging_dir / "toepfer-front-master.png")
+        validate_sprite(staging_dir / "toepfer-front-master.png")
+        deploy_sprites(front, slugs, update_back=args.update_back)
     return 0
 
 
