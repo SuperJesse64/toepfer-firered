@@ -1,152 +1,152 @@
 dex_num,slug,ingame_name,category,dex_entry,char_count
-1,bulbasaur,TOEPFER,TOEPFER,"Fresh from onboarding, TOEPFER keeps desk ferns alive and morale wilting. HR calls it growth.",93
-2,ivysaur,TOEPFERJR,TOEPFER,"TOEPFERJR schedules fertilizer like quarterly reviews. Every leaf gets a performance plan.",90
-3,venusaur,TOEPFERSR,TOEPFER,"TOEPFERSR photosynthesizes profits from the corner office. Sunlight is a taxable benefit.",89
-4,charmander,LILTOEPF,TOEPFER,"LILTOEPF dials until the headset melts daily. Voicemail is just a warm lead waiting.",84
-5,charmeleon,BIGTOEPF,TOEPFER,"BIGTOEPF turns maybe into signed contracts before coffee cools. The pen never rests.",84
-6,charizard,MEGATOEPF,TOEPFER,"MEGATOEPF closes deals hot enough to void the NDA. Legal keeps a fire extinguisher.",83
-7,squirtle,DRTOEPFER,TOEPFER,"DRTOEPFER resets passwords and dampens panic. Have you tried turning it off and on?",83
-8,wartortle,SIRTOEPF,TOEPFER,"SIRTOEPF guards the server room like a prized shell collection. Root needs three approvals.",91
-9,blastoise,LORDTOEPF,TOEPFER,"LORDTOEPF cannons through legacy systems at budget reviews. Uptime is nonnegotiable policy.",91
-10,caterpie,KINGTOEPF,TOEPFER,"KINGTOEPF files paperwork faster than anyone can shred it. The inbox never stops inching.",89
-11,metapod,QUEENTOEPF,TOEPFER,"QUEENTOEPF cocoons in meetings until promoted. Hard shell outside, soft deadlines within.",89
-12,butterfree,PRINCEOEPF,TOEPFER,"PRINCEOEPF floats above org charts spreading memos. Every department gets a gentle directive.",93
-13,weedle,CYBEROEPF,TOEPFER,"CYBEROEPF needles through footnotes at two AM. Discovery never sleeps, and neither does he.",91
-14,kakuna,ROBOTOEPF,TOEPFER,"ROBOTOEPF stays rigid until the partner says go. Motion filed, body still not moving.",85
-15,beedrill,LASERTOEP,TOEPFER,"LASERTOEP stings anyone who reads the fine print wrong. Three partners, zero mercy shown.",89
-16,pidgey,PLASMATOEP,TOEPFER,"PLASMATOEP sorts interoffice mail by wing flap. Certified delivery means certified exhaustion.",94
-17,pidgeotto,QUANTOEPF,TOEPFER,"QUANTOEPF beats rush hour with a beak full of contracts. Same-day delivery, same-day overtime.",94
-18,pidgeot,ATOMTOEPF,TOEPFER,"ATOMTOEPF flies executives above traffic and accountability. Clear skies, unclear expense reports.",98
-19,rattata,NANOTOEPF,TOEPFER,"NANOTOEPF clocks in at dawn and out whenever payroll blinks. Benefits are a future milestone.",93
-20,raticate,GIANTOEPF,TOEPFER,"GIANTOEPF finally made perm after three years of maybe. The break room now knows their name.",92
-21,spearow,MICROTOEP,TOEPFER,"MICROTOEP scans barcodes and patience at equal speed. Every beep is another minute of life.",91
-22,fearow,MUTANTOEP,TOEPFER,"MUTANTOEP patrols aisles like a hawk with a clipboard. Shrinkage drops when fear goes up.",89
-23,ekans,GAMMAOEPF,TOEPFER,"GAMMAOEPF pitches wellness plans that cure nothing but budget. Slither into the demo today.",91
-24,arbok,RADIOTOEP,TOEPFER,"RADIOTOEP owns the pipeline and the pipeline owns you. Barrels of synergy, drops of truth.",90
-25,pikachu,GLOWTOEPF,TOEPFER,"GLOWTOEPF lives on caffeine, cables, and unresolved tickets. The glow of monitors is home.",90
-26,raichu,TOXICTOEP,TOEPFER,"TOXICTOEP approves pull requests and punishes scope creep. One merge away from burnout.",87
-27,sandshrew,ACIDTOEPF,TOEPFER,"ACIDTOEPF digs into client sites and sand traps alike. Territory maps fit in one claw.",86
-28,sandslash,FROSTOEPF,TOEPFER,"FROSTOEPF rolls up quarterly numbers like a burrow. No account escapes the final audit.",87
-29,nidoran_f,BLAZETOEPF,TOEPFER,"BLAZETOEPF runs the hive floor with poison diplomacy. Cross her and feel the sting memo.",88
-30,nidorina,SHOCKOEPF,TOEPFER,"SHOCKOEPF demands spotlight, budget, and a better chair. Drama is just unpaid emotional labor.",94
-31,nidoqueen,PSYCHOTOEP,TOEPFER,"PSYCHOTOEP armors the boardroom against nonsense. Soft skills, hard spikes, zero tolerance.",91
-32,nidoran_m,TELETOEPF,TOEPFER,"TELETOEPF still has the orientation lanyard on. Enthusiasm high, parking pass still pending.",92
-33,nidorino,CLONETOEPF,TOEPFER,"CLONETOEPF micromanages with horns and a smile. Your timesheet is always slightly wrong.",88
-34,nidoking,COPYTOEPF,TOEPFER,"COPYTOEPF rules the floor from a corner cubicle. Loyalty rewarded, dissent reorganized quietly.",95
-35,clefairy,FAKETOEPF,TOEPFER,"FAKETOEPF floats shift to shift hoping for hours. Dreaming of full-time and dental coverage.",92
-36,clefable,GLITCHOEPF,TOEPFER,"GLITCHOEPF finally earned PTO and a nameplate. Weekends exist on paper, not in practice.",88
-37,vulpix,BETATOEPF,TOEPFER,"BETATOEPF spins every scandal into a teachable moment. Nine tails, nine talking points ready.",93
-38,ninetales,ALPHATOEPF,TOEPFER,"ALPHATOEPF crafts narratives smoother than silk. Bad news ships Friday at five sharp.",85
-39,jigglypuff,OMEGATOEPF,TOEPFER,"OMEGATOEPF lulls the all-hands until everyone naps. Applause mandatory, consciousness optional.",95
-40,wigglytuff,ZETATOEPF,TOEPFER,"ZETATOEPF holds the stage until Q and A dies. Inspiration billed at consultant rates.",85
-41,zubat,NULLTOEPF,TOEPFER,"NULLTOEPF flutters through graveyard shifts unseen. Fluorescents hum, productivity does not.",92
-42,golbat,VOIDTOEPF,TOEPFER,"VOIDTOEPF shift lead drinks cold coffee like blood. Dawn is just another deadline missed.",89
-43,oddish,CHAOSTOEP,TOEPFER,"CHAOSTOEP mops floors and executive egos nightly. The trash reveals more than audits do.",88
-44,gloom,ORDEROEPF,TOEPFER,"ORDEROEPF cultivates lobby plants and rumors alike. Nothing wilts faster than open secrets.",91
-45,vileplume,LAWTOEPF,TOEPFER,"LAWTOEPF pollenates projects until walls bloom. Allergy season is just sprint planning.",87
-46,paras,CRIMETOEP,TOEPFER,"CRIMETOEP fries morale alongside the lunch rush. One ticket, one tantrum, repeat forever.",89
-47,parasect,DETTOEPF,TOEPFER,"DETTOEPF runs the kitchen like a hostile takeover. Plates out, feelings optional, tips split.",93
-48,venonat,SPYTOEPF,TOEPFER,"SPYTOEPF clicks every button until something breaks. Bug reports are love letters to dev teams.",95
-49,venomoth,AGENTOEPF,TOEPFER,"AGENTOEPF mothballs releases until standards met. Ship date is a suggestion, not a promise.",91
-50,diglett,NINJATOEPF,TOEPFER,"NINJATOEPF tunnels under deadlines without daylight. Hard hats required, optimism buried deeper.",96
-51,dugtrio,PIRATEOEPF,TOEPFER,"PIRATEOEPF coordinates three diggers and one budget. Underground politics run deeper than pipes.",96
-52,meowth,COWBOYOEP,TOEPFER,"COWBOYOEP swipes from the fund and your trust. Expense reports always miss a few coins.",87
-53,persian,KNIGHTOEP,TOEPFER,"KNIGHTOEP audits every penny with velvet claws. The company card has a very short leash.",88
-54,psyduck,WIZARDOEP,TOEPFER,"WIZARDOEP migrates between desks solving problems badly. Headaches migrate straight to WITCHTOEP.",97
-55,golduck,WITCHTOEP,TOEPFER,"WITCHTOEP listens until the billable hour ends. Insight costs extra, silence costs more.",88
-56,mankey,VAMPTOEPF,TOEPFER,"VAMPTOEPF punches above rank and below standards. Orientation video still playing in their head.",96
-57,primeape,WERETOEPF,TOEPFER,"WERETOEPF ejects trouble from the club and the Slack. No ID, no entry, no refund on dignity.",92
-58,growlithe,ZOMBIETOEP,TOEPFER,"ZOMBIETOEP greets VIPs and growls at vendors. Tail wags for executives, snarls for interns.",91
-59,arcanine,GHOSTOEPF,TOEPFER,"GHOSTOEPF patrols the perimeter and the parking lot. Unauthorized access ends at the lobby.",91
-60,poliwag,ANGELTOEPF,TOEPFER,"ANGELTOEPF skims leaves and gossip from the fountain. Depth is shallow, secrets run deep.",89
-61,poliwhirl,DEMONTOEPF,TOEPFER,"DEMONTOEPF whistles at running near the cubicles. No diving into spreadsheets without floaties.",95
-62,poliwrath,ALIENOEPF,TOEPFER,"ALIENOEPF flexes policy until compliance submits. Muscle is the final approval workflow.",88
-63,abra,UFOTOEPFER,TOEPFER,"UFOTOEPFER teleports away from feedback mid-sentence. Potential unlimited, attention span limited.",98
-64,kadabra,SPACEOEPF,TOEPFER,"SPACEOEPF bends spreadsheets until they confess. Numbers never lie, but they do get coached.",92
-65,alakazam,MOONTOEPF,TOEPFER,"MOONTOEPF reads minds and quarterly projections. IQ high, empathy outsourced to HR.",83
-66,machop,STARTOEPF,TOEPFER,"STARTOEPF reps the company wellness plan daily. Corporate discount on pain and gain.",84
-67,machoke,SUNTOEPF,TOEPFER,"SUNTOEPF spots interns until they drop the bar. Form matters, feelings do not count here.",89
-68,machamp,EARTHTOEPF,TOEPFER,"EARTHTOEPF runs three departments with six arms. Multitasking is just unpaid overtime.",86
-69,bellsprout,SPROUTOEP,TOEPFER,"SPROUTOEP vines toward promotion one rung at a time. Sunlight is middle management above.",89
-70,weepinbell,JEDITOEPF,TOEPFER,"JEDITOEPF hangs between floors waiting for a lift. Elevator broken, ambition still ringing.",91
-71,victreebel,SITHTOEPF,TOEPFER,"SITHTOEPF digests rivals and lunch meetings whole. Corner office view, carnivorous calendar.",92
-72,tentacool,BORGTOEPF,TOEPFER,"BORGTOEPF worker never leaves the home pod. Slack green dot is the only proof of life.",86
-73,tentacruel,DROIDOEPF,TOEPFER,"DROIDOEPF tentacles reach every screen share silently. Mic off does not mean unseen.",84
-74,geodude,CYBORGTOEP,TOEPFER,"CYBORGTOEP blocks every initiative with rocky skepticism. Progress halted, meeting extended again.",98
-75,graveler,MECHTOEPF,TOEPFER,"MECHTOEPF rolls over fresh ideas at the door. Innovation requires three forms and a bribe.",90
-76,golem,TANKTOEPF,TOEPFER,"TANKTOEPF stops traffic, projects, and small talk. Immovable object, immovable deadline.",88
-77,ponyta,SNIPERTOEP,TOEPFER,"SNIPERTOEP gallops interoffice mail before the elevator. Hoofbeats echo through empty halls.",92
-78,rapidash,MEDICTOEPF,TOEPFER,"MEDICTOEPF routes couriers faster than approval chains. Flame trail optional, overtime mandatory.",97
-79,slowpoke,CHEFTOEPF,TOEPFER,"CHEFTOEPF responds to emails next fiscal quarter. Urgent flagged, still unread, somehow fine.",93
-80,slowbro,NURSETOEPF,TOEPFER,"NURSETOEPF shelled out for silence and a corner desk. Productivity naps behind a closed door.",93
-81,magnemite,NERDTOEPF,TOEPFER,"NERDTOEPF attaches to every desk needing staples. Magnetic personality, paperclip budget.",89
-82,magneton,JOCKTOEPF,TOEPFER,"JOCKTOEPF pulls departments together or apart. Alignment achieved, casualties acceptable.",89
-83,farfetchd,GOTHTOEPF,TOEPFER,"GOTHTOEPF brings leek soup to every board lunch. Side dish of guilt included, no substitutions.",95
-84,doduo,KARENOEPF,TOEPFER,"KARENOEPF splits focus between two bosses daily. Two heads, half the credit, double blame.",90
-85,dodrio,CHADTOEPF,TOEPFER,"CHADTOEPF adds a third opinion nobody requested. Consensus means agreeing with the loudest beak.",96
-86,seel,BOOMERTOEP,TOEPFER,"BOOMERTOEP seals crates and excuses before departure. Cold chain, cold hearts, on-time delivery.",96
-87,dewgong,ZOOMERTOEP,TOEPFER,"ZOOMERTOEP hauls freight and gossip cross-country. CB radio runs on diesel and drama.",85
-88,grimer,GRANDTOEPF,TOEPFER,"GRANDTOEPF sticks to every surface in the break room. Sanitize the rumor before it hardens.",91
-89,muk,UNCLETOEPF,TOEPFER,"UNCLETOEPF dissolves messes organic and political. Nothing toxic survives the mop bucket.",89
-90,shellder,DADTOEPF,TOEPFER,"DADTOEPF opens doors and closed-door meetings. Shell tight, secrets tighter, key under mat.",91
-91,cloyster,MOMTOEPF,TOEPFER,"MOMTOEPF guards assets behind a pearl-white firewall. Breach attempts bounce off politely.",90
-92,gastly,BROTOEPF,TOEPFER,"BROTOEPF drifts desk to desk with no badge scan. HR forgot to onboard the ghost again.",86
-93,haunter,SISTOEPF,TOEPFER,"SISTOEPF haunts the break room after clock-out. Free snacks vanish whenever it appears.",87
-94,gengar,TWINTOEPF,TOEPFER,"TWINTOEPF makes problems disappear from the ledger. Smile wide, shadow long, questions shorter.",95
-95,onix,TRIPTOEPF,TOEPFER,"TRIPTOEPF coils through cable trays like policy. One break and the whole network shudders.",90
-96,drowzee,SOLOTOEPF,TOEPFER,"SOLOTOEPF dreams invoices into existence at three AM. Sleepwalking through the close books.",91
-97,hypno,DUOTOEPF,TOEPFER,"DUOTOEPF hypnotizes staff into overtime compliance. Watch the pocket watch, sign the waiver.",92
-98,krabby,TRIOTOEPF,TOEPFER,"TRIOTOEPF pinches accounts until they squeak. Every line item clawed from reluctant clients.",92
-99,kingler,LEGIONOEPF,TOEPFER,"LEGIONOEPF grabs overdue payments with both claws. Interest compounds, patience does not.",89
-100,voltorb,ARMYTOEPF,TOEPFER,"ARMYTOEPF spins up systems until something sparks. Self-destruct is a feature, not a bug.",89
-101,electrode,NAVYTOEPF,TOEPFER,"NAVYTOEPF detonates legacy code on schedule. Boom means deployment succeeded this quarter.",90
-102,exeggcute,MARINEOEPF,TOEPFER,"MARINEOEPF huddles in orientation clutching handbooks. Crack one shell, ten policies spill out.",95
-103,exeggutor,CAPTOEPF,TOEPFER,"CAPTOEPF headhunts talent from rival break rooms. Three heads, one offer letter, no mercy.",90
-104,cubone,MAJORTOEPF,TOEPFER,"MAJORTOEPF constructs facades and floor plans nightly. Hard hat on, past buried, blueprint ready.",97
-105,marowak,GENRLTOEP,TOEPFER,"GENRLTOEP carries the project bone through winter. Morale buried, deadline very much alive.",91
-106,hitmonlee,SERGTOEP,TOEPFER,"SERGTOEP kicks memos down the hall at speed. Urgent stamped, recipient still not ready.",87
-107,hitmonchan,BABYTOEPF,TOEPFER,"BABYTOEPF punches clocks and faces with equal force. Late again, documented, noted, filed.",90
-108,lickitung,TEENTOEPF,TOEPFER,"TEENTOEPF licks every plate before the executive suite. Speed over sanitation, always.",86
-109,koffing,WOKETOEPF,TOEPFER,"WOKETOEPF spews fumes in every stand-up meeting. Ventilation insufficient, attitude abundant.",93
-110,weezing,BASEDTOEPF,TOEPFER,"BASEDTOEPF obscures metrics behind a haze of spin. Two heads, one narrative, zero clarity.",90
-111,rhyhorn,CRINGETOEP,TOEPFER,"CRINGETOEP charges through trades like a rampage. Horns down, market up, ethics negotiable.",91
-112,rhydon,RIZZTOEPF,TOEPFER,"RIZZTOEPF rhymes bull with billable hours daily. Commissions horned in before the bell rings.",93
-113,chansey,SIGMATOEPF,TOEPFER,"SIGMATOEPF heals bruised egos with policy pamphlets. Eggs in one basket, grievances in another.",95
-114,tangela,NPCTOEPF,TOEPFER,"NPCTOEPF tangles every receipt until truth emerges. Compliance is a knot, not a suggestion.",91
-115,kangaskhan,BOSSTOEPF,TOEPFER,"BOSSTOEPF pouches interns through crisis and snacks. Maternal leave policy written in practice.",95
-116,horsea,FINALTOEPF,TOEPFER,"FINALTOEPF fetches coffee for the loading dock. Small fins, big hustle, zero recognition.",89
-117,seadra,SECRETOEPF,TOEPFER,"SECRETOEPF directs shipments with a stern fin daily. Tide waits for no purchase order.",86
-118,goldeen,LEGENDTOEP,TOEPFER,"LEGENDTOEP swims in the talent pool bottom tier. Big dreams, tiny budget, large appetite.",89
-119,seaking,MYTHTOEPF,TOEPFER,"MYTHTOEPF dominates the pond and the bonus pool. Scale tips toward whoever swallows rivals.",91
-120,staryu,RARETOEPF,TOEPFER,"RARETOEPF twinkles in the company talent show. Five points of potential, one spotlight.",87
-121,starmie,SHINYTOEPF,TOEPFER,"SHINYTOEPF commands the stage and the org chart. All eyes up, all budgets down now.",83
-122,mr_mime,GOLDTOEPF,TOEPFER,"GOLDTOEPF mimes deadlines behind invisible walls. Silent suffering, loud applause required.",91
-123,scyther,SILVRTOEP,TOEPFER,"SILVRTOEP cuts costs with precision and no anesthesia. Scalpels sharp, feelings numb.",85
-124,jynx,BRONZTOEPF,TOEPFER,"BRONZTOEPF kisses cheeks and freezes small talk cold. Hospitality with a chilling subtext.",90
-125,electabuzz,DIAMTOEPF,TOEPFER,"DIAMTOEPF buzzes through outages and live wires. Sparks fly, tickets close, hair singes.",88
-126,magmar,RUSTTOEPF,TOEPFER,"RUSTTOEPF heats up safety drills until everyone sweats. Exit signs glow, excuses burn off.",90
-127,pinsir,ELITETOEPF,TOEPFER,"ELITETOEPF pins inventory until nothing moves. Shelves orderly, soul slightly crushed.",86
-128,tauros,NOOBTOEPF,TOEPFER,"NOOBTOEPF stampedes the floor when the bell rings. Horns locked with bears, coffee spilled.",91
-129,magikarp,PROTOTOEPF,TOEPFER,"PROTOTOEPF flops in the pond while executives laugh. Promotion feels like a myth told upstream.",95
-130,gyarados,GODTOEPF,TOEPFER,"GODTOEPF finally made VP after years of splashing. Teeth out, title up, respect mandatory.",90
-131,lapras,DEMIGDTOEP,TOEPFER,"DEMIGDTOEP ferries brass across town in comfort. Back seat meetings, front seat discretion.",91
-132,ditto,MIMETOEPF,TOEPFER,"MIMETOEPF mirrors every deck until originality blurs. Performance review says highly adaptable.",95
-133,eevee,INFINITOEP,TOEPFER,"INFINITOEP evolves role based on whoever speaks loudest. Potential unlimited, desk still temporary.",99
-134,vaporeon,CHAOTTOEPF,TOEPFER,"CHAOTTOEPF flows into any client conversation smoothly. Commissions ripple, quotas still rise.",94
-135,jolteon,GLTCHTOEPF,TOEPFER,"GLTCHTOEPF jolts stale meetings back to life briefly. Energy spikes, then the bill arrives.",91
-136,flareon,MOONMOOEP,TOEPFER,"MOONMOOEP burns through leads faster than forecasts. Flashy close, smoky aftermath, charred quota.",98
-137,porygon,POTATOEPF,TOEPFER,"POTATOEPF processes forms at digital clock speed. Pixel perfect, soul slightly corrupted.",89
-138,omanyte,TOMATOEPF,TOEPFER,"TOMATOEPF fossilizes in the archive basement politely. Ancient resume, modern pay grade.",88
-139,omastar,CARROTOEPF,TOEPFER,"CARROTOEPF spirals up the ladder with tentacle grip. Tenure coiled tight around the org chart.",94
-140,kabuto,ONIONTOEPF,TOEPFER,"ONIONTOEPF stands fossil-still at the server room door. Threats bounce off the carapace.",88
-141,kabutops,GARLICTOEP,TOEPFER,"GARLICTOEP slices through policy violations cleanly. Blades out, compliance in, appeals closed.",95
-142,aerodactyl,PICKLEOEPF,TOEPFER,"PICKLEOEPF commutes by air to skip stand-ups. Prehistoric perks, modern expense fraud.",86
-143,snorlax,WAFFLEOEPF,TOEPFER,"WAFFLEOEPF sleeps through pager duty and all-hands. PTO balance infinite, responsiveness zero.",94
-144,articuno,PANCAKTOEP,TOEPFER,"PANCAKTOEP freezes budgets until Q4 thaws. Cold logic, colder emails, ice in veins.",83
-145,zapdos,TACOTOEPF,TOEPFER,"TACOTOEPF electrifies infrastructure until it screams. Sparks mean innovation, burns mean KPIs.",95
-146,moltres,PIZZATOEPF,TOEPFER,"PIZZATOEPF rose from the layoff list phoenix-style. Same desk, new title, old trauma included.",94
-147,dratini,BURGEROEPF,TOEPFER,"BURGEROEPF coils around the org chart learning ropes. Small scale now, boardroom appetite growing.",98
-148,dragonair,SUSHITOEPF,TOEPFER,"SUSHITOEPF stretches between teams until thin. Long neck, longer meetings, short patience.",90
-149,dragonite,RAMENTOEPF,TOEPFER,"RAMENTOEPF lands deals from the penthouse nest. Wings wide, dividends wider, objections smaller.",96
-150,mewtwo,COFFEEOEPF,TOEPFER,"COFFEEOEPF duplicated from the perfect employee template. Free will sold separately, NDA eternal.",97
-151,mew,TOEPFERX,TOEPFER,"TOEPFERX appears in meetings uninvited, unchanged. No job title fits, neither does any box.",91
+1,bulbasaur,FROG,FAIRY,"FROG sits in shallow water for hours. It is not meditating. It is avoiding plans.",81
+2,ivysaur,PRINCE,FAIRY,"PRINCE expects doors to open for it. Many do, eventually, from the other side.",78
+3,venusaur,KING,FAIRY,"Several KING have ruled for decades. Few are remembered fondly.",63
+4,charmander,NEWT,DRAGON,"NEWT can replace a lost tail. It cannot explain where the old ones keep going.",78
+5,charmeleon,DRAKE,DRAGON,"DRAKE marks territory with smoke and attitude. Both linger longer than needed.",78
+6,charizard,DRAGON,DRAGON,"DRAGON understands most human speech. This has not improved its opinion of people.",82
+7,squirtle,PIRATE,SEA,"Most PIRATE retire with less treasure than they started with.",61
+8,wartortle,FIRSTMATE,SEA,"FIRSTMATE keeps the ship running and the captain alive. Neither seems grateful.",79
+9,blastoise,CAPTAIN,SEA,"CAPTAIN is obeyed at sea. On land, the effect drops sharply.",60
+10,caterpie,INCHWORM,MORPHING,"INCHWORM measures every path before moving. It still ends up somewhere disappointing.",85
+11,metapod,PUPA,MORPHING,"PUPA remains still for weeks. Things tend to improve when it is not involved.",77
+12,butterfree,BUTTERFLY,MORPHING,"BUTTERFLY appears delicate. Its dust has ended several outdoor weddings.",72
+13,weedle,NEEDLE,HIVE,"NEEDLE is small enough to miss and painful enough to remember.",62
+14,kakuna,COCOON,HIVE,"COCOON hangs in plain sight. Predators often decide today is not worth it.",74
+15,beedrill,DRILL,HIVE,"DRILL solves obstacles by going through them. The bill usually finds someone else.",82
+16,pidgey,CHICK,SKY,"CHICK survives by looking harmless. This remains its most developed skill.",74
+17,pidgeotto,BUCKBUCK,SKY,"BUCKBUCK guards its nest loudly. The eggs seem embarrassed.",59
+18,pidgeot,SKY RAPTOR,SKY,"SKY RAPTOR watches from above. Most creatures behave better under supervision.",78
+19,rattata,GOON,MOB,"GOON often attach themselves to stronger creatures. The arrangement is rarely mutual.",85
+20,raticate,GODFATHER,MOB,"GODFATHER rarely make threats twice. The first one clears the room.",67
+21,spearow,OUTLAW,WEST,"OUTLAW are difficult to capture because many do not appear to be hiding.",72
+22,fearow,SHERIFF,WEST,"SHERIFF claim to enforce the law. The law is not always consulted.",66
+23,ekans,SNAKE,SNAKE,"SNAKE slips through cracks in walls and conversations with equal ease.",70
+24,arbok,COBRA,SNAKE,"COBRA never forget an enemy. The list eventually becomes difficult to manage.",77
+25,pikachu,SPARK,STORM,"SPARK stores electricity in its cheeks. Anger management has not helped.",72
+26,raichu,THUNDER,STORM,"THUNDER warns others before striking. The warning is not always useful.",71
+27,sandshrew,SCOUT,DESERT,"SCOUT returns with detailed reports and no plan for what anyone should do next.",79
+28,sandslash,MARSHAL,DESERT,"MARSHAL keeps order wherever it goes. The locals rarely requested order.",72
+29,nidoran_f,MAIDEN,ROYAL,"MAIDEN is gentle with flowers and ruthless with gossip.",55
+30,nidorina,PRINCESS,ROYAL,"PRINCESS has never been alone. This is not the same as being liked.",67
+31,nidoqueen,QUEEN,ROYAL,"A QUEEN's closest advisors rarely remain her closest advisors.",62
+32,nidoran_m,GRUNT,ARMY,"GRUNT follows orders quickly. Understanding them is considered optional.",72
+33,nidorino,COLONEL,ARMY,"COLONEL knows every rule in camp. It breaks only the useful ones.",65
+34,nidoking,GENERAL,ARMY,"GENERAL wins wars on paper first. The paper tends to survive.",61
+35,clefairy,PIXIE,MOON,"PIXIE grants small wishes. The wording is important, and PIXIE knows that.",74
+36,clefable,ANGEL,MOON,"ANGEL sightings increase dramatically following local tragedies.",64
+37,vulpix,KITTEN,FOX,"KITTEN learns early that consequences happen to other creatures.",64
+38,ninetales,DECATAIL,FOX,"DECATAIL is said to hold ten grudges at once. Nine are usually personal.",72
+39,jigglypuff,CROONER,SONG,"CROONER sings through the night. Neighbors age faster nearby.",61
+40,wigglytuff,DIVA,SONG,"DIVA needs attention to stay healthy. Villages debate whether this is worth it.",79
+41,zubat,BAT,GOTH,"BAT avoids sunlight and most sincere conversations. It hangs upside down on purpose.",84
+42,golbat,DRACULA,GOTH,"Villages near DRACULA territory report unusually low crime rates after sunset.",78
+43,oddish,WEED,GLOOM,"WEED grows where it is least wanted. Removal efforts build character in others.",79
+44,gloom,BUD,GLOOM,"BUD smells sweet until threatened. Many learn this during hugs.",63
+45,vileplume,BLOOM,GLOOM,"BLOOM attracts insects, admirers, and lawsuits in equal numbers.",64
+46,paras,MUSHROOM,FUNGUS,"MUSHROOM appears after rain and bad decisions. Something underneath always pays the price.",90
+47,parasect,FUNGUS,FUNGUS,"FUNGUS imitates harmless plants. The harmless plants resent the comparison.",75
+48,venonat,MOTH,ALIEN,"MOTH is drawn to bright lights. It has not learned from the others.",67
+49,venomoth,MONARCH,ALIEN,"MONARCH migrates in great numbers. No one is sure who invited them back.",72
+50,diglett,MOLE,MINE,"MOLE digs tunnels under homes. Insurance forms simply call it weather.",70
+51,dugtrio,TRIO,MINE,"TRIO shares one plan among three heads. This has never been enough.",67
+52,meowth,THIEF,HEIST,"THIEF can identify valuable items instantly. Personal boundaries remain difficult.",82
+53,persian,BARON,HEIST,"BARON owns more land than it can defend and more pride than it can afford.",74
+54,psyduck,GOOFBALL,COMIC,"GOOFBALL frequently survive situations that would improve most species.",71
+55,golduck,ORACLE,COMIC,"Most ORACLE die exactly as predicted. The prediction is usually the cause.",74
+56,mankey,ROWDY,FIGHT,"ROWDY enters every room as if it already broke something.",57
+57,primeape,TYRANT,FIGHT,"TYRANT nests are easy to locate. Approaching them remains unpopular.",68
+58,growlithe,PUPPY,KNIGHT,"PUPPY loves everyone immediately. This has caused problems for everyone.",72
+59,arcanine,FLAREHOUND,KNIGHT,"FLAREHOUND guards homes faithfully. Fire departments recommend outdoor housing.",79
+60,poliwag,TADPOLE,POND,"TADPOLE swims in circles until it becomes someone else's concern.",65
+61,poliwhirl,FROGGY,POND,"FROGGY leaps before looking. The habit is hereditary and expensive.",67
+62,poliwrath,TOAD,POND,"TOAD sits in roads at night. Traffic patterns adjust around it eventually.",74
+63,abra,MAGICIAN,MAGIC,"MAGICIAN never reveals its secrets. Several are just poor accounting.",69
+64,kadabra,SORCERER,MAGIC,"SORCERER studies forbidden arts because the allowed ones had prerequisites.",75
+65,alakazam,WIZARD,MAGIC,"WIZARD knows ancient spells and exactly where the snacks are hidden.",68
+66,machop,ROOKIE,MUSCLE,"ROOKIE trains hard every day. It has not yet discovered shortcuts.",66
+67,machoke,BRAWLER,MUSCLE,"BRAWLER throws the first punch and most of the later ones.",58
+68,machamp,COLOSSUS,MUSCLE,"COLOSSUS moves slowly through towns. Property values move faster.",65
+69,bellsprout,SEEDLING,CARNIVORE,"SEEDLING is easy to overlook. That is how forests begin.",56
+70,weepinbell,FLYTRAP,CARNIVORE,"FLYTRAP waits with its mouth open. Patience does not make it polite.",68
+71,victreebel,MANEATER,CARNIVORE,"MANEATER does not chase prey. It has learned about foot traffic.",64
+72,tentacool,JELLYFISH,DEEP,"JELLYFISH drifts where currents take it. So do many complaints.",63
+73,tentacruel,KRAKEN,DEEP,"KRAKEN rarely surfaces. Old sailors prefer it that way.",55
+74,geodude,PEBBLE,ROCK,"PEBBLE is often kicked by travelers. It remembers direction, not names.",71
+75,graveler,BOULDER,ROCK,"BOULDER rolls downhill when disturbed. Most warnings arrive too late.",69
+76,golem,GOLEM,ROCK,"GOLEM was built for protection. Its builders left no instructions for stopping it.",82
+77,ponyta,COLT,HORSE,"COLT runs before it can turn. Fences have mixed feelings.",57
+78,rapidash,PEGASUS,HORSE,"PEGASUS refuses most riders. It has excellent judgment.",55
+79,slowpoke,SLOTH,SLOW,"SLOTH moves only when necessary. Necessity keeps lowering its standards.",72
+80,slowbro,SAGE,SLOW,"SAGE speaks rarely. Listeners often improve the wisdom afterward.",65
+81,magnemite,BOLT,TECH,"BOLT moves faster than regret, but not by much. Metal attracts it like bad news.",80
+82,magneton,CLUSTER,TECH,"CLUSTER travels as one body with several opinions. None help.",61
+83,farfetchd,SQUIRE,KNIGHT,"SQUIRE carries armor, supplies, and resentment very well.",57
+84,doduo,TWINS,TWIN,"TWINS share everything except blame. One always watches while the other sleeps.",79
+85,dodrio,TRIPLET,TWIN,"TRIPLET argue constantly. Majority rule has not solved this.",60
+86,seel,SEAL,ICE,"SEAL performs tricks for food. It considers dignity seasonal.",61
+87,dewgong,SELKIE,ICE,"SELKIE sings near cold shores. Fishermen pretend not to listen.",63
+88,grimer,GOOP,SLIME,"GOOP seeps through drains and reputations. Nothing stays clean for long.",72
+89,muk,SLIME,SLIME,"SLIME absorbs whatever it touches. Taste is not a factor.",57
+90,shellder,CLAM,PEARL,"CLAM stays shut for years. Some call it discipline. Others call it a mood.",74
+91,cloyster,FORTRESS,PEARL,"FORTRESS opens only when safe. This has kept many conversations short.",70
+92,gastly,SPIRIT,GHOST,"SPIRIT appears in abandoned rooms. The rent stays the same.",59
+93,haunter,PHANTOM,GHOST,"PHANTOM follows travelers quietly. Lonely people notice last.",61
+94,gengar,SPECTRE,GHOST,"SPECTRE feeds on fear. Business is steady. Apologies are not accepted.",70
+95,onix,TITAN,TITAN,"TITAN blocks mountain passes by sleeping through them. Nothing gets through.",76
+96,drowzee,SHEEP,SLEEP,"SHEEP follows the herd until the herd follows SHEEP. Nobody admits the switch.",78
+97,hypno,SANDMAN,SLEEP,"SANDMAN brings sleep to villages. Consent is handled informally.",64
+98,krabby,CRAB,CRAB,"CRAB loses claws in fights and grows them back with the same attitude.",70
+99,kingler,KINGCRAB,CRAB,"KINGCRAB rules the tide pools. The tide has not acknowledged this.",66
+100,voltorb,FUSE,BOOM,"FUSE explodes under pressure. Trainers call this personality.",61
+101,electrode,BLAST,BOOM,"BLAST is found near craters. Interviews are brief. Survivors are not.",69
+102,exeggcute,EGG,EGG,"EGG travels in groups for safety. The group is still eggs.",58
+103,exeggutor,PALMTREE,EGG,"PALMTREE looks relaxed because its problems happen to smaller things.",69
+104,cubone,ORPHAN,GRIM,"ORPHAN carries a bone it refuses to explain. The moon makes it worse.",69
+105,marowak,REAPER,GRIM,"REAPER appears where battles ended badly. It is never early.",60
+106,hitmonlee,MASTER,KARATE,"MASTER teaches discipline through silence, posture, and judging everyone.",73
+107,hitmonchan,CHAMP,BOXING,"CHAMP trains until failure. Then it trains witnesses. Neither group recovers.",77
+108,lickitung,GLUTTON,TASTE,"GLUTTON eats anything placed nearby. Nearby keeps expanding.",60
+109,koffing,SMOG,POISON,"SMOG gathers over factories and awkward family reunions.",56
+110,weezing,HAZE,POISON,"HAZE obscures vision and responsibility. Two heads argue about which failed.",76
+111,rhyhorn,CALF,BEAST,"CALF charges when startled. It is startled by most developments.",64
+112,rhydon,RHINO,BEAST,"RHINO runs in straight lines. Cities were not designed by RHINO.",64
+113,chansey,HEALER,HEAL,"HEALER comforts the injured. It has questions about how they keep arriving.",75
+114,tangela,JUNGLE,VINE,"JUNGLE disappears into tall grass. The grass seems complicit.",61
+115,kangaskhan,MATRON,MOM,"MATRON protects the young with alarming efficiency. Daycare costs are not discussed.",84
+116,horsea,SEAHORSE,SEA,"SEAHORSE spits water with perfect aim and poor judgment.",56
+117,seadra,TRITON,SEA,"TRITON drifts through coral ruins as if looking for someone late.",65
+118,goldeen,GUPPY,KOI,"GUPPY forgets danger quickly. The ocean depends on this.",56
+119,seaking,FISHY,KOI,"FISHY flops on land with confidence it has not earned. Water forgives it anyway.",80
+120,staryu,STAR,STAR,"STAR loses limbs and grows them back. It treats this as routine maintenance.",76
+121,starmie,NOVA,STAR,"NOVA glows brighter when injured. Doctors find this unhelpful.",62
+122,mr_mime,CLOWN,CIRCUS,"CLOWN entertains crowds by accident more often than design.",59
+123,scyther,SAMURIA,SAMURAI,"SAMURIA trains by waterfalls. The waterfalls remain undefeated.",63
+124,jynx,SIREN,SIREN,"SIREN lures sailors with song. The lyrics are mostly complaints.",64
+125,electabuzz,SURGE,VOLT,"SURGE stores heat in its body. Handshakes are discouraged.",58
+126,magmar,DEMON,HELL,"DEMON appears when anger becomes a lifestyle. Insurance does not cover the fire.",80
+127,pinsir,HERCULES,BEETLE,"HERCULES lifts objects far heavier than its sense of proportion.",64
+128,tauros,MINOTAUR,BULL,"MINOTAUR charges anything red. It has expanded the definition.",62
+129,magikarp,MINNOW,FISH,"MINNOW is small, fast, and constantly chosen first by predators.",64
+130,gyarados,LEVIATHAN,FISH,"LEVIATHAN sinks ships without malice. Some creatures are just large.",68
+131,lapras,LOCHNESS,WANDER,"LOCHNESS is rarely seen clearly. This has improved its reputation.",66
+132,ditto,MIMIC,MIMIC,"MIMIC copies anything nearby. Originality filed a complaint.",60
+133,eevee,BRYAN,EVOLVE,"BRYAN changes shape to survive. Nobody agrees on the original.",62
+134,vaporeon,TIDAL,EVOLVE,"TIDAL appears after storms and leaves before cleanup. Deadlines remain underwater.",82
+135,jolteon,VOLT,EVOLVE,"VOLT vibrates with stored power. Furniture slowly migrates away.",64
+136,flareon,FLARE,EVOLVE,"FLARE burns hotter when ignored. This is also true socially.",60
+137,porygon,GLITCH,DATA,"GLITCH should not exist. It appears anyway, usually in the record books.",72
+138,omanyte,FOSSIL,FOSSIL,"FOSSIL was revived from stone. It has not adjusted to meetings.",63
+139,omastar,PALEOZOIC,FOSSIL,"PALEOZOIC remembers ancient seas. Modern aquariums disappoint it.",65
+140,kabuto,SHELL,BONE,"SHELL survived extinction by waiting. The strategy still appeals to it.",71
+141,kabutops,BLADE,BONE,"BLADE cuts through prey and most attempts at friendship.",56
+142,aerodactyl,PTEROSAUR,SKY,"PTEROSAUR screams from cliffs before diving. The warning is traditional.",72
+143,snorlax,GLOUT,FEAST,"GLOUT sleeps on narrow ledges. Visitors are advised to speak softly.",68
+144,articuno,GLACIER,FROST,"GLACIER stays calm under pressure because pressure moves slowly.",64
+145,zapdos,STORM,THUNDER,"STORM gathers when the air turns strange and the sensible creatures leave.",74
+146,moltres,INFERNO,FIRE,"INFERNO roars only when necessary. Necessity is frequent.",57
+147,dratini,WORM,DRAGON,"WORM is small now. The older ones are found in legends and basements.",69
+148,dragonair,SERPENT,DRAGON,"SERPENT circles islands for reasons maps refuse to mark.",56
+149,dragonite,WYVERN,DRAGON,"WYVERN rescues the lost when convenient. Gratitude is expected immediately.",75
+150,mewtwo,CLONE,LAB,"CLONE was made to surpass nature. It surpassed supervision first.",65
+151,mew,ENIGMA,SECRET,"ENIGMA appears in old photos that families stop discussing.",59

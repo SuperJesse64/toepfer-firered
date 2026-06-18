@@ -25,7 +25,7 @@ BUILD_DIR := build
 
 # Version
 ifeq ($(GAME_VERSION),FIRERED)
-  TITLE       := POKEMON FIRE
+  TITLE       := TOEPFER FIRE
   GAME_CODE   := BPR
   BUILD_NAME  := firered
 else

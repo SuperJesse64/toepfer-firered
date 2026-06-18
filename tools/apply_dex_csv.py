@@ -155,11 +155,12 @@ def load_csv() -> dict[str, dict[str, str]]:
             entry = row["dex_entry"].strip()
             if len(ingame) > 10:
                 sys.exit(f"name too long: {ingame}")
-            if not 80 <= len(entry) <= 120:
-                sys.exit(f"bad entry length {len(entry)} for {slug}")
+            if not 55 <= len(entry) <= 120:
+                sys.exit(f"bad entry length {len(entry)} for {slug} (want 55-120)")
+            category = row.get("category", "TOEPFER").strip().upper()[:12]
             data[slug] = {
                 "ingame": ingame,
-                "category": "TOEPFER",
+                "category": category,
                 "entry": entry,
             }
     return data
