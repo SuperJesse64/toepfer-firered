@@ -640,7 +640,7 @@ const struct Decoration gDecorations[] = {
         DecorGfx_CUTE_POSTER
     }, {
         DECOR_PIKA_POSTER,
-        _("PIKA POSTER"),
+        _("SPARK POSTER"),
         DECORPERM_NA_WALL,
         DECORSHAPE_2x1,
         DECORCAT_POSTER,
@@ -694,7 +694,7 @@ const struct Decoration gDecorations[] = {
         DecorGfx_PICHU_DOLL
     }, {
         DECOR_PIKACHU_DOLL,
-        _("TECHIE DOLL"),
+        _("SPARK DOLL"),
         DECORPERM_SPRITE,
         DECORSHAPE_1x1,
         DECORCAT_DOLL,
@@ -775,7 +775,7 @@ const struct Decoration gDecorations[] = {
         DecorGfx_CLEFAIRY_DOLL
     }, {
         DECOR_DITTO_DOLL,
-        _("COPYCAT DOLL"),
+        _("MIMIC DOLL"),
         DECORPERM_SPRITE,
         DECORSHAPE_1x1,
         DECORCAT_DOLL,
@@ -910,7 +910,7 @@ const struct Decoration gDecorations[] = {
         DecorGfx_SEEDOT_DOLL
     }, {
         DECOR_PIKA_CUSHION,
-        _("PIKA CUSHION"),
+        _("SPARK CUSHION"),
         DECORPERM_SPRITE,
         DECORSHAPE_1x1,
         DECORCAT_CUSHION,
@@ -1018,7 +1018,7 @@ const struct Decoration gDecorations[] = {
         DecorGfx_RHYDON_DOLL
     }, {
         DECOR_LAPRAS_DOLL,
-        _("CHAUFFEUR DOLL"),
+        _("LOCHNESS DOLL"),
         DECORPERM_SPRITE,
         DECORSHAPE_1x2,
         DECORCAT_DOLL,

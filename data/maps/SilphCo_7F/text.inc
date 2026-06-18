@@ -6,16 +6,16 @@ SilphCo_7F_Text_HaveMonForSavingUs::
     .string "for saving us.$"
 
 SilphCo_7F_Text_ObtainedLaprasFromEmployee::
-    .string "{PLAYER} obtained a CHAUFFEUR from\n"
+    .string "{PLAYER} obtained a LOCHNESS from\n"
     .string "the SILPH employee!$"
 
 SilphCo_7F_Text_ExplainLapras::
-    .string "It's a CHAUFFEUR.\n"
+    .string "It's a LOCHNESS.\n"
     .string "It's a very intelligent TOEPFER.\p"
     .string "We kept it in our lab, but it will\n"
     .string "be much better off with you.\p"
     .string "I think you will be a good TRAINER\n"
-    .string "for CHAUFFEUR!\p"
+    .string "for LOCHNESS!\p"
     .string "It's a good swimmer.\n"
     .string "It'll give you a lift across water!$"
 

@@ -1,7 +1,7 @@
 SevenIsland_Mart_Text_MonHavePersonalitiesOfTheirOwn::
     .string "TOEPFER have personalities of their\n"
     .string "own, just like people.\p"
-    .string "My TECHIE has a HASTY nature,\n"
+    .string "My SPARK has a HASTY nature,\n"
     .string "so it grew to be a speedy TOEPFER.$"
 
 SevenIsland_Mart_Text_PreparationsCompleteForRuins::

@@ -5,15 +5,15 @@ FiveIsland_Meadow_Text_DoorNeedsTwoPasswords::
 
 FiveIsland_Meadow_Text_EnteredPasswordAnotherNeeded::
     .string "{PLAYER} entered a password.\p"
-    .string "“SMALLFRY need log.”\p"
+    .string "“MINNOW need log.”\p"
     .string "… …  … …  … …\p"
     .string "Another password is needed to\n"
     .string "open the door…$"
 
 FiveIsland_Meadow_Text_EnteredPasswordDoorOpened::
     .string "{PLAYER} entered two passwords.\p"
-    .string "“SMALLFRY need log.”\n"
-    .string "“Yes, nah, HRCLERK.”\p"
+    .string "“MINNOW need log.”\n"
+    .string "“Yes, nah, HEALER.”\p"
     .string "… …  … …  … …\p"
     .string "The WAREHOUSE's door opened!$"
 

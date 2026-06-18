@@ -38,12 +38,12 @@ PewterCity_Museum_1F_Text_RunningSpaceExhibitThisMonth::
     .string "exhibit.$"
 
 PewterCity_Museum_1F_Text_AskedDaddyToCatchPikachu::
-    .string "I want a TECHIE!\n"
+    .string "I want a SPARK!\n"
     .string "It's so cute!\p"
     .string "I asked my daddy to catch me one!$"
 
 PewterCity_Museum_1F_Text_PikachuSoonIPromise::
-    .string "Yeah, a TECHIE soon, I promise!$"
+    .string "Yeah, a SPARK soon, I promise!$"
 
 PewterCity_Museum_1F_Text_SpaceShuttle::
     .string "Space Shuttle$"

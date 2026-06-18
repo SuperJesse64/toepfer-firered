@@ -157,11 +157,11 @@ ThreeIsland_Text_WouldntWantToSeeBikersHereAgain::
     .string "like those BIKERS here again.$"
 
 ThreeIsland_Text_WhenDodouEvolvesGoingToPlayGame::
-    .string "I'm going to train my ASSOCIATE in the\n"
+    .string "I'm going to train my TWINS in the\n"
     .string "BERRY FOREST.\p"
     .string "When it evolves, I'm going to play\n"
     .string "a game on TWO ISLAND.$"
 
 ThreeIsland_Text_Doduo::
-    .string "ASSOCIATE: Gigiih!$"
+    .string "TWINS: Gigiih!$"
 

@@ -46,33 +46,33 @@ FuchsiaCity_Text_GymSign::
     .string "The Poisonous Ninja Master$"
 
 FuchsiaCity_Text_ChanseySign::
-    .string "Name: HRCLERK\n"
+    .string "Name: HEALER\n"
     .string "Catching one is all up to chance.$"
 
 FuchsiaCity_Text_VoltorbSign::
-    .string "Name: OPERATOR\n"
+    .string "Name: FUSE\n"
     .string "The very image of a TOEPFER BALL.$"
 
 FuchsiaCity_Text_KangaskhanSign::
-    .string "Name: CARETAKER\p"
+    .string "Name: MATRON\p"
     .string "A maternal TOEPFER that raises its\n"
     .string "young in a pouch on its belly.$"
 
 FuchsiaCity_Text_SlowpokeSign::
-    .string "Name: DAWDLER\n"
+    .string "Name: SLOTH\n"
     .string "Friendly and very slow moving.$"
 
 FuchsiaCity_Text_LaprasSign::
-    .string "Name: CHAUFFEUR\n"
+    .string "Name: LOCHNESS\n"
     .string "AKA the king of the seas.$"
 
 FuchsiaCity_Text_OmanyteSign::
-    .string "Name: JUNIOR\n"
+    .string "Name: FOSSIL\n"
     .string "An extremely rare TOEPFER that was\l"
     .string "regenerated from a fossil.$"
 
 FuchsiaCity_Text_KabutoSign::
-    .string "Name: GUARD\n"
+    .string "Name: SHELL\n"
     .string "An extremely rare TOEPFER that was\l"
     .string "regenerated from a fossil.$"
 
@@ -81,12 +81,12 @@ FuchsiaCity_Text_Ellipsis::
     .string "……$"
 
 Text_SubstituteTeach::
-    .string "Aww, I wish I was a CARETAKER\n"
+    .string "Aww, I wish I was a MATRON\n"
     .string "baby.\p"
     .string "I'd love to be a substitute for the\n"
     .string "baby…\p"
     .string "And snuggle in the mother\n"
-    .string "CARETAKER's belly pouch.\p"
+    .string "MATRON's belly pouch.\p"
     .string "But only TOEPFER can use the\n"
     .string "technique SUBSTITUTE…\p"
     .string "Want me to teach SUBSTITUTE to\n"
@@ -102,7 +102,7 @@ Text_SubstituteWhichMon::
 
 Text_SubstituteTaught::
     .string "Boy, what I'd give to crawl inside\n"
-    .string "a CARETAKER belly pouch…$"
+    .string "a MATRON belly pouch…$"
 
 FuchsiaCity_Text_MyFatherIsGymLeader::
     .string "My father is the GYM LEADER of\n"

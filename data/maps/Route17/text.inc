@@ -42,13 +42,13 @@ Route17_Text_BillyPostBattle::
     .string "Are you looking for adventure?$"
 
 Route17_Text_NikolasIntro::
-    .string "Let OPERATOR electrify you!$"
+    .string "Let FUSE electrify you!$"
 
 Route17_Text_NikolasDefeat::
     .string "Grounded out!$"
 
 Route17_Text_NikolasPostBattle::
-    .string "I got my OPERATOR at the abandoned\n"
+    .string "I got my FUSE at the abandoned\n"
     .string "POWER PLANT.$"
 
 Route17_Text_ZeekIntro::

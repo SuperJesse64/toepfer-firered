@@ -1,28 +1,28 @@
 VermilionCity_PokemonFanClub_Text_AdmirePikachusTail::
-    .string "Won't you admire my TECHIE's\n"
+    .string "Won't you admire my SPARK's\n"
     .string "adorable tail?$"
 
 VermilionCity_PokemonFanClub_Text_PikachuTwiceAsCute::
     .string "Humph!\p"
-    .string "My TECHIE is twice as cute as\n"
+    .string "My SPARK is twice as cute as\n"
     .string "that one!$"
 
 VermilionCity_PokemonFanClub_Text_AdoreMySeel::
-    .string "I just adore my SHIPPER!\n"
+    .string "I just adore my SEAL!\n"
     .string "It's so lovable!\p"
     .string "It squeals, “Kyuuuh,” when I\n"
     .string "hug it!$"
 
 VermilionCity_PokemonFanClub_Text_SeelFarMoreAttractive::
     .string "Oh, dear!\p"
-    .string "My SHIPPER is far more attractive.\n"
+    .string "My SEAL is far more attractive.\n"
     .string "By double, I would say.$"
 
 VermilionCity_PokemonFanClub_Text_Pikachu::
-    .string "TECHIE: Chu! TECHIE!$"
+    .string "SPARK: Chu! SPARK!$"
 
 VermilionCity_PokemonFanClub_Text_Seel::
-    .string "SHIPPER: Kyuoo!$"
+    .string "SEAL: Kyuoo!$"
 
 VermilionCity_PokemonFanClub_Text_DidYouComeToHearAboutMyMons::
     .string "I chair the TOEPFER Fan Club!\p"
@@ -37,7 +37,7 @@ VermilionCity_PokemonFanClub_Text_DidYouComeToHearAboutMyMons::
 VermilionCity_PokemonFanClub_Text_ChairmansStory::
     .string "Good!\n"
     .string "Then listen up!\p"
-    .string "My favorite DISPATCH…\p"
+    .string "My favorite COLT…\p"
     .string "It's…cute…lovely…smart… \n"
     .string "plus…amazing…you think so?…\l"
     .string "oh yes…it's…stunning…\l"
@@ -59,7 +59,7 @@ VermilionCity_PokemonFanClub_Text_ExplainBikeVoucher::
     .string "BIKE SHOP in CERULEAN CITY.\p"
     .string "Exchange that for a BICYCLE\n"
     .string "free of charge!\p"
-    .string "Don't worry, my favorite FLOORLEAD\n"
+    .string "Don't worry, my favorite LOCHNESS\n"
     .string "will FLY me anywhere I need to go.\p"
     .string "So, I have no need for a BICYCLE.\p"
     .string "I hope you like cycling!$"

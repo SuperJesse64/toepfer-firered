@@ -36,6 +36,7 @@ SKIP_FILES = {
 NIDORAN_OVERRIDES: dict[str, str] = {}
 
 # Wrong intermediate names from earlier passes (not in the office spreadsheet).
+# Do not add GUARD (false positives: guard duty) or COPYCAT (NPC nickname).
 MANUAL_LEGACY_NAMES: dict[str, str] = {
     "QUEENBEE": "MAIDEN",
     "NEWHIRE": "MAIDEN",
@@ -45,6 +46,29 @@ MANUAL_LEGACY_NAMES: dict[str, str] = {
     "PLANTBOY": "FROG",
     "COLDCALLER": "NEWT",
     "HELPDESK": "PIRATE",
+    "TECHIE": "SPARK",
+    "HRCLERK": "HEALER",
+    "BUILDER": "ORPHAN",
+    "SITELEAD": "REAPER",
+    "CATERER": "SQUIRE",
+    "PORYGON2": "GLITCH2",
+    "SHIPPER": "SEAL",
+    "DISPATCH": "COLT",
+    "FLOORLEAD": "LOCHNESS",
+    "OPERATOR": "FUSE",
+    "CARETAKER": "MATRON",
+    "DAWDLER": "SLOTH",
+    "CHAUFFEUR": "LOCHNESS",
+    "JUNIOR": "FOSSIL",
+    "SMALLFRY": "MINNOW",
+    "ASSOCIATE": "TWINS",
+    "LINGERER": "PHANTOM",
+}
+
+# Per-file legacy overrides (global mapping would false-positive or wrong species).
+FILE_LEGACY_OVERRIDES: dict[str, dict[str, str]] = {
+    "Route16_House/text.inc": {"FLOORLEAD": "SHERIFF", "LOCHNESS": "SHERIFF"},
+    "FuchsiaCity/text.inc": {"GUARD": "SHELL"},
 }
 
 BRANDING_REPLACEMENTS = [
@@ -147,6 +171,16 @@ def override_key(path: Path) -> str:
     return path.name
 
 
+
+def species_token_pattern(token: str) -> re.Pattern[str]:
+    """Match species tokens in GBA strings (literal \\n prefixes break \\b)."""
+    if token.islower():
+        return re.compile(re.escape(token), re.IGNORECASE)
+    return re.compile(
+        rf"(?:(?<=\\n)|(?<=\n)|(?<![A-Za-z])){re.escape(token)}(?![A-Za-z0-9])"
+    )
+
+
 def apply_replacements(
     blob: str,
     species_map: dict[str, str],
@@ -161,19 +195,21 @@ def apply_replacements(
             updated = updated.replace(old, new)
             changes.append(f"{old} -> {new}")
     for old, new in legacy_map.items():
-        pattern = re.compile(rf"\b{re.escape(old)}\b")
+        pattern = species_token_pattern(old)
         if pattern.search(updated):
             updated = pattern.sub(new, updated)
             changes.append(f"{old} -> {new}")
+    for old, new in FILE_LEGACY_OVERRIDES.get(filename, {}).items():
+        pattern = species_token_pattern(old)
+        if pattern.search(updated):
+            updated = pattern.sub(new, updated)
+            changes.append(f"{old} -> {new} ({filename})")
     for token in ("NIDORAN♂", "NIDORAN♀", "NIDORAN"):
         if token in updated:
             updated = updated.replace(token, nidoran)
             changes.append(f"{token} -> {nidoran} ({filename})")
     for vanilla, toepfer in species_map.items():
-        if vanilla.islower():
-            pattern = re.compile(re.escape(vanilla), re.IGNORECASE)
-        else:
-            pattern = re.compile(rf"\b{re.escape(vanilla)}\b")
+        pattern = species_token_pattern(vanilla)
         if pattern.search(updated):
             updated = pattern.sub(toepfer, updated)
             changes.append(f"{vanilla} -> {toepfer}")
@@ -274,10 +310,12 @@ def process_file(
     return changes
 
 
-def iter_files() -> list[Path]:
+def iter_files(*, include_maps: bool = True) -> list[Path]:
     files: list[Path] = []
     for directory in TEXT_DIRS:
         if not directory.is_dir():
+            continue
+        if not include_maps and directory.name == "maps":
             continue
         files.extend(directory.rglob("*.inc"))
         files.extend(directory.rglob("*.s"))
@@ -293,10 +331,11 @@ def iter_files() -> list[Path]:
 
 
 def main() -> int:
+    include_maps = "--skip-maps" not in sys.argv
     species_map = load_species_map()
     legacy_map = load_legacy_species_map()
     total_files = 0
-    for path in iter_files():
+    for path in iter_files(include_maps=include_maps):
         changes = process_file(path, species_map, legacy_map)
         if changes:
             total_files += 1

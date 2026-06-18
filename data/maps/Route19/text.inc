@@ -109,8 +109,8 @@ Route19_Text_ConnieDefeat::
 
 Route19_Text_ConniePostBattle::
     .string "If I were to ride a TOEPFER on\n"
-    .string "the sea, I'd like a CHAUFFEUR.\p"
-    .string "CHAUFFEUR is so big, I bet it\n"
+    .string "the sea, I'd like a LOCHNESS.\p"
+    .string "LOCHNESS is so big, I bet it\n"
     .string "would keep me dry on water.$"
 
 Route19_Text_RouteSign::

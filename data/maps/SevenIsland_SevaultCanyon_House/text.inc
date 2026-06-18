@@ -1,6 +1,6 @@
 SevenIsland_SevaultCanyon_House_Text_ChanseyDanceJoinIn::
     .string "Dance, dance!\n"
-    .string "HRCLERK Dance!\p"
+    .string "HEALER Dance!\p"
     .string "You join in, too!\n"
     .string "Dance, dance!$"
 
@@ -11,7 +11,7 @@ SevenIsland_SevaultCanyon_House_Text_ComeOnDance::
     .string "Come on, dance!$"
 
 SevenIsland_SevaultCanyon_House_Text_DancedChanseyDance::
-    .string "{PLAYER} danced the HRCLERK Dance!$"
+    .string "{PLAYER} danced the HEALER Dance!$"
 
 SevenIsland_SevaultCanyon_House_Text_YoureAllChipperNow::
     .string "Ahahahaha!\p"
@@ -19,4 +19,4 @@ SevenIsland_SevaultCanyon_House_Text_YoureAllChipperNow::
     .string "Lucky!$"
 
 SevenIsland_SevaultCanyon_House_Text_Chansey::
-    .string "HRCLERK: Chansi! Chansi!$"
+    .string "HEALER: Chansi! Chansi!$"

@@ -64,7 +64,7 @@ MtEmber_Exterior_Text_WhatsPasswordAgain::
 MtEmber_Exterior_Text_FirstPasswordGoldeen::
     .string "What, you forgot the password?\n"
     .string "There're actually two.\p"
-    .string "The first one's “SMALLFRY need\n"
+    .string "The first one's “MINNOW need\n"
     .string "log.”\p"
     .string "And the second one is…$"
 

@@ -47,9 +47,9 @@ FourIsland_IcefallCave_Back_Text_NotTellingYouThat::
 FourIsland_IcefallCave_Back_Text_LoreleiWellDeepFreezeYou::
     .string "LORELEI: If you won't confess,\n"
     .string "we'll deep-freeze you.\p"
-    .string "My CHAUFFEUR is furious for what\n"
+    .string "My LOCHNESS is furious for what\n"
     .string "you've done to its friends.\p"
-    .string "Go, CHAUFFEUR!\n"
+    .string "Go, LOCHNESS!\n"
     .string "ICE BEAM…$"
 
 FourIsland_IcefallCave_Back_Text_OkayRocketWareHouseFiveIsland::

@@ -21,8 +21,8 @@ PokemonTower_2F_Text_RivalVictory::
 
 PokemonTower_2F_Text_RivalPostBattle::
     .string "How's your TOEPFERDEX coming?\n"
-    .string "I just caught a BUILDER!\p"
-    .string "I can't find the bigger SITELEAD.\n"
+    .string "I just caught a ORPHAN!\p"
+    .string "I can't find the bigger REAPER.\n"
     .string "Where could they be?\p"
     .string "I bet there aren't any left!\p"
     .string "Well, I better get going.\n"

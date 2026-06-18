@@ -79,7 +79,7 @@ SaffronCity_CopycatsHouse_2F_Text_MimickingFavoriteHobbyFemaleJP::
     .string "ものまね　しゅみ　なんだ　もん！$"
 
 SaffronCity_CopycatsHouse_2F_Text_Doduo::
-    .string "ASSOCIATE: Giiih!\p"
+    .string "TWINS: Giiih!\p"
     .string "PRETTY MIRROR LOOK AT ME,\n"
     .string "SEE HOW PRETTY I CAN BE?$"
 

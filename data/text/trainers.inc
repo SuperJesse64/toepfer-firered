@@ -468,7 +468,7 @@ Route17_Text_BillyRematchIntro::
 	.string "We rule the roads, man!$"
 
 Route17_Text_NikolasRematchIntro::
-	.string "OPERATOR's going to seriously\n"
+	.string "FUSE's going to seriously\n"
 	.string "electrify you today!$"
 
 Route17_Text_ZeekRematchIntro::

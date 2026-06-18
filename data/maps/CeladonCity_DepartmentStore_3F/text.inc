@@ -7,14 +7,14 @@ CeladonCity_DepartmentStore_3F_Text_OTStandsForOriginalTrainer::
 CeladonCity_DepartmentStore_3F_Text_BuddyTradingKangaskhanForHaunter::
     .string "All right!\p"
     .string "My buddy's going to trade me his\n"
-    .string "CARETAKER for my LINGERER!$"
+    .string "MATRON for my PHANTOM!$"
 
 CeladonCity_DepartmentStore_3F_Text_HaunterEvolvedOnTrade::
-    .string "Come on, LINGERER!\p"
-    .string "I love LINGERER!\n"
+    .string "Come on, PHANTOM!\p"
+    .string "I love PHANTOM!\n"
     .string "I collect them!\p"
     .string "Huh?\p"
-    .string "LINGERER turned into a different\n"
+    .string "PHANTOM turned into a different\n"
     .string "TOEPFER while being traded!$"
 
 CeladonCity_DepartmentStore_3F_Text_CanIdentifyTradeMonsByID::

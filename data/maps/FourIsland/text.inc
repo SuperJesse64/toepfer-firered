@@ -9,7 +9,7 @@ FourIsland_Text_LoreleiHasReturned::
 
 FourIsland_Text_LoreleiMetLaprasAsChild::
     .string "LORELEI has gone back.\p"
-    .string "The CHAUFFEUR she has, I imagine it\n"
+    .string "The LOCHNESS she has, I imagine it\n"
     .string "to be the one she met as a child.\p"
     .string "I believe it was in ICEFALL CAVE\n"
     .string "that she caught it.\p"
