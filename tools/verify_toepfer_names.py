@@ -51,14 +51,24 @@ def check_stale_dialogue() -> int:
             "PETTYCASH": "THIEF",
             "CHIEFFIN": "BARON",
             "PARTTIMER": "PIXIE",
+            "PLANTBOY": "FROG",
+            "COLDCALLER": "NEWT",
+            "HELPDESK": "PIRATE",
         }
     )
     hits: list[tuple[str, list[str]]] = []
-    for path in sorted((ROOT / "data").rglob("*.inc")):
-        text = path.read_text(encoding="utf-8").upper()
-        found = [name for name in stale if re.search(rf"\b{re.escape(name)}\b", text)]
-        if found:
-            hits.append((str(path.relative_to(ROOT)), found))
+    scan_dirs = [ROOT / "data", ROOT / "src"]
+    skip_parts = ("species_names.h", "pokedex_text", "pokedex_entries.h", "easy_chat_group_pokemon")
+    for base in scan_dirs:
+        for path in sorted(base.rglob("*")):
+            if path.suffix not in {".inc", ".c", ".h"}:
+                continue
+            if any(part in str(path) for part in skip_parts):
+                continue
+            text = path.read_text(encoding="utf-8").upper()
+            found = [name for name in stale if name in text]
+            if found:
+                hits.append((str(path.relative_to(ROOT)), found))
     print(f"stale dialogue species tokens: {len(hits)} files")
     for rel, found in hits:
         print(f"  {rel}: {found}")

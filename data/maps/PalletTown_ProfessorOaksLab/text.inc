@@ -101,22 +101,22 @@ PalletTown_ProfessorOaksLab_Text_OakHeyDontGoAwayYet::
     .string "Don't go away yet!$"
 
 PalletTown_ProfessorOaksLab_Text_OakChoosingCharmander::
-    .string "Ah! COLDCALLER is your choice.\n"
+    .string "Ah! NEWT is your choice.\n"
     .string "You should raise it patiently.\p"
     .string "So, {PLAYER}, you're claiming the\n"
-    .string "FIRE TOEPFER COLDCALLER?$"
+    .string "FIRE TOEPFER NEWT?$"
 
 PalletTown_ProfessorOaksLab_Text_OakChoosingSquirtle::
-    .string "Hm! HELPDESK is your choice.\n"
+    .string "Hm! PIRATE is your choice.\n"
     .string "It's one worth raising.\p"
     .string "So, {PLAYER}, you've decided on the\n"
-    .string "WATER TOEPFER HELPDESK?$"
+    .string "WATER TOEPFER PIRATE?$"
 
 PalletTown_ProfessorOaksLab_Text_OakChoosingBulbasaur::
-    .string "I see! PLANTBOY is your choice.\n"
+    .string "I see! FROG is your choice.\n"
     .string "It's very easy to raise.\p"
     .string "So, {PLAYER}, you want to go with\n"
-    .string "the GRASS TOEPFER PLANTBOY?$"
+    .string "the GRASS TOEPFER FROG?$"
 
 PalletTown_ProfessorOaksLab_Text_OakThisMonIsEnergetic::
     .string "This TOEPFER is really quite\n"

@@ -42,6 +42,9 @@ MANUAL_LEGACY_NAMES: dict[str, str] = {
     "PETTYCASH": "THIEF",
     "CHIEFFIN": "BARON",
     "PARTTIMER": "PIXIE",
+    "PLANTBOY": "FROG",
+    "COLDCALLER": "NEWT",
+    "HELPDESK": "PIRATE",
 }
 
 BRANDING_REPLACEMENTS = [
