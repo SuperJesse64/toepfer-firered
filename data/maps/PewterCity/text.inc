@@ -21,7 +21,7 @@ Text_DreamEaterTaught::
     .string "I…can't eat…anymore…$"
 
 PewterCity_Text_ClefairyCameFromMoon::
-    .string "PARTTIMER came from the moon.\n"
+    .string "PIXIE came from the moon.\n"
     .string "That's what the rumor is.\p"
     .string "They appeared after MOON STONES\n"
     .string "fell on MT. MOON.$"

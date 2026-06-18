@@ -757,7 +757,7 @@ const struct Decoration gDecorations[] = {
         DecorGfx_JIGGLYPUFF_DOLL
     }, {
         DECOR_MEOWTH_DOLL,
-        _("PETTYCASH DOLL"),
+        _("THIEF DOLL"),
         DECORPERM_SPRITE,
         DECORSHAPE_1x1,
         DECORCAT_DOLL,
@@ -766,7 +766,7 @@ const struct Decoration gDecorations[] = {
         DecorGfx_MEOWTH_DOLL
     }, {
         DECOR_CLEFAIRY_DOLL,
-        _("PARTTIMER DOLL"),
+        _("PIXIE DOLL"),
         DECORPERM_SPRITE,
         DECORSHAPE_1x1,
         DECORCAT_DOLL,

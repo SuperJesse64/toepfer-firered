@@ -33,11 +33,15 @@ SKIP_FILES = {
     ROOT / "src" / "data" / "pokemon" / "pokedex_text_lg.h",
 }
 
-NIDORAN_OVERRIDES: dict[str, str] = {
-    "PewterCity_House1/text.inc": "TELETOEPF",
-    "CeladonCity_Condominiums_1F/text.inc": "BLAZETOEPF",
-    "Route8/text.inc": "BLAZETOEPF",
-    "trainers.inc": "BLAZETOEPF",
+NIDORAN_OVERRIDES: dict[str, str] = {}
+
+# Wrong intermediate names from earlier passes (not in the office spreadsheet).
+MANUAL_LEGACY_NAMES: dict[str, str] = {
+    "QUEENBEE": "MAIDEN",
+    "NEWHIRE": "MAIDEN",
+    "PETTYCASH": "THIEF",
+    "CHIEFFIN": "BARON",
+    "PARTTIMER": "PIXIE",
 }
 
 BRANDING_REPLACEMENTS = [
@@ -99,6 +103,38 @@ def load_species_map() -> dict[str, str]:
     return dict(sorted(mapping.items(), key=lambda item: len(item[0]), reverse=True))
 
 
+def load_legacy_species_map() -> dict[str, str]:
+    """Map retired office / draft names to current archetype names."""
+    legacy_path = ROOT / "docs" / "toepfer-spreadsheet.csv"
+    mapping = dict(MANUAL_LEGACY_NAMES)
+    if not legacy_path.is_file():
+        return dict(sorted(mapping.items(), key=lambda item: len(item[0]), reverse=True))
+
+    current: dict[str, str] = {}
+    with CSV_PATH.open(encoding="utf-8-sig", newline="") as handle:
+        for row in csv.DictReader(handle):
+            current[row["slug"].strip()] = row["ingame_name"].strip().upper()
+
+    with legacy_path.open(encoding="utf-8-sig", newline="") as handle:
+        for row in csv.DictReader(handle):
+            slug = row["slug"].strip()
+            old = row["ingame_name"].strip().upper()
+            new = current.get(slug, "")
+            if not new or old == new or old == "TOEPFER":
+                continue
+            mapping[old] = new
+
+    return dict(sorted(mapping.items(), key=lambda item: len(item[0]), reverse=True))
+
+
+def nidoran_name() -> str:
+    with CSV_PATH.open(encoding="utf-8-sig", newline="") as handle:
+        for row in csv.DictReader(handle):
+            if row["slug"].strip() == "nidoran_f":
+                return row["ingame_name"].strip().upper()
+    return "MAIDEN"
+
+
 def override_key(path: Path) -> str:
     parts = path.parts
     if "maps" in parts:
@@ -108,13 +144,23 @@ def override_key(path: Path) -> str:
     return path.name
 
 
-def apply_replacements(blob: str, species_map: dict[str, str], filename: str) -> tuple[str, list[str]]:
+def apply_replacements(
+    blob: str,
+    species_map: dict[str, str],
+    legacy_map: dict[str, str],
+    filename: str,
+) -> tuple[str, list[str]]:
     changes: list[str] = []
-    nidoran = NIDORAN_OVERRIDES.get(filename, "QUEENBEE")
+    nidoran = NIDORAN_OVERRIDES.get(filename, nidoran_name())
     updated = blob
     for old, new in BRANDING_REPLACEMENTS:
         if old in updated:
             updated = updated.replace(old, new)
+            changes.append(f"{old} -> {new}")
+    for old, new in legacy_map.items():
+        pattern = re.compile(rf"\b{re.escape(old)}\b")
+        if pattern.search(updated):
+            updated = pattern.sub(new, updated)
             changes.append(f"{old} -> {new}")
     for token in ("NIDORAN♂", "NIDORAN♀", "NIDORAN"):
         if token in updated:
@@ -131,7 +177,12 @@ def apply_replacements(blob: str, species_map: dict[str, str], filename: str) ->
     return updated, changes
 
 
-def process_inc(content: str, species_map: dict[str, str], filename: str) -> tuple[str, list[str]]:
+def process_inc(
+    content: str,
+    species_map: dict[str, str],
+    legacy_map: dict[str, str],
+    filename: str,
+) -> tuple[str, list[str]]:
     changes: list[str] = []
 
     def sub_string(match: re.Match[str]) -> str:
@@ -139,7 +190,7 @@ def process_inc(content: str, species_map: dict[str, str], filename: str) -> tup
         body = match.group(1)
         suffix = "$" if body.endswith("$") else ""
         core = body[:-1] if suffix else body
-        updated, local_changes = apply_replacements(core, species_map, filename)
+        updated, local_changes = apply_replacements(core, species_map, legacy_map, filename)
         changes.extend(local_changes)
         if updated != core:
             return f'.string "{updated}{suffix}"'
@@ -148,7 +199,12 @@ def process_inc(content: str, species_map: dict[str, str], filename: str) -> tup
     return re.sub(r'\.string "([^"]*)"', sub_string, content), changes
 
 
-def process_c_string(content: str, species_map: dict[str, str], filename: str) -> tuple[str, list[str]]:
+def process_c_string(
+    content: str,
+    species_map: dict[str, str],
+    legacy_map: dict[str, str],
+    filename: str,
+) -> tuple[str, list[str]]:
     changes: list[str] = []
 
     def sub_block(match: re.Match[str]) -> str:
@@ -159,7 +215,7 @@ def process_c_string(content: str, species_map: dict[str, str], filename: str) -
         updated_parts: list[str] = []
         block_changed = False
         for part in parts:
-            updated, local_changes = apply_replacements(part, species_map, filename)
+            updated, local_changes = apply_replacements(part, species_map, legacy_map, filename)
             changes.extend(local_changes)
             updated_parts.append(updated)
             block_changed = block_changed or updated != part
@@ -175,14 +231,16 @@ def process_c_string(content: str, species_map: dict[str, str], filename: str) -
     return re.sub(pattern, sub_block, content), changes
 
 
-def process_json(path: Path, species_map: dict[str, str]) -> list[str]:
+def process_json(path: Path, species_map: dict[str, str], legacy_map: dict[str, str]) -> list[str]:
     payload = json.loads(path.read_text(encoding="utf-8"))
     changes: list[str] = []
     for item in payload.get("items", []):
         for field in ("english", "description_english"):
             if field not in item:
                 continue
-            updated, local_changes = apply_replacements(item[field], species_map, path.name)
+            updated, local_changes = apply_replacements(
+                item[field], species_map, legacy_map, path.name
+            )
             if updated != item[field]:
                 item[field] = updated
                 changes.extend(local_changes)
@@ -191,17 +249,21 @@ def process_json(path: Path, species_map: dict[str, str]) -> list[str]:
     return changes
 
 
-def process_file(path: Path, species_map: dict[str, str]) -> list[str]:
+def process_file(
+    path: Path,
+    species_map: dict[str, str],
+    legacy_map: dict[str, str],
+) -> list[str]:
     if path in SKIP_FILES:
         return []
     filename = override_key(path)
     if path.suffix == ".json":
-        return process_json(path, species_map)
+        return process_json(path, species_map, legacy_map)
     original = path.read_text(encoding="utf-8")
     if path.suffix == ".inc" or path.suffix == ".s":
-        updated, changes = process_inc(original, species_map, filename)
+        updated, changes = process_inc(original, species_map, legacy_map, filename)
     elif path.suffix in {".c", ".h"}:
-        updated, changes = process_c_string(original, species_map, filename)
+        updated, changes = process_c_string(original, species_map, legacy_map, filename)
     else:
         return []
     if updated != original:
@@ -229,9 +291,10 @@ def iter_files() -> list[Path]:
 
 def main() -> int:
     species_map = load_species_map()
+    legacy_map = load_legacy_species_map()
     total_files = 0
     for path in iter_files():
-        changes = process_file(path, species_map)
+        changes = process_file(path, species_map, legacy_map)
         if changes:
             total_files += 1
             print(f"{path.relative_to(ROOT)}: {len(changes)} replacements")

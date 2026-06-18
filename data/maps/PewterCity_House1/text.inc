@@ -1,8 +1,8 @@
 PewterCity_House1_Text_Nidoran::
-    .string "NEWHIRE: Bowbow!$"
+    .string "MAIDEN: Bowbow!$"
 
 PewterCity_House1_Text_NidoranSit::
-    .string "NEWHIRE, sit!$"
+    .string "MAIDEN, sit!$"
 
 PewterCity_House1_Text_TradeMonsAreFinicky::
     .string "Our TOEPFER's an outsider, so it's\n"

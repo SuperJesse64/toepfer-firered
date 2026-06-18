@@ -65,7 +65,7 @@ Route25_Text_HaleyDefeat::
 
 Route25_Text_HaleyPostBattle::
     .string "You came from MT. MOON?\n"
-    .string "May I have a PARTTIMER?$"
+    .string "May I have a PIXIE?$"
 
 Route25_Text_FranklinIntro::
     .string "I just got down from MT. MOON,\n"

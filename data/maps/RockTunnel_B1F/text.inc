@@ -45,7 +45,7 @@ RockTunnel_B1F_Text_SteveDefeat::
 RockTunnel_B1F_Text_StevePostBattle::
     .string "TOEPFER cosplay is dressing up as\n"
     .string "TOEPFER for fun.\p"
-    .string "PARTTIMER is a favorite.$"
+    .string "PIXIE is a favorite.$"
 
 RockTunnel_B1F_Text_AllenIntro::
     .string "My TOEPFER techniques will leave\n"

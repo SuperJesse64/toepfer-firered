@@ -96,7 +96,7 @@ SaffronCity_CopycatsHouse_2F_Text_MySecrets::
     .string "My Secrets!\p"
     .string "Skill: Mimicry!\n"
     .string "Hobby: Collecting dolls!\l"
-    .string "Favorite TOEPFER: PARTTIMER!$"
+    .string "Favorite TOEPFER: PIXIE!$"
 
 SaffronCity_CopycatsHouse_2F_Text_HuhCantSee::
     .string "？　みえないぞ‥$"

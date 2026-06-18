@@ -90,7 +90,7 @@ Route8_Text_GlennRematchIntro::
 	.string "Are you following my advice?$"
 
 Route8_Text_PaigeRematchIntro::
-	.string "I've collected many QUEENBEE.\n"
+	.string "I've collected many MAIDEN.\n"
 	.string "I don't want them to evolve, but…$"
 
 Route8_Text_LeslieRematchIntro::
@@ -98,7 +98,7 @@ Route8_Text_LeslieRematchIntro::
 	.string "TOEPFER are fun, too.$"
 
 Route8_Text_AndreaRematchIntro::
-	.string "PETTYCASH and CHIEFFIN are so cute,\n"
+	.string "THIEF and BARON are so cute,\n"
 	.string "meow, meow, meow!$"
 
 Route8_Text_MeganRematchIntro::

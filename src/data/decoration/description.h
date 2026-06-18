@@ -383,11 +383,11 @@ const u8 DecorDesc_JIGGLYPUFF_DOLL[] = _("A EMCEE doll.\n"
     "Place it on a mat\n"
     "or a desk.");
 
-const u8 DecorDesc_MEOWTH_DOLL[] = _("A PETTYCASH doll.\n"
+const u8 DecorDesc_MEOWTH_DOLL[] = _("A THIEF doll.\n"
     "Place it on a mat\n"
     "or a desk.");
 
-const u8 DecorDesc_CLEFAIRY_DOLL[] = _("A PARTTIMER doll.\n"
+const u8 DecorDesc_CLEFAIRY_DOLL[] = _("A PIXIE doll.\n"
     "Place it on a mat\n"
     "or a desk.");
 

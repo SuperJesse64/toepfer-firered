@@ -14,7 +14,7 @@ PokemonTower_1F_Text_ComeToPayRespectsGirl::
 
 PokemonTower_1F_Text_CameToPrayForDepartedClefairy::
     .string "I came to pray for my dearly\n"
-    .string "departed PARTTIMER.\p"
+    .string "departed PIXIE.\p"
     .string "Sniff!\n"
     .string "I'm awash in tears…$"
 

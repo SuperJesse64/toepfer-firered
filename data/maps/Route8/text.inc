@@ -32,7 +32,7 @@ Route8_Text_GlennPostBattle::
     .string "…and…then…$"
 
 Route8_Text_PaigeIntro::
-    .string "I like QUEENBEE, so I collect them!$"
+    .string "I like MAIDEN, so I collect them!$"
 
 Route8_Text_PaigeDefeat::
     .string "Why?\n"
@@ -56,7 +56,7 @@ Route8_Text_LesliePostBattle::
     .string "gates at SAFFRON.$"
 
 Route8_Text_AndreaIntro::
-    .string "PETTYCASH is so cute, meow, meow,\n"
+    .string "THIEF is so cute, meow, meow,\n"
     .string "meow!$"
 
 Route8_Text_AndreaDefeat::
@@ -96,10 +96,10 @@ Route8_Text_JuliaIntro::
 
 Route8_Text_JuliaDefeat::
     .string "Stop!\p"
-    .string "Don't be so mean to my PARTTIMER!$"
+    .string "Don't be so mean to my PIXIE!$"
 
 Route8_Text_JuliaPostBattle::
-    .string "I read that PARTTIMER evolves when\n"
+    .string "I read that PIXIE evolves when\n"
     .string "it's exposed to a MOON STONE.\p"
     .string "I read that in a TOEPFER JOURNAL.\n"
     .string "I wonder if it's true?$"

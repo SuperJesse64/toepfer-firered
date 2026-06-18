@@ -122,5 +122,5 @@ PalletTown_RivalsHouse_Text_WhyWouldMonHateYouSoMuch::
 
 PalletTown_RivalsHouse_Text_LovelyAndSweetClefairy::
     .string "“The lovely and sweet\n"
-    .string "PARTTIMER”$"
+    .string "PIXIE”$"
 

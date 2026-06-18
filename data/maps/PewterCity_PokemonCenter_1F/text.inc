@@ -17,7 +17,7 @@ PewterCity_PokemonCenter_1F_Text_WhenJiggylypuffSingsMonsGetDrowsy::
 
 PewterCity_PokemonCenter_1F_Text_TradingMyClefairyForPikachu::
     .string "I really want a TECHIE, so I'm\n"
-    .string "trading my PARTTIMER for one.$"
+    .string "trading my PIXIE for one.$"
 
 PewterCity_PokemonCenter_1F_Text_TradingPikachuWithKid::
     .string "I'm trading TOEPFER with that kid\n"
